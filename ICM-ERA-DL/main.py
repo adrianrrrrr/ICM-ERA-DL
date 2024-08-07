@@ -1,7 +1,7 @@
 from DLuNET import *
 from netCDF4 import Dataset
 import time
-#import numpy as np
+import numpy as np
 import matplotlib.pyplot as plt
 
 start = time.time()
@@ -46,9 +46,11 @@ hparams = {
     'log_interval': 100,
 }
 
-# This is the unmasked train data (Input). In Shape = (995807, 12)
+
+'''
+#This is the unmasked train data (Input). In Shape = (995807, 12)
 train = train_data['inputs']
-# These are the input var names in a numpy.ndarray. Equivalent to the list input_var_names. Shape = (12,)
+#These are the input var names in a numpy.ndarray. Equivalent to the list input_var_names. Shape = (12,)
 ix = train_data['input_var_names']
 # This is the unmasked ground truth data (Input). Out Shape = (995807, 2)
 ground_truth = targets # Just to align with previous code. Delete it in the future
@@ -61,7 +63,7 @@ for index in range(12):
     mind = train[:,index].min()
     print(ix[index]," variable mean =  ",mean, " ; std = ",std," ; max = ",maxd," min = ",mind)
 
-'''
+
 plt.hist(train[:,9], bins='auto')  # arguments are passed to np.histogram
 plt.title("Histogram of SST with 'auto' bins")
 plt.show()
@@ -85,4 +87,5 @@ plt.show()
 plt.imshow(train_data['inputs'])
 plt.colorbar()
 plt.show()
+
 '''
