@@ -45,30 +45,28 @@ f.close()
 # Ground truth: y 
 targets = np.ma.MaskedArray([u - u_model, v - v_model])
 
-for variable in range(12):
-    mean = np.nanmean(input_masked_data[variable]) #Computes ignoring NaN values
-    std = np.nanstd(input_masked_data[variable]) 
-    maxd = np.nanmax(input_masked_data[variable]) 
-    mind = np.nanmin(input_masked_data[variable]) 
-    print(input_var_names[variable]," variable mean =  ",mean, " ; std = ",std," ; max = ",maxd," min = ",mind)
+for variable_index in range(12):
+    var_name = input_var_names[variable_index]
+    mean = np.nanmean(input_masked_data[variable_index]) #Computes ignoring NaN values
+    std = np.nanstd(input_masked_data[variable_index]) 
+    maxd = np.nanmax(input_masked_data[variable_index]) 
+    mind = np.nanmin(input_masked_data[variable_index]) 
+    print(var_name," variable mean =  ",mean, " ; std = ",std," ; max = ",maxd," min = ",mind)
 
-plt.hist(input_masked_data[9], bins='auto')  # arguments are passed to np.histogram
-plt.title("Histogram of SST with 'auto' bins")
-plt.show()
+    flattened_data = input_masked_data[variable_index].compressed() # This remove the masked values
+    plt.hist(flattened_data, bins='auto')  # arguments are passed to np.histogram
+    plt.title("Histogram of "+var_name+" with 'auto' bins")
+    plt.show()
 
-'''
 for component in range(2):
+    comp_name = output_var_names[component]
     mean = np.nanmean(targets[component]) 
     std = np.nanstd(targets[component]) 
     maxd = np.nanmax(targets[component]) 
     mind = np.nanmin(targets[component]) 
-    print(output_var_names[component]," ground truth mean =  ",mean, " ; std = ",std," ; max = ",maxd," min = ",mind)
+    print(comp_name," ground truth mean =  ",mean, " ; std = ",std," ; max = ",maxd," min = ",mind)
 
-plt.hist(targets[0], bins='auto')  # arguments are passed to np.histogram
-plt.title("Histogram of u component ground truth with 'auto' bins")
-plt.show()
-
-plt.hist(targets[1], bins='auto')  # arguments are passed to np.histogram
-plt.title("Histogram of v component ground truth with 'auto' bins")
-plt.show()
-'''
+    flattened_data = targets[component].compressed() # This remove the masked values
+    plt.hist(flattened_data, bins='auto')  # arguments are passed to np.histogram
+    plt.title("Histogram of "+comp_name+" with 'auto' bins")
+    plt.show()
