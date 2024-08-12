@@ -11,9 +11,8 @@ import matplotlib.pyplot as plt
 import mlx as ml
 import mlx.core as ml # Adding support for Apple Silicon
 import mlx.nn.layers as nn_mlx
-
 '''
-Notes by Adrian Ramos:
+Notes by Adrian R:
 We are using MPS: Metal Performance Shaders to accelerrate operations by using Apple Silicon M3 GPU 
 in a nutshell refactor torch.cuda by torch.mps and so. CUDA will only be available at Cluster
 
