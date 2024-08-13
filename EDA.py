@@ -57,6 +57,7 @@ for variable_index in range(12):
 
     flattened_data = input_masked_data[variable_index].compressed() # This remove the masked values
     plt.hist(flattened_data, bins='auto')  # arguments are passed to np.histogram
+    #plt.vlines(0,0,30000,colors="red")
     plt.title("Histogram of "+var_name+" with 'auto' bins")
     plt.show()
 
