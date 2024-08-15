@@ -1,6 +1,8 @@
 import time
 import numpy as np
 import os
+import sys
+import gc
 
 from typing import Tuple, Dict, Any, List
 from torchvision import datasets, transforms
@@ -13,7 +15,7 @@ import mlx as ml
 import mlx.core as ml # Adding support for Apple Silicon
 import mlx.nn.layers as nn_mlx
 
-from netCDF4 import Dataset
+from netCDF4 import Dataset as netDataset
 
 '''
 Notes by Adrian R:
@@ -136,7 +138,7 @@ class UNet(nn.Module):
     return out
   
 
-# Dataload helper functions
+# Dataload helper function + Data normalization as norm_data = (data-mean)/std
 # TODO: parameters: file_dir, number_files,... or authomatise it
 def MyDataLoader():
   start_time = time.time()
@@ -172,8 +174,10 @@ def MyDataLoader():
       # Input data load (X) 
       input_masked_data = np.ma.MaskedArray(all_data)
       #input_masked_data = np.transpose(input_masked_data,(1,2,0)) # Putting the "channels" in the last dimension
+      
       # 256x256 piece of image we agreed
       X = input_masked_data[:,864:1120,2568:2824]
+
       input_data.append(X)
       
       # Ground truth (y)
@@ -204,3 +208,16 @@ def MyDataLoader():
   print("Dataset has ",memory_size,"B allocated in RAM")
 
   return input_data, ground_truth
+
+# Function to normalise data
+# Adrian's Note: np.ma.mean works flawlessly! Test it in EDA, maybe the differences in mean
+# are beause of the used method (This one seems to works perfectly)
+def MyNorm(BatchedData,NumberExamples):
+   for example in range(0,NumberExamples):
+    for variable in range(0,len(BatchedData[example])):
+        mean = np.ma.mean(BatchedData[example][variable])
+        std = np.ma.std(BatchedData[example][variable])
+        BatchedData[example][variable] = (BatchedData[example][variable]-mean)/std
+
+
+   

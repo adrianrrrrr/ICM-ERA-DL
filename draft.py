@@ -1,3 +1,8 @@
+'''
+This is like a personal anotation book. Just ignore :)
+
+'''
+
 from netCDF4 import Dataset as netDataset
 import time
 import numpy as np
@@ -65,5 +70,37 @@ elapsed_time = end_time - start_time
 memory_size = sys.getsizeof(input_data) + sys.getsizeof(ground_truth) # Bytes
 memory_size = memory_size 
 
-print("Dataload took ",elapsed_time," seconds")
-print("Dataset has ",memory_size,"B allocated in RAM")
+print("Dataload took ","{:.2f}".format(elapsed_time)," seconds")
+print("Dataset has ",memory_size,"Bytes allocated in RAM")
+
+# Now the section to normalize all the data as norm_data=(data-mean)/std
+# TODO: Generalise for any number of examples and so... 
+for example in range(0,9):
+    for variable in range(0,12):
+        mean = np.ma.mean(input_data[example][variable])
+        std = np.ma.std(input_data[example][variable])
+        input_data[example][variable] = (input_data[example][variable]-mean)/std
+
+
+'''
+# Don't know why rows are not represented as the email (Inverted)
+# Answer: Because potato
+
+# Create a figure and plot the images side by side
+plt.figure(figsize=(12, 6))
+
+# First image
+plt.subplot(1, 2, 1)  # (rows, columns, panel number)
+plt.imshow(y[::-1,:,0], cmap='gray')
+plt.title('ascata_20200101_l3_asc u component')
+plt.axis('off')  # Optional: turn off axis
+
+# Second image
+plt.subplot(1, 2, 2)
+plt.imshow(y[::-1,:,0].mask, cmap='gray')
+plt.title('ascata_20200101_l3_asc u component mask')
+plt.axis('off')  # Optional: turn off axis
+
+# Display the figure
+plt.show()
+'''

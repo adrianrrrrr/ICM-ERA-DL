@@ -5,29 +5,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
+FilesNr = 9
 
 input_data, ground_truth = MyDataLoader()
-
-# Don't know why rows are not represented as the email (Inverted)
-# Answer: Because potato
-
-# Create a figure and plot the images side by side
-plt.figure(figsize=(12, 6))
-
-# First image
-plt.subplot(1, 2, 1)  # (rows, columns, panel number)
-plt.imshow(y[::-1,:,0], cmap='gray')
-plt.title('ascata_20200101_l3_asc u component')
-plt.axis('off')  # Optional: turn off axis
-
-# Second image
-plt.subplot(1, 2, 2)
-plt.imshow(y[::-1,:,0].mask, cmap='gray')
-plt.title('ascata_20200101_l3_asc u component mask')
-plt.axis('off')  # Optional: turn off axis
-
-# Display the figure
-plt.show()
+MyNorm(input_data,FilesNr)
+MyNorm(ground_truth,FilesNr)
 
 # UNET TRAIN SECTION
 
