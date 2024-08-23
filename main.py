@@ -13,11 +13,15 @@ MyNorm(ground_truth,FilesNr)
 
 # Adrian: After many attempts, fails and therapy, I will start implementing
 # a simple 256x256x1 uNET with the Sea Surface Temperature (sst) variable. 
+# btw UNET with 1 in channel and 2 out channels DO NOT produce same channels
+# outputs...
 
 # UNET TRAIN SECTION
-
-#model = UNet(in_channel=12,out_channel=2)
-
+model = UNet()
+input_image = torch.randn(1, 1, 256, 256)  # Batch size of 1, 1 channel, 256x256 image
+input_image = input_image.to(mydevice)
+output_image = model(input_image)
+print(output_image.shape)  # Should be [1, 2, 256, 256]
 
 '''
 # Example dataset
