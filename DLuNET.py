@@ -5,10 +5,9 @@ import sys
 import gc
 
 from typing import Tuple, Dict, Any, List
-from torchvision import datasets, transforms
+
 
 import matplotlib
-
 import matplotlib.pyplot as plt
 
 import mlx as ml
@@ -16,23 +15,15 @@ import mlx.core as ml # Adding support for Apple Silicon
 import mlx.nn.layers as nn_mlx
 
 from netCDF4 import Dataset as netDataset
-
-'''
-Notes by Adrian R:
-We are using MPS: Metal Performance Shaders to accelerrate operations by using Apple Silicon M3 GPU 
-in a nutshell refactor torch.cuda by torch.mps and so. CUDA will only be available at Cluster
-
-Also we use mlx.core as library for hardware accelerated GPU operations. May it also Neral Unit accelerated? Check! Would be amazing
-'''
-
 import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader, TensorDataset
-
+from torchvision import datasets, transforms
 import torch.optim as optim
 from torch.utils.data import DataLoader, TensorDataset, random_split
 
+# Check Apple Silicon availability
 if not torch.backends.mps.is_available():
     if not torch.backends.mps.is_built():
         print("MPS not available because the current PyTorch install was not "

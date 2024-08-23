@@ -11,9 +11,13 @@ input_data, ground_truth = MyDataLoader()
 MyNorm(input_data,FilesNr)
 MyNorm(ground_truth,FilesNr)
 
+# Adrian: After many attempts, fails and therapy, I will start implementing
+# a simple 256x256x1 uNET with the Sea Surface Temperature (sst) variable. 
+
 # UNET TRAIN SECTION
 
-model = UNet(in_channel=12,out_channel=2)
+#model = UNet(in_channel=12,out_channel=2)
+
 
 '''
 # Example dataset
@@ -22,7 +26,7 @@ target_images = torch.randn(100, 2, 256, 256)  # 100 samples, 2 channels
 
 dataset = CustomDataset(input_images, target_images)
 dataloader = DataLoader(dataset, batch_size=4, shuffle=True)
-'''
+
 input_masked_data = np.transpose(input_masked_data,(2,0,1)) # reshape as an image, with the channels in the last dimension
 # 256x256 piece of image we agreed
 X = input_masked_data[:,864:1120,2568:2824]
@@ -55,7 +59,7 @@ optimizer.step()
 
 
 
-'''
+
 # Training loop
 num_epochs = 10
 for epoch in range(num_epochs):
