@@ -1,0 +1,25 @@
+name: erasdl_unet_cuda
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pygrib
+  - netCDF4
+  - cartopy
+  - matplotlib
+  - scipy
+  - plotly
+  - scikit-learn
+  - pandas
+  - time
+  - numpy
+  - pyproj
+  - seaborn
+  - notebook
+  - pip
+  - pip:
+    - wandb
+    - tqdm
+    - torch
+    - torchvision
