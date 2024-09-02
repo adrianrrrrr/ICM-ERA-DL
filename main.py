@@ -10,11 +10,9 @@ FilesNr = 9
 input_data, ground_truth = MyDataLoader()
 MyNorm(input_data,FilesNr)
 MyNorm(ground_truth,FilesNr)
-
-# Adrian: After many attempts, fails and therapy, I will start implementing
-# a simple 256x256x1 uNET with the Sea Surface Temperature (sst) variable. 
-# btw UNET with 1 in channel and 2 out channels DO NOT produce same channels
-# outputs...
+'''
+type(input_data) and (ground_truth) is masked array. Conversion to tensors before injecting to the UNET
+'''
 
 # UNET TRAIN SECTION
 model = UNet()

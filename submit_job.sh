@@ -8,4 +8,4 @@
 module load conda/2022.10
 source .bashrc
 conda activate erasdl_unet_cuda
-python /home/usuaris/imatge/adrian.ramos/ICM-ERA-DL/EDA.py
+python /home/usuaris/imatge/adrian.ramos/ICM-ERA-DL/main.py
