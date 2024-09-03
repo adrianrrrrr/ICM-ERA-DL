@@ -8,19 +8,22 @@ import matplotlib.pyplot as plt
 FilesNr = 9
 
 input_data, ground_truth = MyDataLoader()
-MyNorm(input_data,FilesNr)
-MyNorm(ground_truth,FilesNr)
+
+input_data_norm = input_data
+MyNorm(input_data_norm)
+#MyNorm(ground_truth,FilesNr)
 '''
 type(input_data) and (ground_truth) is masked array. Conversion to tensors before injecting to the UNET
 '''
 
+'''
 # UNET TRAIN SECTION
 model = UNet()
 input_image = torch.randn(1, 1, 256, 256)  # Batch size of 1, 1 channel, 256x256 image
 input_image = input_image.to(mydevice)
 output_image = model(input_image)
 print(output_image.shape)  # Should be [1, 2, 256, 256]
-
+'''
 '''
 # Example dataset
 input_images = torch.randn(100, 12, 256, 256)  # 100 samples, 12 channels

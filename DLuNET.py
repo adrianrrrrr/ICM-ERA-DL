@@ -18,14 +18,16 @@ import torch.optim as optim
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader, TensorDataset, random_split
 
-# Check CUDA availability
-if not torch.cuda.is_available():
+# Check graphic card acceleration
+if torch.cuda.is_available():
     mydevice = torch.device("cuda")
     print("Cuda is available. There are ",torch.cuda.device_count()," devices")
     print("Current device is ",torch.cuda.current_device()," named: ",torch.cuda.get_device_name(0))
+elif torch.backends.mps.is_available() and torch.backends.mps.is_built():
+    mydevice = torch.device("mps")
+    print("MPS is available")
 else:
     mydevice = torch.device("cpu")
-    print("Cuda is unavailable. Setting device = cpu")
 
 # UNET declaration for input of 256x256x1 and output of 256x256x2
 # 
@@ -108,7 +110,7 @@ ground_truth -> (9,2,256,256) : Targets / Ground truth
 def MyDataLoader():
   start_time = time.time()
 
-  train_input_folder =  "/Volumes/SSD Adrian/TFM/adrian_tfm/ASCAT_l3_collocations/2020/train/"
+  train_input_folder =  "/Volumes/SSD iMac/TFM/adrian_tfm/ASCAT_l3_collocations/2020/train/"
   loader_input_var_names = ['eastward_model_wind', 'northward_model_wind', 'model_speed', 'model_dir', 
                               'msl', 'air_temperature', 'q', 'sst', 'uo', 'vo']
 
@@ -176,45 +178,31 @@ input_var_names = ['lon', 'lat',
                 'eastward_model_wind', 'northward_model_wind', 'model_speed', 'model_dir',
                 'msl', 'air_temperature', 'q', 'sst', 'uo', 'vo']
 output_var_names = ['u','v']
-# Dict initialisation
-init_stats = {'mean':None,'std':None}
-var_stats = {var:init_stats for var in input_var_names}
-gt_stats = {var:init_stats for var in output_var_names}
+
+var_stats = {var:{'mean':None,'std':None} for var in input_var_names}
+#gt_stats = {var:{'mean':None,'std':None} for var in output_var_names}
+
+
 
 def MyNorm(BatchedData):
    # BatchedData.shape = (9,12,256,256) (Currently)
    # In the future = (B,12,~1000,~2000)
-
+    debug = 0
+   # Dict initialisation
     for index_batch, example in enumerate(BatchedData): # Just iterates over all the batched examples
         for index_var, variable_img in enumerate(example): # Enumerate gives the index from the 'example' iterable element
+
             if var_stats[input_var_names[index_var]]['mean'] == None and var_stats[input_var_names[index_var]]['std'] == None:
                 var_stats[input_var_names[index_var]]['mean'] = np.ma.mean(variable_img)
                 var_stats[input_var_names[index_var]]['std'] = np.ma.std(variable_img)
+                print(debug)
+                debug+=1
             # else: Update with the mathematical formula of joint mean/variance of two distributions. Discuss in meeting first. From now I leave it as this
 
+            print("Batch index assigned = ",index_batch,". Var index assigned = ",index_var)
             BatchedData[index_batch][index_var] = (BatchedData[index_batch][index_var]-
                                                    var_stats[input_var_names[index_var]]['mean'])/var_stats[input_var_names[index_var]]['std']
   
-
-    '''
-    input_var_names = ['lon', 'lat',
-                    'eastward_model_wind', 'northward_model_wind', 'model_speed', 'model_dir',
-                    'msl', 'air_temperature', 'q', 'sst', 'uo', 'vo']
-    output_var_names = ['u','v']
-
-    input_image = np.random.rand(9, 12, 256, 256)
-
-    init_stats = {'mean':-1,'std':-1}
-    var_stats = {var:init_stats for var in input_var_names}
-    gt_stats = {var:init_stats for var in output_var_names}
-    
-    diccionario = {'lat':init_stats,
-                'long':init_stats,
-                'sst':init_stats
-                [...]
-                }
-    
-    '''
 
 
    
