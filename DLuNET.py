@@ -110,7 +110,7 @@ ground_truth -> (9,2,256,256) : Targets / Ground truth
 def MyDataLoader():
   start_time = time.time()
 
-  train_input_folder =  "/Volumes/SSD iMac/TFM/adrian_tfm/ASCAT_l3_collocations/2020/train/"
+  train_input_folder =  "/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020/train/"
   loader_input_var_names = ['eastward_model_wind', 'northward_model_wind', 'model_speed', 'model_dir', 
                               'msl', 'air_temperature', 'q', 'sst', 'uo', 'vo']
 
@@ -138,7 +138,8 @@ def MyDataLoader():
       #input_masked_data = np.transpose(input_masked_data,(1,2,0)) # Putting the "channels" in the last dimension
       
       # 256x256 piece of image we agreed
-      X = input_masked_data[:,864:1120,2568:2824]
+      #X = input_masked_data[:,864:1120,2568:2824]
+      X = input_masked_data
 
       input_data.append(X)
       
@@ -150,7 +151,9 @@ def MyDataLoader():
       f.close()
       targets = np.ma.MaskedArray([u - u_model, v - v_model])
       #targets = np.transpose(targets,(1,2,0))
-      y = targets[:,864:1120,2568:2824]
+      #y = targets[:,864:1120,2568:2824]
+      y = targets
+      
       ground_truth.append(y)
 
       print(train_input_file," loaded succesfully")
