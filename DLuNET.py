@@ -39,7 +39,7 @@ class UNet(nn.Module):
         super(UNet, self).__init__()
         
         # Contracting path
-        self.enc1 = self.conv_block(1, 64)
+        self.enc1 = self.conv_block(12, 64)
         self.enc2 = self.conv_block(64, 128)
         self.enc3 = self.conv_block(128, 256)
         self.enc4 = self.conv_block(256, 512)
@@ -110,7 +110,7 @@ ground_truth -> (9,2,256,256) : Targets / Ground truth
 def MyDataLoader():
   start_time = time.time()
 
-  train_input_folder =  "/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020/train/"
+  train_input_folder =  "/Volumes/SSD iMac/TFM/adrian_tfm/ASCAT_l3_collocations/2020/train/"
   loader_input_var_names = ['eastward_model_wind', 'northward_model_wind', 'model_speed', 'model_dir', 
                               'msl', 'air_temperature', 'q', 'sst', 'uo', 'vo']
 
@@ -206,6 +206,3 @@ def MyNorm(BatchedData):
             BatchedData[index_batch][index_var] = (BatchedData[index_batch][index_var]-
                                                    var_stats[input_var_names[index_var]]['mean'])/var_stats[input_var_names[index_var]]['std']
   
-
-
-   
