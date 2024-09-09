@@ -21,6 +21,7 @@ from torch.utils.data import DataLoader, TensorDataset, random_split
 # Check graphic card acceleration
 if torch.cuda.is_available():
     mydevice = torch.device("cuda")
+    torch.cuda.empty_cache()
     print("Cuda is available. There are ",torch.cuda.device_count()," devices")
     print("Current device is ",torch.cuda.current_device()," named: ",torch.cuda.get_device_name(0))
 elif torch.backends.mps.is_available() and torch.backends.mps.is_built():
@@ -101,16 +102,11 @@ class UNet(nn.Module):
 # TODO: parameters: file_dir, number_files,... or authomatise it
 '''
 Currently, this function loads 9 days (from ascata_20200101_l3_asc.nc to _20200109_)
-It gets a patch of 256x256 
-The output variables and their shape is:
-input_data -> (9,12,256,256) : Input data
-ground_truth -> (9,2,256,256) : Targets / Ground truth
-
 '''
 def MyDataLoader():
   start_time = time.time()
 
-  train_input_folder =  "/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020/train"
+  train_input_folder =  "/mnt/work/datasets/ECMWF/ASCAT_l3_collocations/2020"
   loader_input_var_names = ['eastward_model_wind', 'northward_model_wind', 'model_speed', 'model_dir', 
                               'msl', 'air_temperature', 'q', 'sst', 'uo', 'vo']
 
