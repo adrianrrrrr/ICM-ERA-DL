@@ -110,7 +110,7 @@ ground_truth -> (9,2,256,256) : Targets / Ground truth
 def MyDataLoader():
   start_time = time.time()
 
-  train_input_folder =  "/Volumes/SSD iMac/TFM/adrian_tfm/ASCAT_l3_collocations/2020/train/"
+  train_input_folder =  "/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020/train"
   loader_input_var_names = ['eastward_model_wind', 'northward_model_wind', 'model_speed', 'model_dir', 
                               'msl', 'air_temperature', 'q', 'sst', 'uo', 'vo']
 
@@ -119,7 +119,7 @@ def MyDataLoader():
 
   for day in range(1,10):
       all_data = []
-      train_input_file = train_input_folder+"ascata_2020010"+str(day)+"_l3_asc.nc"
+      train_input_file = train_input_folder+"/ascata_2020010"+str(day)+"_l3_asc.nc"
       f = netDataset(train_input_file)
       
       # Creating 2D variables from 1D data 
@@ -183,26 +183,37 @@ input_var_names = ['lon', 'lat',
 output_var_names = ['u','v']
 
 var_stats = {var:{'mean':None,'std':None} for var in input_var_names}
-#gt_stats = {var:{'mean':None,'std':None} for var in output_var_names}
-
-
+gt_stats = {var:{'mean':None,'std':None} for var in output_var_names}
 
 def MyNorm(BatchedData):
-   # BatchedData.shape = (9,12,256,256) (Currently)
-   # In the future = (B,12,~1000,~2000)
     debug = 0
+
    # Dict initialisation
     for index_batch, example in enumerate(BatchedData): # Just iterates over all the batched examples
         for index_var, variable_img in enumerate(example): # Enumerate gives the index from the 'example' iterable element
 
-            if var_stats[input_var_names[index_var]]['mean'] == None and var_stats[input_var_names[index_var]]['std'] == None:
-                var_stats[input_var_names[index_var]]['mean'] = np.ma.mean(variable_img)
-                var_stats[input_var_names[index_var]]['std'] = np.ma.std(variable_img)
-                print(debug)
-                debug+=1
-            # else: Update with the mathematical formula of joint mean/variance of two distributions. Discuss in meeting first. From now I leave it as this
+            if len(example) > 2 : # More than 2 variables = input data. 2 variables = ground truth data
+                print("Input var normalization: ")
+                if var_stats[input_var_names[index_var]]['mean'] == None and var_stats[input_var_names[index_var]]['std'] == None:
+                    var_stats[input_var_names[index_var]]['mean'] = np.ma.mean(variable_img)
+                    var_stats[input_var_names[index_var]]['std'] = np.ma.std(variable_img)
+                    print(debug)
+                    debug+=1
+                # else: Update with the mathematical formula of joint mean/variance of two distributions. Discuss in meeting first. From now I leave it as this
 
-            print("Batch index assigned = ",index_batch,". Var index assigned = ",index_var)
-            BatchedData[index_batch][index_var] = (BatchedData[index_batch][index_var]-
-                                                   var_stats[input_var_names[index_var]]['mean'])/var_stats[input_var_names[index_var]]['std']
-  
+                print("Batch index assigned = ",index_batch,". Var index assigned = ",index_var)
+                BatchedData[index_batch][index_var] = (BatchedData[index_batch][index_var]-
+                                                    var_stats[input_var_names[index_var]]['mean'])/var_stats[input_var_names[index_var]]['std']
+            else:
+                print("Ground truth normalization: ")
+                if gt_stats[output_var_names[index_var]]['mean'] == None and gt_stats[output_var_names[index_var]]['std'] == None:
+                    gt_stats[output_var_names[index_var]]['mean'] = np.ma.mean(variable_img)
+                    gt_stats[output_var_names[index_var]]['std'] = np.ma.std(variable_img)
+                    print(debug)
+                    debug+=1
+                # else: Update with the mathematical formula of joint mean/variance of two distributions. Discuss in meeting first. From now I leave it as this
+
+                print("Batch index assigned = ",index_batch,". Var index assigned = ",index_var)
+                BatchedData[index_batch][index_var] = (BatchedData[index_batch][index_var]-
+                                                    gt_stats[output_var_names[index_var]]['mean'])/gt_stats[output_var_names[index_var]]['std']
+
