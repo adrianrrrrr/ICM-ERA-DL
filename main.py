@@ -34,6 +34,7 @@ for np_masked_day in ground_truth_norm:
 
 # UNET TRAIN SECTION
 # Here we put all 1440x2880 image thanks to powerfu GPUs of Calcula. In iMacAdrian branch its the code for getting a 256x256 patch
+# Nah... Not possible. Run out of memory even with the Titan with 16GB of RAM
 model = UNet() # Model initialization
 model = model.to(mydevice) # To GPU if available
 criterion = nn.MSELoss() # Loss function for regression -> MSE
