@@ -42,27 +42,63 @@ criterion = nn.MSELoss() # Loss function for regression -> MSE
 optimizer = optim.Adam(model.parameters(), lr=0.001) # Optimizer initialisation
 
 # Training loop
-num_epochs = 10
-for epoch in range(num_epochs):
-    index = 0
-    for image, target in zip(in_data,gt_data):
-        input = image[None,:,864:1120,2568:2824].to(mydevice)
-        output = model(input) # 256x256 patch + adding first dummy dimension for the UNET
-        target = target[None,:,864:1120,2568:2824].to(mydevice)
-        loss = criterion(output, target)
-        
-        optimizer.zero_grad()
-        loss.backward()
-        optimizer.step()
-    
-    print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item():.4f}') ## loss.item() is the value of MSE
+# Let's overtrain the model using only one example
+aux = []
+aux.append(in_data[0])
+in_data = aux
+aux = []
+aux.append(gt_data[0])
+gt_data = aux
 
-print("Training complete!")
-
+best_loss = 1000 # Initialisation of best loss for saving the best model
+best_epoch = 0
+# Directory to save the best model
 directory = '/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020/saved_models'
 file_name = '/model.pth'
 
-torch.save(model.state_dict(),directory+file_name)
+num_epochs = 50 # Number of total passess through training dataset
+for epoch in range(num_epochs):
+
+    # From now batch size is 1 (One image injected to UNET, then parameters are updated)
+    for image, target in zip(in_data,gt_data):
+
+        # The UNET takes an input of shape (B,12,1440,2880) where B is directly the batch size
+        # B is the number of examples processed by the model, the UNET, before updating parameters
+        # Now B = 1. For B = 4, input should be of shape (4,12,l,w)
+        input = image[None,:,864:1120,2568:2824].to(mydevice)
+        output = model(input) # 256x256 patch + adding first dummy dimension for the UNET
+        target = target[None,:,864:1120,2568:2824].to(mydevice)
+
+        # Create the mask for ignoring the zero values in the targets
+        mask = target != 0
+        loss = criterion(output,target)
+        masked_loss = loss * mask # Apply the mask
+        final_loss = masked_loss.sum() / mask.sum() # Normalize by the number of non-zero elements
+        
+        # Zero gradients to prevent accumulation from multiple backward passes. 
+        optimizer.zero_grad()
+
+        # Computing the gradients of the loss wirth respect to each parameter (weight, bias) i.e. how much
+        # each parameter needs to change to reduce the loss. Computed gradients are stored in .grad attribute
+        # of each param tensor
+        final_loss.backward()
+        aux = loss.item()
+        if aux < best_loss:
+            best_loss = aux
+            best_epoch = epoch+1
+            torch.save(model.state_dict(),directory+file_name)
+
+        # Update of the model paramters based on each gradient. It adjust parameters using Adam opt. algorithm.
+        optimizer.step()
+
+
+    print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item():.4f}') ## loss.item() is the value of MSE
+
+print("Training complete!")
+print("Best epoch was: ",best_epoch," giving a",best_loss,"loss")
+
+
+
 
 '''
 #input_image = torch.randn(1, 12, 256, 256)  # Dummy test  Tensor

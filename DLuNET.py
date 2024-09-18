@@ -136,9 +136,6 @@ def MyDataLoader():
       # Input data load (X) 
       input_masked_data = np.ma.MaskedArray(all_data)
       #input_masked_data = np.transpose(input_masked_data,(1,2,0)) # Putting the "channels" in the last dimension
-      
-      # 256x256 piece of image we agreed
-      #X = input_masked_data[:,864:1120,2568:2824]
       X = input_masked_data
 
       input_data.append(X)
@@ -151,7 +148,6 @@ def MyDataLoader():
       f.close()
       targets = np.ma.MaskedArray([u - u_model, v - v_model])
       #targets = np.transpose(targets,(1,2,0))
-      #y = targets[:,864:1120,2568:2824]
       y = targets
       
       ground_truth.append(y)
@@ -217,3 +213,10 @@ def MyNorm(BatchedData):
                 BatchedData[index_batch][index_var] = (BatchedData[index_batch][index_var]-
                                                     gt_stats[output_var_names[index_var]]['mean'])/gt_stats[output_var_names[index_var]]['std']
 
+
+'''
+    if (var_name == 'lat') or (var_name == 'lon') or (var_name == 'model_dir'):
+    print(var_name)
+    var_data = var_data * (np.pi/180) # To rad
+    var_data = np.sin(var_data) # Enough for preventing UNET to learn that 0 and 2pi is the same position in space
+'''
