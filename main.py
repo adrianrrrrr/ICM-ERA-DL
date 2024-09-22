@@ -4,7 +4,6 @@ import time
 import numpy as np
 import matplotlib.pyplot as plt
 import copy
-from maskedtensor import masked_tensor
 
 FilesNr = 9 # Number of days we get to form the epoch, the training dataset. 
 
@@ -56,7 +55,7 @@ best_epoch = 0
 directory = '/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020/saved_models'
 file_name = '/model.pth'
 
-num_epochs = 50 # Number of total passess through training dataset
+num_epochs = 300 # Number of total passess through training dataset
 for epoch in range(num_epochs):
 
     # From now batch size is 1 (One image injected to UNET, then parameters are updated)

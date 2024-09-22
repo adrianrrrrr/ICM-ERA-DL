@@ -1,4 +1,4 @@
-name: erasdl_unet_cuda
+name: erasdl_unet
 channels:
   - conda-forge
   - defaults
@@ -13,7 +13,7 @@ dependencies:
   - scikit-learn
   - pandas
   - time
-  - numpy
+  - numpy=1.26.4
   - pyproj
   - seaborn
   - notebook
