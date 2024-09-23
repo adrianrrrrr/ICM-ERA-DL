@@ -33,6 +33,10 @@ for np_masked_day in ground_truth_norm:
         conv2tensor = conv2tensor.type(torch.FloatTensor)
     gt_data.append(conv2tensor)
 
+# Getting the gt mask for filtering the loss function and so
+gt_mask = torch.tensor(ground_truth_norm[0].mask,dtype=torch.float32)
+gt_mask = gt_mask[None,:,864:1120,2568:2824].to(mydevice)
+
 
 # Storing the data stats in the disk
 directory = '/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020/stats'
@@ -43,7 +47,7 @@ with open(directory+'/variables.pkl','wb') as file:
 # I am getting a patch of 256x256. Full image requires about 6GB of VRAM that I do not have in my Radeon
 model = UNet() # Model initialization
 model = model.to(mydevice) # To GPU if available
-criterion = nn.MSELoss() # Loss function for regression -> MSE
+criterion = nn.MSELoss(reduction='none') # Loss function for regression -> MSE. No reduction (Neccessary for masking values)
 optimizer = optim.Adam(model.parameters(), lr=0.001) # Optimizer initialisation
 
 # Training loop
@@ -62,7 +66,7 @@ directory = '/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2
 file_name = '/model'
 file_ext = '.pt'
 
-num_epochs = 300 # Number of total passess through training dataset
+num_epochs = 20 # Number of total passess through training dataset
 for epoch in range(num_epochs):
 
     # From now batch size is 1 (One image injected to UNET, then parameters are updated)
@@ -71,15 +75,14 @@ for epoch in range(num_epochs):
         # The UNET takes an input of shape (B,12,1440,2880) where B is directly the batch size
         # B is the number of examples processed by the model, the UNET, before updating parameters
         # Now B = 1. For B = 4, input should be of shape (4,12,l,w)
-        input = image[None,:,864:1120,2568:2824].to(mydevice)
-        output = model(input) # 256x256 patch + adding first dummy dimension for the UNET
+        input = image[None,:,864:1120,2568:2824].to(mydevice) # 256x256 patch + adding first dummy dimension for the UNET
+        output = model(input) 
         target = target[None,:,864:1120,2568:2824].to(mydevice)
 
         # Create the mask for ignoring the zero values in the targets
-        mask = target != 0
         loss = criterion(output,target)
-        masked_loss = loss * mask # Apply the mask
-        final_loss = masked_loss.sum() / mask.sum() # Normalize by the number of non-zero elements
+        masked_loss = loss * gt_mask # Apply the mask
+        final_loss = masked_loss.sum() / gt_mask.sum() # Normalize by the number of non-zero elements
         
         # Zero gradients to prevent accumulation from multiple backward passes. 
         optimizer.zero_grad()
@@ -88,7 +91,7 @@ for epoch in range(num_epochs):
         # each parameter needs to change to reduce the loss. Computed gradients are stored in .grad attribute
         # of each param tensor
         final_loss.backward()
-        aux = loss.item()
+        aux = final_loss
         if aux < best_loss:
             best_loss = aux
             best_epoch = epoch+1
@@ -98,7 +101,7 @@ for epoch in range(num_epochs):
         optimizer.step()
 
 
-    print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item():.4f}') ## loss.item() is the value of MSE
+    print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {final_loss:.4f}')
 
 print("Training complete!")
 print("Best epoch was: ",best_epoch," giving a",best_loss,"loss")
