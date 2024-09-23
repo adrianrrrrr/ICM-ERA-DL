@@ -4,8 +4,9 @@ import time
 import numpy as np
 import matplotlib.pyplot as plt
 import copy
+import pickle
 
-FilesNr = 9 # Number of days we get to form the epoch, the training dataset. 
+FilesNr = 9 # Number of days we get to build the batch in the training dataset. 
 
 input_data, ground_truth = MyDataLoader()
 
@@ -15,8 +16,7 @@ ground_truth_norm = copy.deepcopy(ground_truth)
 MyNorm(input_data_norm)
 MyNorm(ground_truth_norm)
 
-# Conversion numpy.ma to a standard ndarray
-
+# Conversion numpy.ma to a standard ndarray with 0 filled values
 in_data = []
 for np_masked_day in input_data_norm:
     conv2ndarray = np_masked_day.filled(fill_value=0)
@@ -32,6 +32,12 @@ for np_masked_day in ground_truth_norm:
     if (mydevice == torch.device('mps')): # Double do not work properly with MPS
         conv2tensor = conv2tensor.type(torch.FloatTensor)
     gt_data.append(conv2tensor)
+
+
+# Storing the data stats in the disk
+directory = '/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020/stats'
+with open(directory+'/variables.pkl','wb') as file:
+    pickle.dump((var_stats,gt_stats),file)
 
 # UNET TRAIN SECTION
 # I am getting a patch of 256x256. Full image requires about 6GB of VRAM that I do not have in my Radeon
@@ -53,7 +59,8 @@ best_loss = 1000 # Initialisation of best loss for saving the best model
 best_epoch = 0
 # Directory to save the best model
 directory = '/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020/saved_models'
-file_name = '/model.pth'
+file_name = '/model'
+file_ext = '.pt'
 
 num_epochs = 300 # Number of total passess through training dataset
 for epoch in range(num_epochs):
@@ -85,7 +92,7 @@ for epoch in range(num_epochs):
         if aux < best_loss:
             best_loss = aux
             best_epoch = epoch+1
-            torch.save(model.state_dict(),directory+file_name)
+            model_state_dict = model.state_dict()
 
         # Update of the model paramters based on each gradient. It adjust parameters using Adam opt. algorithm.
         optimizer.step()
@@ -96,8 +103,30 @@ for epoch in range(num_epochs):
 print("Training complete!")
 print("Best epoch was: ",best_epoch," giving a",best_loss,"loss")
 
+# Ploting the output of the model to see the result of prediction 
 
+# Saving the best model on disk with the agreed naming
+rounded_loss = str(best_loss)
+rounded_loss = rounded_loss[0]+'DOT'+rounded_loss[2:6]
+file_save_name = directory+file_name+'_'+str(best_epoch)+'_'+rounded_loss+file_ext
+torch.save(model_state_dict,file_save_name)
 
+# Loading the best model, making a prediction and ploting 
+# Loading the best trained model
+model_path = '/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020/saved_models'
+model_name = '/model_126_0DOT0663.pt'
+model = UNet() # Model initialization
+model = model.to(mydevice) # To GPU if available
+model.load_state_dict(torch.load(model_path+model_name))
+
+output = model(input)
+
+out_image = output[0].to(torch.device('cpu'))
+out_image = out_image.detach().numpy()
+out_image = np.transpose(out_image,(1,2,0))
+combined_image = np.hstack((out_image[::-1,:,0],out_image[::-1,:,1]))
+plt.imshow(combined_image,vmin=-2,vmax=2,cmap='bwr')
+plt.title('u and v components of the best prediction in train')
 
 '''
 #input_image = torch.randn(1, 12, 256, 256)  # Dummy test  Tensor
