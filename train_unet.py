@@ -33,10 +33,11 @@ for np_masked_day in ground_truth_norm:
         conv2tensor = conv2tensor.type(torch.FloatTensor)
     gt_data.append(conv2tensor)
 
+''' NOT WORKING AS EXPECTED
 # Getting the gt mask for filtering the loss function and so
 gt_mask = torch.tensor(ground_truth_norm[0].mask,dtype=torch.float32)
 gt_mask = gt_mask[None,:,864:1120,2568:2824].to(mydevice)
-
+'''
 
 # Storing the data stats in the disk
 directory = '/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020/stats'
@@ -47,7 +48,7 @@ with open(directory+'/variables.pkl','wb') as file:
 # I am getting a patch of 256x256. Full image requires about 6GB of VRAM that I do not have in my Radeon
 model = UNet() # Model initialization
 model = model.to(mydevice) # To GPU if available
-criterion = nn.MSELoss(reduction='none') # Loss function for regression -> MSE. No reduction (Neccessary for masking values)
+criterion = nn.MSELoss() # Loss function for regression -> MSE. No reduction (Neccessary for masking values)
 optimizer = optim.Adam(model.parameters(), lr=0.001) # Optimizer initialisation
 
 # Training loop
@@ -77,12 +78,13 @@ for epoch in range(num_epochs):
         # Now B = 1. For B = 4, input should be of shape (4,12,l,w)
         input = image[None,:,864:1120,2568:2824].to(mydevice) # 256x256 patch + adding first dummy dimension for the UNET
         output = model(input) 
-        target = target[None,:,864:1120,2568:2824].to(mydevice)
+        groundt = target[None,:,864:1120,2568:2824].to(mydevice)
 
         # Create the mask for ignoring the zero values in the targets
-        loss = criterion(output,target)
-        masked_loss = loss * gt_mask # Apply the mask
-        final_loss = masked_loss.sum() / gt_mask.sum() # Normalize by the number of non-zero elements
+        mask = groundt != 0
+        loss = criterion(output,groundt)
+        masked_loss = loss * mask # Apply the mask
+        final_loss = masked_loss.sum() / mask.sum() # Normalize by the number of non-zero elements
         
         # Zero gradients to prevent accumulation from multiple backward passes. 
         optimizer.zero_grad()
@@ -104,39 +106,31 @@ for epoch in range(num_epochs):
     print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {final_loss:.4f}')
 
 print("Training complete!")
-print("Best epoch was: ",best_epoch," giving a",best_loss,"loss")
+print("Best epoch was: ",best_epoch," giving a","{:.6f}".format(best_loss),"loss")
 
 # Ploting the output of the model to see the result of prediction 
 
 # Saving the best model on disk with the agreed naming
-rounded_loss = str(best_loss)
-rounded_loss = rounded_loss[0]+'DOT'+rounded_loss[2:6]
+rounded_loss = "{:.6f}".format(best_loss)
+rounded_loss = rounded_loss[0]+'DOT'+rounded_loss[2:7]
 file_save_name = directory+file_name+'_'+str(best_epoch)+'_'+rounded_loss+file_ext
 torch.save(model_state_dict,file_save_name)
 
+'''
 # Loading the best model, making a prediction and ploting 
 # Loading the best trained model
 model_path = '/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020/saved_models'
-model_name = '/model_126_0DOT0663.pt'
+model_name = '/model_20_0DOT17350.pt'
 model = UNet() # Model initialization
 model = model.to(mydevice) # To GPU if available
 model.load_state_dict(torch.load(model_path+model_name))
 
 output = model(input)
-
 out_image = output[0].to(torch.device('cpu'))
 out_image = out_image.detach().numpy()
 out_image = np.transpose(out_image,(1,2,0))
-combined_image = np.hstack((out_image[::-1,:,0],out_image[::-1,:,1]))
-plt.imshow(combined_image,vmin=-2,vmax=2,cmap='bwr')
-plt.title('u and v components of the best prediction in train')
 
-'''
-#input_image = torch.randn(1, 12, 256, 256)  # Dummy test  Tensor
- #y = targets[:,864:1120,2568:2824] # Do this indexing to get 256x256 test because I ran out memory on MPS
-input_image = in_data[0] # First day
-input_image = input_image[None,:,864:1120,2568:2824] # Adding the first dummy dimension simulating the epoch for the UNET to work + getting 256^2 patch
-input_image = input_image.to(mydevice)
-output_image = model(input_image) # Input shape should be (1,12,1440,2880)
-print(output_image.shape)  # Should be [1, 2, 256, 256]
+combined_image = np.hstack((out_image[::-1,:,0],out_image[::-1,:,1]))
+plt.imshow(combined_image,vmin=-0.5,vmax=0.5,cmap='bwr')
+plt.title('u and v components of the best prediction in train')
 '''
