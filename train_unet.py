@@ -5,6 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import copy
 import pickle
+import wandb
 
 FilesNr = 9 # Number of days we get to build the batch in the training dataset. 
 
@@ -44,6 +45,20 @@ directory = '/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2
 with open(directory+'/variables.pkl','wb') as file:
     pickle.dump((var_stats,gt_stats),file)
 
+# start a new wandb run to track this script
+wandb.init(
+    # set the wandb project where this run will be logged
+    project="TFM-UNET",
+
+    # track hyperparameters and run metadata
+    config={
+    "learning_rate": 0.001,
+    "architecture": "UNET",
+    "dataset": "ASCAT-A",
+    "epochs": 1000,
+    }
+)
+
 # UNET TRAIN SECTION
 # I am getting a patch of 256x256. Full image requires about 6GB of VRAM that I do not have in my Radeon
 model = UNet() # Model initialization
@@ -67,7 +82,7 @@ directory = '/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2
 file_name = '/model'
 file_ext = '.pt'
 
-num_epochs = 20 # Number of total passess through training dataset
+num_epochs = 1000 # Number of total passess through training dataset
 for epoch in range(num_epochs):
 
     # From now batch size is 1 (One image injected to UNET, then parameters are updated)
@@ -85,6 +100,9 @@ for epoch in range(num_epochs):
         loss = criterion(output,groundt)
         masked_loss = loss * mask # Apply the mask
         final_loss = masked_loss.sum() / mask.sum() # Normalize by the number of non-zero elements
+
+        # Log the metric into wandb
+        wandb.log({"loss": final_loss})
         
         # Zero gradients to prevent accumulation from multiple backward passes. 
         optimizer.zero_grad()
@@ -116,11 +134,14 @@ rounded_loss = rounded_loss[0]+'DOT'+rounded_loss[2:7]
 file_save_name = directory+file_name+'_'+str(best_epoch)+'_'+rounded_loss+file_ext
 torch.save(model_state_dict,file_save_name)
 
+
+wandb.finish()
+
 '''
 # Loading the best model, making a prediction and ploting 
 # Loading the best trained model
 model_path = '/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020/saved_models'
-model_name = '/model_20_0DOT17350.pt'
+model_name = '/model_1000_0DOT00490.pt'
 model = UNet() # Model initialization
 model = model.to(mydevice) # To GPU if available
 model.load_state_dict(torch.load(model_path+model_name))
@@ -133,4 +154,14 @@ out_image = np.transpose(out_image,(1,2,0))
 combined_image = np.hstack((out_image[::-1,:,0],out_image[::-1,:,1]))
 plt.imshow(combined_image,vmin=-0.5,vmax=0.5,cmap='bwr')
 plt.title('u and v components of the best prediction in train')
+'''
+
+'''
+out_image = groundt[0].to(torch.device('cpu'))
+out_image = out_image.detach().numpy()
+out_image = np.transpose(out_image,(1,2,0))
+
+combined_image = np.hstack((out_image[::-1,:,0],out_image[::-1,:,1]))
+plt.imshow(combined_image,vmin=-0.5,vmax=0.5,cmap='bwr')
+plt.title('u and v components of the ground truth (Differences)')
 '''
