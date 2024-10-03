@@ -3,13 +3,14 @@ from netCDF4 import Dataset as netDataset
 import time
 import numpy as np
 import matplotlib.pyplot as plt
+import cartopy.crs as ccrs
 import copy
 import pickle
 import wandb
 
 FilesNr = 9 # Number of days we get to build the batch in the training dataset. 
-
-input_data, ground_truth = MyDataLoader()
+dir_path = "/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020/train"
+input_data, ground_truth = MyDataLoader(dir_path,loader_mode='train')
 
 input_data_norm = copy.deepcopy(input_data)
 ground_truth_norm = copy.deepcopy(ground_truth)
@@ -126,8 +127,6 @@ for epoch in range(num_epochs):
 print("Training complete!")
 print("Best epoch was: ",best_epoch," giving a","{:.6f}".format(best_loss),"loss")
 
-# Ploting the output of the model to see the result of prediction 
-
 # Saving the best model on disk with the agreed naming
 rounded_loss = "{:.6f}".format(best_loss)
 rounded_loss = rounded_loss[0]+'DOT'+rounded_loss[2:7]
@@ -136,32 +135,3 @@ torch.save(model_state_dict,file_save_name)
 
 
 wandb.finish()
-
-'''
-# Loading the best model, making a prediction and ploting 
-# Loading the best trained model
-model_path = '/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020/saved_models'
-model_name = '/model_1000_0DOT00490.pt'
-model = UNet() # Model initialization
-model = model.to(mydevice) # To GPU if available
-model.load_state_dict(torch.load(model_path+model_name))
-
-output = model(input)
-out_image = output[0].to(torch.device('cpu'))
-out_image = out_image.detach().numpy()
-out_image = np.transpose(out_image,(1,2,0))
-
-combined_image = np.hstack((out_image[::-1,:,0],out_image[::-1,:,1]))
-plt.imshow(combined_image,vmin=-0.5,vmax=0.5,cmap='bwr')
-plt.title('u and v components of the best prediction in train')
-'''
-
-'''
-out_image = groundt[0].to(torch.device('cpu'))
-out_image = out_image.detach().numpy()
-out_image = np.transpose(out_image,(1,2,0))
-
-combined_image = np.hstack((out_image[::-1,:,0],out_image[::-1,:,1]))
-plt.imshow(combined_image,vmin=-0.5,vmax=0.5,cmap='bwr')
-plt.title('u and v components of the ground truth (Differences)')
-'''

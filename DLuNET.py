@@ -9,6 +9,7 @@ from typing import Tuple, Dict, Any, List
 
 import matplotlib
 import matplotlib.pyplot as plt
+import cartopy.crs as ccrs
 
 from netCDF4 import Dataset as netDataset
 import torch
@@ -107,10 +108,9 @@ input_data -> (9,12,256,256) : Input data
 ground_truth -> (9,2,256,256) : Targets / Ground truth
 
 '''
-def MyDataLoader():
+def MyDataLoader(directory_path,loader_mode):
   start_time = time.time()
 
-  train_input_folder =  "/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020/train"
   loader_input_var_names = ['eastward_model_wind', 'northward_model_wind', 'model_speed', 'model_dir', 
                               'msl', 'air_temperature', 'q', 'sst', 'uo', 'vo']
 
@@ -119,8 +119,11 @@ def MyDataLoader():
 
   for day in range(1,10):
       all_data = []
-      train_input_file = train_input_folder+"/ascata_2020010"+str(day)+"_l3_asc.nc"
-      f = netDataset(train_input_file)
+      if loader_mode == 'train':
+        input_file = directory_path+"/ascata_2020010"+str(day)+"_l3_asc.nc"
+      elif loader_mode == 'test':
+        input_file = directory_path+"/ascata_2019010"+str(day)+"_l3_asc.nc"
+      f = netDataset(input_file)
       
       # Creating 2D variables from 1D data 
       lon = f.variables['lon'].__array__() #0-360 degrees = 2880 points
@@ -152,10 +155,10 @@ def MyDataLoader():
       
       ground_truth.append(y)
 
-      print(train_input_file," loaded succesfully")
+      print(input_file," loaded succesfully")
 
   # let's free some RAM
-  del all_data, lon, lat, var_name, input_masked_data, X, u, v, u_model, v_model, targets, y
+  del all_data, var_name, input_masked_data, X, u, v, u_model, v_model, targets, y
 
   gc.collect() # Forcing garbage collection i.e. free RAM references from del listed variables
 
@@ -213,10 +216,72 @@ def MyNorm(BatchedData):
                 BatchedData[index_batch][index_var] = (BatchedData[index_batch][index_var]-
                                                     gt_stats[output_var_names[index_var]]['mean'])/gt_stats[output_var_names[index_var]]['std']
 
+# Input shape should be (2,lat,lon)
+# Assumming gt_stats is on global memory
+def MyDenorm(PredictedData):
+    PredictedData[0] = (PredictedData[0]+gt_stats['u']['mean'])*gt_stats['u']['std']
+    PredictedData[1] = (PredictedData[0]+gt_stats['v']['mean'])*gt_stats['v']['std']
 
-'''
-    if (var_name == 'lat') or (var_name == 'lon') or (var_name == 'model_dir'):
-    print(var_name)
-    var_data = var_data * (np.pi/180) # To rad
-    var_data = np.sin(var_data) # Enough for preventing UNET to learn that 0 and 2pi is the same position in space
-'''
+def make_colorbar(ax, mappable, **kwargs):
+    from mpl_toolkits.axes_grid1 import make_axes_locatable
+    import matplotlib as mpl
+    divider = make_axes_locatable(ax)
+    orientation = kwargs.pop('orientation', 'vertical')
+    if orientation == 'vertical':
+        loc = 'right'
+    elif orientation == 'horizontal':
+        loc = 'bottom'
+    cax = divider.append_axes(loc, '3%', pad='3%', axes_class=mpl.pyplot.Axes)
+    ax.get_figure().colorbar(mappable, cax=cax, orientation=orientation)
+
+# image2plot should be a u,v bias prediction from the model output with shape (1,2,lon,lat)
+# date = 1/1/2024. For the plot title
+# Assuming lot and lan are on global memory (Not dumped in MyDataLoader)
+def MyPlot(image2plot, date='1/1/2019'):
+    out_image = image2plot[0].to(torch.device('cpu'))
+    out_image = out_image.detach().numpy()
+
+    # ASCAT-A u-component asc 01/01/2020 (estward_wind)
+    fig = plt.figure(figsize=(15, 10))
+    ax = plt.axes(projection=ccrs.PlateCarree())
+    ax.coastlines()
+    gl = ax.gridlines(crs=ccrs.PlateCarree(), draw_labels=True,
+                    linewidth=2, color='gray', alpha=0.5, linestyle='--')
+    im = ax.pcolor(lon[2568:2824], lat[864:1120], out_image[0], cmap='bwr', vmin=-2, vmax=2)
+    plt.title(f"ASCAT-A u-component asc "+date, fontsize=20)
+    make_colorbar(ax, im, orientation='vertical')
+    plt.savefig(f'u_pred.png', bbox_inches='tight', dpi=600)
+    plt.show()
+
+    mean = np.nanmean(out_image[0]) 
+    std = np.nanstd(out_image[0]) 
+    maxd = np.nanmax(out_image[0]) 
+    mind = np.nanmin(out_image[0]) 
+    print(" u diff prediction mean =  ",mean, " ; std = ",std," ; max = ",maxd," min = ",mind)
+    plt.hist(out_image[0].flatten(), bins=200)  # arguments are passed to np.histogram
+    plt.xlim(-1,1)
+    plt.title("Histogram of u diff pred with 200 bins")
+    plt.show()
+
+
+    # ASCAT-A v-component asc 01/01/2020 (northward_wind)
+    fig = plt.figure(figsize=(15, 10))
+    ax = plt.axes(projection=ccrs.PlateCarree())
+    ax.coastlines()
+    gl = ax.gridlines(crs=ccrs.PlateCarree(), draw_labels=True,
+                    linewidth=2, color='gray', alpha=0.5, linestyle='--')
+    im = ax.pcolor(lon[2568:2824], lat[864:1120], out_image[1], cmap='bwr', vmin=-2, vmax=2)
+    plt.title(f"ASCAT-A v-component asc "+date, fontsize=20)
+    make_colorbar(ax, im, orientation='vertical')
+    plt.savefig(f'v_pred.png', bbox_inches='tight', dpi=600)
+    plt.show()
+
+    mean = np.nanmean(out_image[1]) 
+    std = np.nanstd(out_image[1]) 
+    maxd = np.nanmax(out_image[1]) 
+    mind = np.nanmin(out_image[1]) 
+    print(" v diff prediction mean =  ",mean, " ; std = ",std," ; max = ",maxd," min = ",mind)
+    plt.hist(out_image[1].flatten(), bins=200)  # arguments are passed to np.histogram
+    plt.xlim(-1,1)
+    plt.title("Histogram of u diff pred with 200 bins")
+    plt.show()

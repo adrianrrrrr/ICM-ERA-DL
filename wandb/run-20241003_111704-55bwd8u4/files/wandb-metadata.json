@@ -1,0 +1,32 @@
+{
+  "os":  "macOS-14.6.1-x86_64-i386-64bit",
+  "python":  "3.11.10",
+  "startedAt":  "2024-10-03T09:17:04.078041Z",
+  "program":  "/Users/adrianrrrrr/Documents/Visual Studio Code/ICM-ERA-DL/train_unet.py",
+  "codePath":  "train_unet.py",
+  "git":  {
+    "remote":  "https://github.com/adrianrrrrr/ICM-ERA-DL.git",
+    "commit":  "3825069029579c9aec0dd2f842308237bf08ca85"
+  },
+  "email":  "adrian.ramos.gonzalez@estudiantat.upc.edu",
+  "root":  "/Users/adrianrrrrr/Documents/Visual Studio Code/ICM-ERA-DL",
+  "host":  "iMac-de-Adrian.local",
+  "username":  "adrianrrrrr",
+  "executable":  "/opt/anaconda3/envs/erasdl_unet/bin/python",
+  "codePathLocal":  "train_unet.py",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "disk":  {
+    "/":  {
+      "total":  "250685575168",
+      "used":  "120455962624"
+    }
+  },
+  "memory":  {
+    "total":  "68719476736"
+  },
+  "cpu":  {
+    "count":  6,
+    "countLogical":  12
+  }
+}
