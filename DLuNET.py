@@ -154,8 +154,12 @@ def MyDataLoader(directory_path,loader_mode):
       y = targets
       
       ground_truth.append(y)
-
+      
       print(input_file," loaded succesfully")
+    
+
+
+
 
   # let's free some RAM
   del all_data, var_name, input_masked_data, X, u, v, u_model, v_model, targets, y
@@ -172,6 +176,70 @@ def MyDataLoader(directory_path,loader_mode):
   print("Dataset has ",memory_size,"B allocated in RAM")
 
   return input_data, ground_truth
+
+
+# Loading January 2024 to train. It will be the data
+def MyDataLoader2(directory_path):
+  start_time = time.time()
+
+  loader_input_var_names = ['eastward_model_wind', 'northward_model_wind', 'model_speed', 'model_dir', 
+                              'msl', 'air_temperature', 'q', 'sst', 'uo', 'vo']
+
+  input_data = []
+  ground_truth = []
+    
+  for day in range(1,32):
+      all_data = []
+      input_file = directory_path+"/"+str(day)+".nc"
+      f = netDataset(input_file)
+      
+      # Creating 2D variables from 1D data 
+      lon = f.variables['lon'].__array__() #0-360 degrees = 2880 points
+      lat = f.variables['lat'].__array__() #0-180 degrees = 1440 points
+      lons, lats = np.meshgrid(lon, lat)
+      all_data.append(lons)
+      all_data.append(lats)
+
+      for var_name in loader_input_var_names:
+          var_data = f.variables[var_name].__array__()[0]
+          all_data.append(var_data)
+
+      # Input data load (X) 
+      input_masked_data = np.ma.MaskedArray(all_data)
+      #input_masked_data = np.transpose(input_masked_data,(1,2,0)) # Putting the "channels" in the last dimension
+      X = input_masked_data
+
+      input_data.append(X)
+      
+      # Ground truth (y)
+      u = f.variables['eastward_wind'].__array__()[0]
+      v = f.variables['northward_wind'].__array__()[0]
+      u_model = f.variables['eastward_model_wind'].__array__()[0]
+      v_model = f.variables['northward_model_wind'].__array__()[0]
+      f.close()
+      targets = np.ma.MaskedArray([u - u_model, v - v_model])
+      #targets = np.transpose(targets,(1,2,0))
+      y = targets
+      
+      ground_truth.append(y)
+      
+      print(input_file," loaded succesfully")
+    
+  # let's free some RAM
+  del all_data, var_name, input_masked_data, X, u, v, u_model, v_model, targets, y
+
+  gc.collect() # Forcing garbage collection i.e. free RAM references from del listed variables
+
+  end_time = time.time()
+  elapsed_time = end_time - start_time
+
+  memory_size = sys.getsizeof(input_data) + sys.getsizeof(ground_truth) # Bytes
+  memory_size = memory_size 
+
+  print("Dataload took ",elapsed_time," seconds")
+  print("Dataset has ",memory_size,"B allocated in RAM")
+
+  return input_data, ground_truth, lon, lat
 
 # Function to normalise data
 # TODO: Circular normalization, combined means / variance by mathematical formula,...
@@ -237,7 +305,7 @@ def make_colorbar(ax, mappable, **kwargs):
 # image2plot should be a u,v bias prediction from the model output with shape (1,2,lon,lat)
 # date = 1/1/2024. For the plot title
 # Assuming lot and lan are on global memory (Not dumped in MyDataLoader)
-def MyPlot(image2plot, date='1/1/2019'):
+def MyPlot(image2plot, date,lon, lat):
     out_image = image2plot[0].to(torch.device('cpu'))
     out_image = out_image.detach().numpy()
 

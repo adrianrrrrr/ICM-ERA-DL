@@ -4,19 +4,17 @@ import torch.nn.functional as F
 
 
 file_path = '/home/usuaris/imatge/adrian.ramos/saving_file.txt'
-# Open a file in write mode
-with open(file_path, 'w') as file:
-    # Write some text to the file
-    file.write('Hello, world!\n')
-    file.write('No prob in writting files with Slurm! (Disks virtually mounted).\n')
 
-print('File written successfully.')
+for y_lat in range(0,5):
+    for x_lon in range(0,10):
+        lat_position_from = 288 * y_lat
+        lat_position_to = lat_position_from + 288
+        lon_position_from = 288 * x_lon
+        lon_position_to = lon_position_from + 288
+        in_data[0][:][lat_position_from:lat_position_to][lon_position_from:lon_position_to]
 
-
-
-
-
-
+        print('(',x_lon,')','(',y_lat,')','gets lons from: ',lon_position_from,'to ',lon_position_to,'and lats from: ',lat_position_from,
+              ' to: ',lat_position_to)
 
 
 # General notes:
