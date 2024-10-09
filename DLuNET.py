@@ -315,7 +315,8 @@ def MyPlot(image2plot, date,lon, lat):
     ax.coastlines()
     gl = ax.gridlines(crs=ccrs.PlateCarree(), draw_labels=True,
                     linewidth=2, color='gray', alpha=0.5, linestyle='--')
-    im = ax.pcolor(lon[2568:2824], lat[864:1120], out_image[0], cmap='bwr', vmin=-2, vmax=2)
+    #im = ax.pcolor(lon[2568:2824], lat[864:1120], out_image[0], cmap='bwr', vmin=-2, vmax=2)
+    im = ax.pcolor(lon, lat, out_image[0], cmap='bwr', vmin=-2, vmax=2)
     plt.title(f"ASCAT-A u-component asc "+date, fontsize=20)
     make_colorbar(ax, im, orientation='vertical')
     plt.savefig(f'u_pred.png', bbox_inches='tight', dpi=600)
@@ -338,7 +339,7 @@ def MyPlot(image2plot, date,lon, lat):
     ax.coastlines()
     gl = ax.gridlines(crs=ccrs.PlateCarree(), draw_labels=True,
                     linewidth=2, color='gray', alpha=0.5, linestyle='--')
-    im = ax.pcolor(lon[2568:2824], lat[864:1120], out_image[1], cmap='bwr', vmin=-2, vmax=2)
+    im = ax.pcolor(lon, lat, out_image[1], cmap='bwr', vmin=-2, vmax=2)
     plt.title(f"ASCAT-A v-component asc "+date, fontsize=20)
     make_colorbar(ax, im, orientation='vertical')
     plt.savefig(f'v_pred.png', bbox_inches='tight', dpi=600)

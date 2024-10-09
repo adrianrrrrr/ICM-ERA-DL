@@ -3,8 +3,27 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 
-file_path = '/home/usuaris/imatge/adrian.ramos/saving_file.txt'
+for y in range(1,6):
+    for x in range(1,11):
+        if (x == 2) and (y == 4):
+            # No printee nada
+            # print('NANAI')
+            continue
+        else:
+            print('(',x,',',y,')')
 
+
+'''
+file_path = '/home/usuaris/imatge/adrian.ramos/saving_file.txt'
+if torch.cuda.is_available():
+    print("Cuda is available. There are ",torch.cuda.device_count()," devices")
+    print("Current device is ",torch.cuda.current_device()," named: ",torch.cuda.get_device_name(0))
+# Cuda is available. There are  1  devices
+# Current device is  0  named:  NVIDIA GeForce RTX 2080 Ti
+
+else:
+    print("Fail")
+# Bucle for patch processing
 for y_lat in range(0,5):
     for x_lon in range(0,10):
         lat_position_from = 288 * y_lat
@@ -16,22 +35,6 @@ for y_lat in range(0,5):
         print('(',x_lon,')','(',y_lat,')','gets lons from: ',lon_position_from,'to ',lon_position_to,'and lats from: ',lat_position_from,
               ' to: ',lat_position_to)
 
-
-# General notes:
-
-'''
-if torch.cuda.is_available():
-    print("Cuda is available. There are ",torch.cuda.device_count()," devices")
-    print("Current device is ",torch.cuda.current_device()," named: ",torch.cuda.get_device_name(0))
-# Cuda is available. There are  1  devices
-# Current device is  0  named:  NVIDIA GeForce RTX 2080 Ti
-
-else:
-    print("Fail")
-'''
-
-
-'''
 Copilot UNET training model
 
 import torch
