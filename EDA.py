@@ -13,7 +13,7 @@ input_var_names = ['lon', 'lat',
                    'msl', 'air_temperature', 'q', 'sst', 'uo', 'vo']
 output_var_names = ['u','v']
 
-train_input_file = "/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020/train/ascata_20200101_l3_asc.nc"
+train_input_file = "/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020/train/1.nc"
 
 # TODO: Automatic load just creating the pointer to the directory
 f = Dataset(train_input_file)
@@ -52,12 +52,16 @@ for variable_index in range(12):
     std = np.nanstd(input_masked_data[variable_index]) 
     maxd = np.nanmax(input_masked_data[variable_index]) 
     mind = np.nanmin(input_masked_data[variable_index]) 
-    print(var_name," variable mean =  ",mean, " ; std = ",std," ; max = ",maxd," min = ",mind)
+    print(var_name," variable mean =  ","{:.3f}".format(mean), " ; std = ","{:.3f}".format(std),
+          " ; max = ""{:.3f}".format(maxd)," min = ","{:.3f}".format(mind))
 
     flattened_data = input_masked_data[variable_index].compressed() # This remove the masked values
     plt.hist(flattened_data, bins='auto')  # arguments are passed to np.histogram
-    #plt.vlines(0,0,30000,colors="red")
-    plt.title("Histogram of "+var_name+" with 'auto' bins")
+    plt.title("Histogram of "+var_name)
+    plt.axvline(x=mean,color='black',linestyle='--',linewidth=1)
+    plt.axvline(x=(mean-std),color='yellow',linestyle=':',linewidth=2)
+    plt.axvline(x=(mean+std),color='yellow',linestyle=':',linewidth=2)
+    plt.gca().set_facecolor('lightgrey')
     plt.show()
 
 for component in range(2):
@@ -66,9 +70,14 @@ for component in range(2):
     std = np.nanstd(targets[component]) 
     maxd = np.nanmax(targets[component]) 
     mind = np.nanmin(targets[component]) 
-    print(comp_name," ground truth mean =  ",mean, " ; std = ",std," ; max = ",maxd," min = ",mind)
+    print(comp_name," ground truth mean =  ","{:.3f}".format(mean), " ; std = ","{:.3f}".format(std),
+          " ; max = ","{:.3f}".format(maxd)," min = ","{:.3f}".format(mind))
 
     flattened_data = targets[component].compressed() # This remove the masked values
     plt.hist(flattened_data, bins='auto')  # arguments are passed to np.histogram
-    plt.title("Histogram of "+comp_name+" with 'auto' bins")
-    plt.show()
+    plt.title("Histogram of "+comp_name)
+    plt.axvline(x=mean,color='black',linestyle='--',linewidth=1)
+    plt.axvline(x=(mean-std),color='yellow',linestyle=':',linewidth=2)
+    plt.axvline(x=(mean+std),color='yellow',linestyle=':',linewidth=2)
+    plt.gca().set_facecolor('lightgrey')
+    plt.show() 

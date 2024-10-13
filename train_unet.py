@@ -53,7 +53,7 @@ wandb.init(
 
     # track hyperparameters and run metadata
     config={
-    "learning_rate": 0.1,
+    "learning_rate": 0.001,
     "architecture": "UNET",
     "dataset": "ASCAT-A",
     "epochs": 10,
@@ -65,11 +65,11 @@ wandb.init(
 model = UNet() # Model initialization
 model = model.to(mydevice) # To GPU if available
 criterion = nn.MSELoss(reduction='none') # Loss function for regression -> MSE. No reduction (Neccessary for masking values)
-optimizer = optim.Adam(model.parameters(), lr=0.0001) # Optimizer initialisation
+optimizer = optim.Adam(model.parameters(), lr=0.001) # Optimizer initialisation
 
 # Training loop
 
-'''
+
 # Let's overtrain the model using only one example
 aux = []
 aux.append(in_data[0])
@@ -77,7 +77,7 @@ in_data = aux
 aux = []
 aux.append(gt_data[0])
 gt_data = aux
-'''
+
 
 best_loss = 1000 # Initialisation of best loss for saving the best model
 best_epoch = 0
@@ -86,7 +86,7 @@ directory = '/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2
 file_name = '/model'
 file_ext = '.pt'
 day = 1
-num_epochs = 10 # Number of total passess through training dataset
+num_epochs = 100 # Number of total passess through training dataset
 clip_value = 1.0 # Maximum allowed gradient to prevent nans 
 for epoch in range(num_epochs):
     # From now batch size is 1 (One image injected to UNET, then parameters are updated)
@@ -101,7 +101,7 @@ for epoch in range(num_epochs):
                 lon_position_from = 288 * x_lon
                 lon_position_to = lon_position_from + 288
 
-                if (x_lon == 2) and (y_lat == 4):
+                if (x_lon == 2 or x_lon == 3 or x_lon == 7) and (y_lat == 4):
                     continue # Ignore the void patch from now (easy testing)
                 else:
                     '''
@@ -122,6 +122,7 @@ for epoch in range(num_epochs):
                     output = model(input) # Forward pass
                     groundt = target[None,:,lat_position_from:lat_position_to,lon_position_from:lon_position_to].to(mydevice)
 
+                    # Probar con loss sin reduction (De forma típica) para ver el resultado
                     # Create the mask for ignoring the zero values in the targets
                     # 8/10/24: Checked "by hand", it performs perfectly. Here is not the exploding gradient problem
                     mask = groundt != 0
@@ -136,6 +137,8 @@ for epoch in range(num_epochs):
                     # each parameter needs to change to reduce the loss. Computed gradients are stored in .grad attribute
                     # of each param tensor
                     final_loss.backward()
+
+                    # Este bucle tiene que ser con el set de validación
                     aux = final_loss
                     if aux < best_loss:
                         best_loss = aux

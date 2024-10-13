@@ -10,6 +10,9 @@ from typing import Tuple, Dict, Any, List
 import matplotlib
 import matplotlib.pyplot as plt
 import cartopy.crs as ccrs
+import matplotlib.ticker as mticker
+from cartopy.mpl.gridliner import LONGITUDE_FORMATTER, LATITUDE_FORMATTER
+
 
 from netCDF4 import Dataset as netDataset
 import torch
@@ -188,7 +191,7 @@ def MyDataLoader2(directory_path):
   input_data = []
   ground_truth = []
     
-  for day in range(1,32):
+  for day in range(1,5):
       all_data = []
       input_file = directory_path+"/"+str(day)+".nc"
       f = netDataset(input_file)
@@ -353,4 +356,33 @@ def MyPlot(image2plot, date,lon, lat):
     plt.hist(out_image[1].flatten(), bins=200)  # arguments are passed to np.histogram
     plt.xlim(-1,1)
     plt.title("Histogram of u diff pred with 200 bins")
+    plt.show()
+
+# Eugenia's code for plotting any  variable.
+# image2plot should be a tensor image
+# ex. : MyPlot2(image[2],lon,lat) 
+# TODO : Poner parametro de entrada la escala de representación
+def MyPlot2(image2plot,lon,lat):
+    out_image = image2plot.to(torch.device('cpu'))
+    out_image = out_image.detach().numpy()
+
+    lon_slices = np.arange(0, len(lon), 288).astype(int)
+    lat_slices = np.arange(0, len(lat), 288).astype(int)
+
+    fig = plt.figure(figsize=(15, 10))
+    ax = plt.axes(projection=ccrs.PlateCarree())
+    ax.coastlines(alpha=0.7)
+    gl = ax.gridlines(crs=ccrs.PlateCarree(), draw_labels=True,
+                    linewidth=2, color='gray', alpha=0.5, linestyle='--')
+    gl.xlocator = mticker.FixedLocator(lon[lon_slices] - 180)
+    gl.ylocator = mticker.FixedLocator(lat[lat_slices])
+    gl.xformatter = LONGITUDE_FORMATTER
+    gl.yformatter = LATITUDE_FORMATTER
+    im = ax.pcolor(lon, lat, image2plot, cmap='jet', vmin=0, vmax=20, alpha=0.2)
+    for lon_i in range(10):
+        for lat_i in range(5):
+            ax.text(lon[lon_slices[lon_i]+50], lat[lat_slices[lat_i]+130], f"({lat_i}, {lon_i})", clip_on=True, fontsize=20,
+                    transform=ccrs.PlateCarree())
+    plt.title(f"Patches (lat_id, lon_id); ASCAT-A 20200102 asc Wind Speed", fontsize=18)
+    plt.savefig(f'ascat_asc_patches.png', bbox_inches='tight', dpi=300)
     plt.show()

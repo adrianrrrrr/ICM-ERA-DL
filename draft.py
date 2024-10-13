@@ -5,7 +5,7 @@ import torch.nn.functional as F
 
 for y in range(1,6):
     for x in range(1,11):
-        if (x == 2) and (y == 4):
+        if (x == 2 or x == 3 or x == 7) and (y == 4):
             # No printee nada
             # print('NANAI')
             continue
