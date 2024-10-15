@@ -3,6 +3,7 @@ import numpy as np
 import os
 import sys
 import gc
+import pickle
 
 from typing import Tuple, Dict, Any, List
 
@@ -294,6 +295,9 @@ def moving_average(data, N):
         window_average = sum(window) / N
         averages.append(window_average)
     return averages
+
+def get_size(obj):
+    return len(pickle.dumps(obj))
 
 def make_colorbar(ax, mappable, **kwargs):
     from mpl_toolkits.axes_grid1 import make_axes_locatable

@@ -67,7 +67,7 @@ wandb.init(
 model = UNet() # Model initialization
 model = model.to(mydevice) # To GPU if available
 criterion = nn.MSELoss(reduction='none') # Loss function for regression -> MSE. No reduction (Neccessary for masking values)
-learning_rate = 0.001
+learning_rate = 0.01
 optimizer = optim.Adam(model.parameters(), lr=learning_rate) # Optimizer initialisation
 
 '''
@@ -129,11 +129,17 @@ for epoch in range(num_epochs):
         if aux < best_loss:
             best_loss = aux
             best_epoch = epoch+1
-            model_state_dict = model.state_dict()
+            #model_state_dict = model.state_dict()
 
+        # Gradient clipping to try to smooth the learning
+        torch.nn.utils.clip_grad_norm_(model.parameters(),1)
         # Update of the model paramters based on each gradient. It adjust parameters using Adam opt. algorithm.
         optimizer.step()
 
+    # Evaluar aquí (Al final de cada epoch) el modelo que se ha entrenado en un set de validación a parte
+    # Aquí tendría que hacer la parte del script que tengo abajo y calcular el error media.
+    # Poner una variable auxiliar, guardar el error de validación en ella y cuando suba es donde paramos y guardamos el modelo
+    # (Anterior)
     print(f'Epoch [{epoch+1}/{num_epochs}], Training loss: {final_loss:.4f}')
 
 print("Training complete")
@@ -145,11 +151,12 @@ ax1.plot(running_loss_train,label='UNet training running loss')
 ax1.set_title('Train loss [Running loss]')
 ax1.set_xlabel('# image')
 ax1.set_ylabel('Loss')
-ax1.set_ylim(0,5)
+max_y = max(running_loss_train) + 1
+ax1.set_ylim(0,max_y)
 ax1.set_facecolor('lightgrey')
 plot_text = f'Learning rate = {learning_rate}'
 props = dict(boxstyle='round',facecolor='white',alpha=0.5)
-ax1.text(0.47,0.9,plot_text,transform=ax.transAxes,fontsize=9,verticalalignment='top', bbox=props)
+ax1.text(0.7,0.9,plot_text,transform=ax1.transAxes,fontsize=9,verticalalignment='top', bbox=props)
 
 epoch_size = len(X_train)
 epoch_avg_train = moving_average(running_loss_train,epoch_size)
@@ -157,11 +164,11 @@ ax2.plot(epoch_avg_train,label='UNet training loss')
 ax2.set_title('Train loss [Epoch averaged]')
 ax2.set_xlabel('# Epoch')
 ax2.set_ylabel('Loss')
-ax2.set_ylim(0,5)
+ax2.set_ylim(0,max_y)
 ax2.set_facecolor('lightgrey')
 plot_text = f'Learning rate = {learning_rate}'
 props = dict(boxstyle='round',facecolor='white',alpha=0.5)
-ax2.text(1.5,0.9,plot_text,transform=ax.transAxes,fontsize=9,verticalalignment='top', bbox=props)
+ax2.text(0.7,0.9,plot_text,transform=ax2.transAxes,fontsize=9,verticalalignment='top', bbox=props)
 
 fig_dir = '/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020'
 str_lr = str(learning_rate)
@@ -197,7 +204,8 @@ with torch.no_grad():
 
 avg_test_loss = sum(losses_test) / len(losses_test)
 
-print(f'Testing loss = {avg_test_loss:.3f} with learning rate = {learning_rate}')
+print(f'Avg testing loss = {avg_test_loss:.3f} with learning rate = {learning_rate}')
+print(f'Best running testing loss = {best_loss:.3f} with learning rate = {learning_rate}')
 
 fig, ax = plt.subplots()
 x = [i for i in range(1,len(losses_test)+1)]
@@ -222,7 +230,8 @@ plt.show()
 
 
 # Saving the best model on disk with the agreed naming
-rounded_loss = "{:.6f}".format(best_loss)
+model_state_dict = model.state_dict()
+rounded_loss = "{:.6f}".format(avg_test_loss) #best_loss is the best testing loss
 rounded_loss = rounded_loss[0]+'DOT'+rounded_loss[2:7]
 file_save_name = directory+file_name+'_'+str(best_epoch)+'_'+rounded_loss+file_ext
 torch.save(model_state_dict,file_save_name)

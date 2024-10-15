@@ -13,7 +13,7 @@ input_var_names = ['lon', 'lat',
                    'msl', 'air_temperature', 'q', 'sst', 'uo', 'vo']
 output_var_names = ['u','v']
 
-train_input_file = "/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020/train/ascata_20200101_l3_asc.nc"
+train_input_file = "/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020/train/1.nc"
 
 # TODO: Automatic load just creating the pointer to the directory
 f = Dataset(train_input_file)
