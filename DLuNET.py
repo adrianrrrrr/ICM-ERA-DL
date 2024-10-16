@@ -175,7 +175,7 @@ def MyDataLoader(directory_path,loader_mode):
   return input_data, ground_truth
 
 # Loading January 2024
-def MyDataLoader2(directory_path):
+def MyDataLoader2(directory_path,num_days):
   start_time = time.time()
 
   loader_input_var_names = ['eastward_model_wind', 'northward_model_wind', 'model_speed', 'model_dir', 
@@ -184,7 +184,7 @@ def MyDataLoader2(directory_path):
   input_data = []
   ground_truth = []
     
-  for day in range(1,32):
+  for day in range(1,num_days+1):
       all_data = []
       input_file = directory_path+"/"+str(day)+".nc"
       f = netDataset(input_file)

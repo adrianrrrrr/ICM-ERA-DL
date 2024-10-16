@@ -8,9 +8,9 @@ import copy
 import pickle
 import wandb
 
-FilesNr = 9 # Number of days we get to build the batch in the training dataset. 
 dir_path = "/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020/train"
-input_data, ground_truth, lon, lat = MyDataLoader2(dir_path)
+num_days = 31
+input_data, ground_truth, lon, lat = MyDataLoader2(dir_path,num_days)
 
 input_data_norm = copy.deepcopy(input_data)
 ground_truth_norm = copy.deepcopy(ground_truth)
@@ -67,7 +67,7 @@ wandb.init(
 model = UNet() # Model initialization
 model = model.to(mydevice) # To GPU if available
 criterion = nn.MSELoss(reduction='none') # Loss function for regression -> MSE. No reduction (Neccessary for masking values)
-learning_rate = 0.01
+learning_rate = 0.001
 optimizer = optim.Adam(model.parameters(), lr=learning_rate) # Optimizer initialisation
 
 '''
@@ -80,26 +80,37 @@ aux.append(gt_data[0])
 gt_data = aux
 '''
 
-best_loss = 1000 # Initialisation of best loss for saving the best model
-running_loss_train = [] # All train losses
+# Train eval variables
+best_train_loss = 1000 # Initialisation of best loss for saving the best model
 loss_train = [] # Epoch averaged train losses
-
 best_epoch = 0
+# 60% of data for training
+X_train = in_data[0:18]
+y_train = gt_data[0:18]
+
+
+# Validation eval variables
 # Directory to save the best model
 directory = '/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020/saved_models'
 file_name = '/model'
 file_ext = '.pt'
+loss_val = [] # List with epoch averaged validation losses
+best_val_loss = 50 # Initialisation of best loss for saving the best model
+# 40% of data for validation 
+X_val = in_data[18:31]
+y_val = gt_data[18:31]
 
-# Training loop
-# Loading 60% of X for training
-X_train = in_data[0:18]
-y_train = gt_data[0:18]
+#TODO Implement patience for automatizing the early stopping
+patience = 3 # hyperparameter to control Early stopping (To avoid over-fitting)
+previous_loss = 0 # to control the loss increase
+# Training - Validation loop
 num_epochs = 50 # Number of total passess through training dataset
+losses_index = 0 # To access the corresponding list losses
 for epoch in range(num_epochs):
 
-    # From now batch size is 1 (One image injected to UNET, then parameters are updated)
+    # Train loop
+    running_loss_train = [] # Each epoch running train losses
     for image, target in zip(X_train,y_train):
-
         # The UNET takes an input of shape (B,12,1440,2880) where B is directly the batch size
         # B is the number of examples processed by the model, the UNET, before updating parameters
         # Now B = 1. For B = 4, input should be of shape (4,12,l,w)
@@ -124,116 +135,115 @@ for epoch in range(num_epochs):
         # of each param tensor
         final_loss.backward()
 
-        running_loss_train.append(float(final_loss)) # Vector with all individual losses 
-        aux = final_loss
-        if aux < best_loss:
-            best_loss = aux
-            best_epoch = epoch+1
-            #model_state_dict = model.state_dict()
+        running_loss_train.append(float(final_loss)) # List with all individual losses 
 
-        # Gradient clipping to try to smooth the learning
-        torch.nn.utils.clip_grad_norm_(model.parameters(),1)
+        # Gradient clipping to try to smooth the learning (It works, but experimentally seems good to let big gradients in first epochs)
+        #torch.nn.utils.clip_grad_norm_(model.parameters(),1)
         # Update of the model paramters based on each gradient. It adjust parameters using Adam opt. algorithm.
         optimizer.step()
 
-    # Evaluar aquí (Al final de cada epoch) el modelo que se ha entrenado en un set de validación a parte
-    # Aquí tendría que hacer la parte del script que tengo abajo y calcular el error media.
-    # Poner una variable auxiliar, guardar el error de validación en ella y cuando suba es donde paramos y guardamos el modelo
-    # (Anterior)
-    print(f'Epoch [{epoch+1}/{num_epochs}], Training loss: {final_loss:.4f}')
 
-print("Training complete")
-print("Best epoch was: ",best_epoch," giving a best running loss of ","{:.6f}".format(best_loss))
+    loss_train.append(sum(running_loss_train) / len(running_loss_train))
+    print(f'Epoch [{epoch+1}/{num_epochs}], training loss: {loss_train[losses_index]:.4f}')
+
+   # Validation loop
+    model.eval()
+    running_loss_val = [] # Each epoch running validation losses
+    with torch.no_grad():
+        for image, target in zip(X_val,y_val):
+
+            # The UNET takes an input of shape (B,12,1440,2880) where B is directly the batch size
+            # B is the number of examples processed by the model, the UNET, before updating parameters
+            # Now B = 1. For B = 4, input should be of shape (4,12,l,w)
+            input = image[None,:,864:1120,2568:2824].to(mydevice) # 256x256 patch + adding first dummy dimension for the UNET
+            output = model(input) 
+            groundt = target[None,:,864:1120,2568:2824].to(mydevice)
+
+            # Create the mask for ignoring the zero values in the targets
+            mask = groundt != 0
+            loss = criterion(output,groundt)
+            masked_loss = loss * mask # Apply the mask
+            final_loss = masked_loss.sum() / mask.sum() # Normalize by the number of non-zero elements
+
+            running_loss_val.append(float(final_loss)) # Vector of losses for debugging
+
+
+    loss_val.append(sum(running_loss_val) / len(running_loss_val))
+
+    '''
+    # TODO: Automatise early stopping
+    if len(loss_val) > 3:
+        three_prev_loss = [loss_val[losses_index-3],loss_val[losses_index-2],loss_val[losses_index-1]]
+
+        if loss_val[losses_index] < min(three_prev_loss):
+            continue
+        elif loss_val[losses_index] > min(three_prev_loss)
+    '''
+    if epoch == 12: # Epoch 13 with a patience = 3 gives the best loss 
+        # Save the model 
+        model_state_dict = model.state_dict()
+        rounded_loss = "{:.6f}".format(loss_val[losses_index]) #best_loss is the best testing loss
+        rounded_loss = rounded_loss[0]+'DOT'+rounded_loss[2:7]
+        file_save_name = directory+file_name+'_'+str(13)+'_'+rounded_loss+file_ext
+        torch.save(model_state_dict,file_save_name)
+        print("Epoch 13 mode saved in: ",file_save_name)
+
+    print(f'Epoch [{epoch+1}/{num_epochs}], validation loss: {loss_val[losses_index]:.4f}')
+
+    losses_index=losses_index+1
+
+
+# Training stats: Plotting + analysis
 
 fig, (ax1, ax2) = plt.subplots(1,2,figsize=(12,6))
+x = [x for x in range(1,num_epochs+1)]
+min_val = 0.5
+max_val = 1.2
 
-ax1.plot(running_loss_train,label='UNet training running loss')
-ax1.set_title('Train loss [Running loss]')
-ax1.set_xlabel('# image')
-ax1.set_ylabel('Loss')
-max_y = max(running_loss_train) + 1
-ax1.set_ylim(0,max_y)
+ax1.plot(x,loss_train,label='UNet training error')
+ax1.set_title('Train error')
+ax1.set_xlabel('epoch')
+ax1.set_ylabel('error')
+#max_y = sum(loss_train)/len(loss_train)  + 0.5
+#min_y = max_y - 1
+ax1.set_ylim(min_val,max_val)
 ax1.set_facecolor('lightgrey')
 plot_text = f'Learning rate = {learning_rate}'
-props = dict(boxstyle='round',facecolor='white',alpha=0.5)
-ax1.text(0.7,0.9,plot_text,transform=ax1.transAxes,fontsize=9,verticalalignment='top', bbox=props)
+props = dict(boxstyle='round',facecolor='white',alpha=0.8)
+ax1.text(0.6,0.9,plot_text,transform=ax1.transAxes,fontsize=9,verticalalignment='top', bbox=props)
+ax1.grid(True, which='both')
+ax1.minorticks_on()
 
-epoch_size = len(X_train)
-epoch_avg_train = moving_average(running_loss_train,epoch_size)
-ax2.plot(epoch_avg_train,label='UNet training loss')
-ax2.set_title('Train loss [Epoch averaged]')
-ax2.set_xlabel('# Epoch')
-ax2.set_ylabel('Loss')
-ax2.set_ylim(0,max_y)
+ax2.plot(x,loss_val,label='UNet validation error')
+ax2.set_title('Validation error')
+ax2.set_xlabel('epoch')
+ax2.set_ylabel('error')
+#max_y = sum(loss_val)/len(loss_val)  + 0.5
+#min_y = max_y - 1
+ax2.set_ylim(min_val,max_val)
 ax2.set_facecolor('lightgrey')
 plot_text = f'Learning rate = {learning_rate}'
-props = dict(boxstyle='round',facecolor='white',alpha=0.5)
-ax2.text(0.7,0.9,plot_text,transform=ax2.transAxes,fontsize=9,verticalalignment='top', bbox=props)
+props = dict(boxstyle='round',facecolor='white',alpha=0.8)
+ax2.text(0.6,0.9,plot_text,transform=ax2.transAxes,fontsize=9,verticalalignment='top', bbox=props)
+ax2.grid(True, which='both')
+ax2.minorticks_on()
+plt.show()
 
 fig_dir = '/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020'
 str_lr = str(learning_rate)
 save_name = fig_dir+'/train_lr_'+str_lr[0]+'DOT'+str_lr[2:]+'.png'
-plt.savefig(save_name)
-plt.show()
-
-# Testing loop
-losses_test = []
-model.eval()
-X_test = in_data[18:31]
-y_test = gt_data[18:31]
-with torch.no_grad():
-    for image, target in zip(X_test,y_test):
-
-        # The UNET takes an input of shape (B,12,1440,2880) where B is directly the batch size
-        # B is the number of examples processed by the model, the UNET, before updating parameters
-        # Now B = 1. For B = 4, input should be of shape (4,12,l,w)
-        input = image[None,:,864:1120,2568:2824].to(mydevice) # 256x256 patch + adding first dummy dimension for the UNET
-        output = model(input) 
-        groundt = target[None,:,864:1120,2568:2824].to(mydevice)
-
-        # Create the mask for ignoring the zero values in the targets
-        mask = groundt != 0
-        loss = criterion(output,groundt)
-        masked_loss = loss * mask # Apply the mask
-        final_loss = masked_loss.sum() / mask.sum() # Normalize by the number of non-zero elements
-
-        losses_test.append(float(final_loss)) # Vector of losses for debugging
-        aux = final_loss
-        if aux < best_loss:
-            best_loss = aux
-
-avg_test_loss = sum(losses_test) / len(losses_test)
-
-print(f'Avg testing loss = {avg_test_loss:.3f} with learning rate = {learning_rate}')
-print(f'Best running testing loss = {best_loss:.3f} with learning rate = {learning_rate}')
-
-fig, ax = plt.subplots()
-x = [i for i in range(1,len(losses_test)+1)]
-ax.plot(x,losses_test,label='UNet testing loss')
-plt.title('Testing loss')
-plt.xlabel('# Day')
-plt.ylabel('Loss')
-plt.ylim(0,5)
-ax.set_facecolor('lightgrey')
-plot_text = f'Learning rate = {learning_rate}'
-plot_text2 = f'Avg test loss = {avg_test_loss:.3f}'
-props = dict(boxstyle='round',facecolor='white',alpha=0.5)
-ax.text(0.7,0.97,plot_text,transform=ax.transAxes,fontsize=9,verticalalignment='top', bbox=props)
-ax.text(0.7,0.87,plot_text2,transform=ax.transAxes,fontsize=9,verticalalignment='top', bbox=props)
+#plt.savefig(save_name)
 
 
-fig_dir = '/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020'
-str_lr = str(learning_rate)
-save_name = fig_dir+'/test_lr_'+str_lr[0]+'DOT'+str_lr[2:]+'.png'
-plt.savefig(save_name)
-plt.show()
-
-
+'''
+# TODO 
 # Saving the best model on disk with the agreed naming
 model_state_dict = model.state_dict()
 rounded_loss = "{:.6f}".format(avg_test_loss) #best_loss is the best testing loss
 rounded_loss = rounded_loss[0]+'DOT'+rounded_loss[2:7]
 file_save_name = directory+file_name+'_'+str(best_epoch)+'_'+rounded_loss+file_ext
 torch.save(model_state_dict,file_save_name)
+'''
 
 #wandb.finish()
+
