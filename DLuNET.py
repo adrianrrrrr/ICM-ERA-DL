@@ -314,7 +314,7 @@ def make_colorbar(ax, mappable, **kwargs):
 # image2plot should be a u,v bias prediction from the model output with shape (1,2,lon,lat)
 # date = 1/1/2024. For the plot title
 # Assuming lot and lan are on global memory (Not dumped in MyDataLoader)
-def MyPlot(image2plot, date='1/1/2019'):
+def MyPlot(image2plot, date,lon,lat):
     out_image = image2plot[0].to(torch.device('cpu'))
     out_image = out_image.detach().numpy()
 
@@ -360,5 +360,5 @@ def MyPlot(image2plot, date='1/1/2019'):
     print(" v diff prediction mean =  ",mean, " ; std = ",std," ; max = ",maxd," min = ",mind)
     plt.hist(out_image[1].flatten(), bins=200)  # arguments are passed to np.histogram
     plt.xlim(-1,1)
-    plt.title("Histogram of u diff pred with 200 bins")
+    plt.title("Histogram of v diff pred with 200 bins")
     plt.show()

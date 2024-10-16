@@ -63,9 +63,6 @@ with torch.no_grad():
     for image, target in zip(in_data,gt_data):
         print("Processing image nr, ",imag_process)
         imag_process=imag_process+1
-        # The UNET takes an input of shape (B,12,1440,2880) where B is directly the batch size
-        # B is the number of examples processed by the model, the UNET, before updating parameters
-        # Now B = 1. For B = 4, input should be of shape (4,12,l,w)
         input = image[None,:,864:1120,2568:2824].to(mydevice) # 256x256 patch + adding first dummy dimension for the UNET
         output = model(input) 
         groundt = target[None,:,864:1120,2568:2824].to(mydevice)
@@ -115,24 +112,17 @@ plt.savefig(save_name)
 # Let's get the best prediction (Day 2) to analyse the image
 model.eval()
 with torch.no_grad():
-    print("Processing image nr, ",imag_process)
-    imag_process=imag_process+1
-    # The UNET takes an input of shape (B,12,1440,2880) where B is directly the batch size
-    # B is the number of examples processed by the model, the UNET, before updating parameters
-    # Now B = 1. For B = 4, input should be of shape (4,12,l,w)
-    input = image[None,:,864:1120,2568:2824].to(mydevice) # 256x256 patch + adding first dummy dimension for the UNET
-    output = model(input) 
-    groundt = target[None,:,864:1120,2568:2824].to(mydevice)
+    input = in_data[1] # Second day image
+    input = input[None,:,864:1120,2568:2824].to(mydevice) # 256x256 patch + adding first dummy dimension for the UNET
+    output = model(input)
+    groundt = gt_data[1] # Second day ground truth (ASCATA - ERA differences)
+    groundt = groundt[None,:,864:1120,2568:2824].to(mydevice)
 
     # Create the mask for ignoring the zero values in the targets
     mask = groundt != 0
     loss = criterion(output,groundt)
     masked_loss = loss * mask # Apply the mask
     final_loss = masked_loss.sum() / mask.sum() # Normalize by the number of non-zero elements
-
-    running_loss_test.append(float(final_loss)) # List with all individual losses 
-
-    print(f'Loss for image #:{imag_process} = {final_loss:.4f}')
 
 
 
