@@ -1,0 +1,1746 @@
+Processing day #: 1
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 0.9784819483757019
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.7474506497383118
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 1.2890716791152954
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 0.9816493391990662
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 0.9529056549072266
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 1.9863637685775757
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.29836106300354
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 1.0800352096557617
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 2.4582884311676025
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.1103997230529785
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 0.6514482498168945
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.7016124725341797
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.3599874675273895
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.5782579183578491
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.8119570016860962
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 1.4386225938796997
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.5616904497146606
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.7307912707328796
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 0.9750584363937378
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 0.5207558870315552
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 1.0394439697265625
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.134068250656128
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 0.6703025698661804
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.3606290817260742
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 1.221451759338379
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 1.133057713508606
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.9715360999107361
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.8120254874229431
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.5374785661697388
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.8269365429878235
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.354136347770691
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 2.658794403076172
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 1.4281883239746094
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 1.3450615406036377
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 1.2901322841644287
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 1.1772264242172241
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 0.5896804332733154
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 0.886327862739563
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 1.6418468952178955
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 0.47904860973358154
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 1.2690091133117676
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 0.6290655732154846
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 1.4492930173873901
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 1.6311200857162476
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 2.9220452308654785
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 1.6023902893066406
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 1.8784534931182861
+Processing day #: 2
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 1.0384496450424194
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.7877728343009949
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 1.3666737079620361
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 0.9388605952262878
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 1.0288395881652832
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 2.066409111022949
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.296496868133545
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 1.062958836555481
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 2.5740246772766113
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.0694317817687988
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 0.6563394665718079
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.7117186784744263
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.36161118745803833
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.5638396739959717
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.8396932482719421
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 1.4329832792282104
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.5631789565086365
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.7458216547966003
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 1.0040820837020874
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 0.5163911581039429
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 1.0593225955963135
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.1461765766143799
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 0.6980441212654114
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.380979061126709
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 1.1257141828536987
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 1.0451568365097046
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.950076162815094
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.7912582159042358
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.5092074871063232
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.8178369402885437
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.354336142539978
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 2.817343235015869
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 1.374342918395996
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 1.0574485063552856
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 1.2200100421905518
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 1.131575345993042
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 0.5666940808296204
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 0.8935075402259827
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 1.6365123987197876
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 0.470883309841156
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 1.2799826860427856
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 1.673872470855713
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 1.4126570224761963
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 1.6468157768249512
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 2.940350294113159
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 1.5899696350097656
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 1.9027646780014038
+Processing day #: 3
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 0.9856016635894775
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.7579904198646545
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 1.318222999572754
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 0.946429431438446
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 0.9985301494598389
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 2.037627935409546
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.2900785207748413
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 1.051624059677124
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 2.54939341545105
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.054416537284851
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 0.6536386609077454
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.713771402835846
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.3656197488307953
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.5640207529067993
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.8323891162872314
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 1.4255245923995972
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.5560956001281738
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.7305663824081421
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 0.9914433360099792
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 0.5096567869186401
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 1.051862120628357
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.1220890283584595
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 0.6805180311203003
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.3329533338546753
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 1.4598159790039062
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 1.0547336339950562
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.9499118328094482
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.7930536866188049
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.5907338261604309
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.8411138653755188
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.3477565050125122
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 2.6161632537841797
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 1.440524697303772
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 1.1887410879135132
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 1.1887798309326172
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 1.139656662940979
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 0.5840948820114136
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 0.8771687150001526
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 1.6319947242736816
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 0.4756430685520172
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 1.2810170650482178
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 0.6615791916847229
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 1.425270676612854
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 1.646720051765442
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 2.922146797180176
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 1.594553828239441
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 1.8862918615341187
+Processing day #: 4
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 0.9704132080078125
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.7465857863426208
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 1.2324682474136353
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 1.827856183052063
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 0.9435004591941833
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 2.005815029144287
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.292746901512146
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 1.0443456172943115
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 2.589311122894287
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.0189473628997803
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 0.6553482413291931
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.7182547450065613
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.3686971068382263
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.8884896636009216
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.8202977776527405
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 1.4140163660049438
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.5544033646583557
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.7116128206253052
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 0.9637596011161804
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 0.5143747925758362
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 1.0642478466033936
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.1280860900878906
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 0.6926336884498596
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.360825777053833
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 1.1309876441955566
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 1.0209764242172241
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.9366047382354736
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.762874960899353
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.5196275115013123
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.8127955794334412
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.3462183475494385
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 2.7018072605133057
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 1.3999302387237549
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 1.0730417966842651
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 1.2438894510269165
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 1.1355969905853271
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 0.5813596844673157
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 0.9033634662628174
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 1.6497983932495117
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 0.47227370738983154
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 1.2857929468154907
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 0.6063157320022583
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 1.3973559141159058
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 1.6357173919677734
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 2.8139572143554688
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 1.6009047031402588
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 1.8605859279632568
+Processing day #: 5
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 1.0186195373535156
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.7963075637817383
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 1.3462494611740112
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 0.9380000233650208
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 0.9734210968017578
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 2.049669027328491
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.2227826118469238
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 1.082650065422058
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 2.3588902950286865
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.0060169696807861
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 0.6532763838768005
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.6999114155769348
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.36573517322540283
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.5859280228614807
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.8780063390731812
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 1.4312227964401245
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.5535080432891846
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.7614718079566956
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 0.9517828226089478
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 0.5117431879043579
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 1.0459963083267212
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.1137648820877075
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 0.678091824054718
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.336928367614746
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 1.1321802139282227
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 1.0613528490066528
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.9495832920074463
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.787959635257721
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.49871495366096497
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.8152028322219849
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.3487287759780884
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 2.6998536586761475
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 1.3956282138824463
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 1.0713236331939697
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 1.203222393989563
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 1.1285489797592163
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 0.5770677328109741
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 0.8935876488685608
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 1.6518770456314087
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 0.4639985263347626
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 1.277665376663208
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 0.6119216680526733
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 1.400818943977356
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 1.6373041868209839
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 2.803723096847534
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 1.5969793796539307
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 1.8569759130477905
+Processing day #: 6
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 1.0116171836853027
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.7825801372528076
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 1.3364496231079102
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 0.9382119178771973
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 1.00368332862854
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 2.0648975372314453
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.2763898372650146
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 1.0599550008773804
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 2.5755038261413574
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.0080493688583374
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 0.6533927917480469
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.7164983153343201
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.37137407064437866
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.5619832873344421
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.8320310115814209
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 1.417211890220642
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.5550187230110168
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.7174431085586548
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 1.0053045749664307
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 0.5102612972259521
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 1.056603193283081
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.1169672012329102
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 0.6845126152038574
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.349544882774353
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 1.1315574645996094
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 1.034011960029602
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.9421395659446716
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.7744435667991638
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.5124734044075012
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.8111772537231445
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.3464237451553345
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 2.708645820617676
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 1.3915352821350098
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 1.0588960647583008
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 1.2214244604110718
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 1.1360372304916382
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 0.5802334547042847
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 0.9037827849388123
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 1.6542184352874756
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 0.47365233302116394
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 1.2786246538162231
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 0.6095162034034729
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 1.3864165544509888
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 1.638748288154602
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 2.771111011505127
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 1.5891607999801636
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 1.8510289192199707
+Processing day #: 7
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 0.9924484491348267
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.7675052881240845
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 1.3138115406036377
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 0.9414004683494568
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 0.9866629838943481
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 2.0479347705841064
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.2753443717956543
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 1.0611153841018677
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 2.5045814514160156
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.01005220413208
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 0.6440302729606628
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.7132336497306824
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.3753845989704132
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.5634651184082031
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.8200126886367798
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 1.3978914022445679
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.5509257316589355
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.6986836791038513
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 0.9660413265228271
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 0.5072944164276123
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 1.0549542903900146
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.1063824892044067
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 0.6785303950309753
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.347137689590454
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 1.1409766674041748
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 1.0135166645050049
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.9328840970993042
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.7517649531364441
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.5163835883140564
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.8099756836891174
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.348275899887085
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 2.710786819458008
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 1.3932791948318481
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 1.0623723268508911
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 1.224993348121643
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 1.1432347297668457
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 0.5866907238960266
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 0.9050101041793823
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 1.6490654945373535
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 0.4920235574245453
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 1.2768607139587402
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 0.5922060608863831
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 1.3800603151321411
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 19.257030487060547
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 2.762118339538574
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 1.5650582313537598
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 1.8979376554489136
+Processing day #: 8
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 0.9513148069381714
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.7106485366821289
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 1.2508084774017334
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 1.0016745328903198
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 0.9591875076293945
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 2.011835813522339
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.332277774810791
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 1.0522381067276
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 2.5306591987609863
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.0451116561889648
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 0.6360427737236023
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.7168915867805481
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.37214216589927673
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.5651416182518005
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.8281108736991882
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 1.7342380285263062
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.5675839781761169
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.7184198498725891
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 1.026504397392273
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 16.700368881225586
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 1.0078785419464111
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.1692291498184204
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 0.7378290891647339
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.348792314529419
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 1.2553801536560059
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 1.1602474451065063
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 1.0721360445022583
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.8154962658882141
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.549626886844635
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.8417541980743408
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.3272539377212524
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 3.2902731895446777
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 1.4702528715133667
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 1.2224724292755127
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 1.1812145709991455
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 1.157052993774414
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 0.6066566109657288
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 2753.564697265625
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 1.6252496242523193
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 0.49630528688430786
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 1.2896417379379272
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 0.772042989730835
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 1.4401912689208984
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 1.6583504676818848
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 2.9815831184387207
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 1.5898345708847046
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 86.13327026367188
+Processing day #: 9
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 0.9852581024169922
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.7926045656204224
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 2.3332483768463135
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 15930.275390625
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 1.012776494026184
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 2.0681750774383545
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.2964234352111816
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 2.13643217086792
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 2.5706703662872314
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.0580462217330933
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 0.6577717661857605
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.7069553136825562
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.3554004728794098
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.5643411874771118
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.8335489630699158
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 1.44757878780365
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.5727857351303101
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.7520914077758789
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 1.6790459156036377
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 0.5382971167564392
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 1.0859826803207397
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.1822811365127563
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 0.74225252866745
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.4280420541763306
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 1.1334213018417358
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 1.0327882766723633
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.9882378578186035
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.8411153554916382
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.6211140751838684
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.878734827041626
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.3510689735412598
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 2.5962564945220947
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 1.4698805809020996
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 1.239652156829834
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 1.2099202871322632
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 1.1615275144577026
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 0.6091908812522888
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 0.886737585067749
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 1.6375523805618286
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 0.5041632056236267
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 1.3490267992019653
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 0.7326081991195679
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 1.4616546630859375
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 1.712349534034729
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 3.0283992290496826
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 1.594416856765747
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 1.9228328466415405
+Processing day #: 10
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 1.0231400728225708
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.7497369647026062
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 1.3385648727416992
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 0.9619002938270569
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 1.0056676864624023
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 2.03979229927063
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.2978061437606812
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 1.0541549921035767
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 2.5557432174682617
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.0671656131744385
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 0.662578821182251
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.7104972004890442
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.36564189195632935
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.5649356245994568
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.8513925075531006
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 1.443392038345337
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.571682870388031
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.7621190547943115
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 1.0043818950653076
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 0.5216118097305298
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 1.0673142671585083
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.1793450117111206
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 0.7275916934013367
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.4231780767440796
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 1.135911464691162
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 1.0372891426086426
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.9906012415885925
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.8362661004066467
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.6192820072174072
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.8741492033004761
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.3624584674835205
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 2.5892374515533447
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 1.46433424949646
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 1.2066668272018433
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 1.1791653633117676
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 1.152476191520691
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 0.5960000157356262
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 0.8816990852355957
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 1.6252903938293457
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 0.49065878987312317
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 1.2952070236206055
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 0.6571379899978638
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 1.4131988286972046
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 1.6540906429290771
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 2.9964993000030518
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 1.588260531425476
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 1.9237443208694458
+Processing day #: 11
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 0.9803867340087891
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.7826547622680664
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 1.3279268741607666
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 0.9539774060249329
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 1.001110553741455
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 2.046034574508667
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.2874754667282104
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 1.0633186101913452
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 2.5805270671844482
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.0489623546600342
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 0.6629061698913574
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.7100340127944946
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.3582170307636261
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.5583772659301758
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.8433823585510254
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 1.4399746656417847
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.5697842240333557
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.7528954744338989
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 1.011099100112915
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 0.5286056995391846
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 1.0584028959274292
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.1719300746917725
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 0.7222849130630493
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.414422869682312
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 1.1330817937850952
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 1.0390628576278687
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.9867512583732605
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.834922730922699
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.6108762621879578
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.8695252537727356
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.3577916622161865
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 2.6013405323028564
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 1.4576267004013062
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 1.20335054397583
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 1.1921579837799072
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 1.1498706340789795
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 0.5994314551353455
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 0.8810195922851562
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 1.6360201835632324
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 0.4894372820854187
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 1.2953351736068726
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 0.6467806696891785
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 1.417518138885498
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 1.6657387018203735
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 2.898193836212158
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 1.5902109146118164
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 1.8906975984573364
+Processing day #: 12
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 1.0427652597427368
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.7782883048057556
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 1.354569435119629
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 0.9412234425544739
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 1.0193707942962646
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 2.0640623569488525
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.2831133604049683
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 1.0650534629821777
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 2.583723783493042
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.0491399765014648
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 0.6701236963272095
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.7143747210502625
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.36608847975730896
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.5630179047584534
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.8502600193023682
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 1.440680980682373
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.5678331851959229
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.7579671144485474
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 1.008634090423584
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 0.5198426246643066
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 1.0568186044692993
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.16892671585083
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 0.7178828120231628
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.4116675853729248
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 1.1314351558685303
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 1.0364941358566284
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.9855585694313049
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.8308194875717163
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.6079010367393494
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.8673017621040344
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.3618741035461426
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 2.5979344844818115
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 1.4546538591384888
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 1.1945807933807373
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 1.1817054748535156
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 1.1499799489974976
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 0.5933251976966858
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 0.8818732500076294
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 1.6279414892196655
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 0.48833197355270386
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 1.2897714376449585
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 0.6565443873405457
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 1.4086339473724365
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 1.6566705703735352
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 2.977311611175537
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 1.590713620185852
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 1.909563422203064
+Processing day #: 13
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 0.9877077341079712
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.7493070363998413
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 1.3233580589294434
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 0.9434272646903992
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 1.0040345191955566
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 2.0491302013397217
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.2875211238861084
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 1.061938762664795
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 2.5810132026672363
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.0503185987472534
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 0.6639646887779236
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.7156000137329102
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.3614825904369354
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.5585806965827942
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.8449369668960571
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 1.4306578636169434
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.5654946565628052
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.7514922618865967
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 1.0129857063293457
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 0.5211281180381775
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 1.0438827276229858
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.1609035730361938
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 0.7083677053451538
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.4028174877166748
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 1.1289111375808716
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 1.0367504358291626
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.9797075390815735
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.8245558738708496
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.5944057703018188
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.8582207560539246
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.3605464696884155
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 2.6095643043518066
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 1.4426333904266357
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 1.1828542947769165
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 1.1895065307617188
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 1.1468130350112915
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 0.5923053026199341
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 0.8841870427131653
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 1.6329206228256226
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 0.4854277968406677
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 1.292372226715088
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 0.6520235538482666
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 1.3871524333953857
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 1.6601948738098145
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 2.9436721801757812
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 1.5937033891677856
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 1.8990612030029297
+Processing day #: 14
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 1.0262972116470337
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.7658249139785767
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 1.3361514806747437
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 0.9417585134506226
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 1.0110604763031006
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 2.050569534301758
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.2891579866409302
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 1.0610356330871582
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 2.571237564086914
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.0557162761688232
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 0.6679623126983643
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.7110486626625061
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.36539438366889954
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.5627354979515076
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.8506180644035339
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 1.4427013397216797
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.5658960342407227
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.7559313774108887
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 1.0093770027160645
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 0.518044114112854
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 1.0536811351776123
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.1530126333236694
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 0.702079176902771
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.3953869342803955
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 1.1250380277633667
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 1.0351243019104004
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.9738520979881287
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.8180338144302368
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.5864433646202087
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.8534114956855774
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.3610460758209229
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 2.611795663833618
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 1.4362717866897583
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 1.1712461709976196
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 1.184537649154663
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 1.146349549293518
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 0.5885003209114075
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 0.8849892616271973
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 1.6304956674575806
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 0.4838566482067108
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 1.2912817001342773
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 0.6573660969734192
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 1.3690412044525146
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 1.6587151288986206
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 2.9834365844726562
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 1.594882845878601
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 1.9108790159225464
+Processing day #: 15
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 0.9837377667427063
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.7493391036987305
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 1.320496678352356
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 0.9458391070365906
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 1.000532865524292
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 2.042257785797119
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.2903059720993042
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 1.0602221488952637
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 2.5725090503692627
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.0548514127731323
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 0.653346598148346
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.7167330384254456
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.3616209924221039
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.5611386299133301
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.8364881873130798
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 1.4161436557769775
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.5547561645507812
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.7396907210350037
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 1.0255331993103027
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 0.5149839520454407
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 1.0143979787826538
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.1207795143127441
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 0.6650601029396057
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.35579252243042
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 1.136470079421997
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 1.0533454418182373
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.9572318196296692
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.793367862701416
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.5278809666633606
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.826370358467102
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.3636952638626099
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 2.684295892715454
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 1.3995110988616943
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 1.113987684249878
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 1.2254760265350342
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 1.1439014673233032
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 0.5852559208869934
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 0.8950440287590027
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 1.6361973285675049
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 0.478560209274292
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 1.3019064664840698
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 0.6599893569946289
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 1.3515651226043701
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 1.6609870195388794
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 2.9768428802490234
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 1.5962989330291748
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 1.9066400527954102
+Processing day #: 16
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 0.9912182688713074
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.742538571357727
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 1.325965166091919
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 0.9439180493354797
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 1.0053414106369019
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 2.0482330322265625
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.289613962173462
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 1.058393955230713
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 2.575592041015625
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.0532995462417603
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 0.6522800326347351
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.7119469046592712
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.3687434792518616
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.563535749912262
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.836765468120575
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 1.4428188800811768
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.5498057007789612
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.7356706261634827
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 1.0232832431793213
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 0.5119774341583252
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 1.0350974798202515
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.1024227142333984
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 0.6685794591903687
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.3379411697387695
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 1.1244868040084839
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 1.050539255142212
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.945701539516449
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.7797162532806396
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.5151771903038025
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.8210615515708923
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.354929804801941
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 2.688046932220459
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 1.3900537490844727
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 1.1018799543380737
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 1.194594383239746
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 1.1400232315063477
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 0.5794700384140015
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 0.8925782442092896
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 1.6337965726852417
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 0.4738207161426544
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 1.2916924953460693
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 0.6576093435287476
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 1.3501648902893066
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 1.6565929651260376
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 2.9721734523773193
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 1.58930504322052
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 1.9056453704833984
+Processing day #: 17
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 0.9905858039855957
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.7454487085342407
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 1.325060486793518
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 0.9436284303665161
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 1.0054664611816406
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 2.048092842102051
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.3019698858261108
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 1.059319257736206
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 2.578859329223633
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.0512945652008057
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 0.6560474634170532
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.7429730296134949
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.3893321752548218
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.5665105581283569
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.8333593606948853
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 1.4184714555740356
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.5473691821098328
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.7305693626403809
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 1.029686450958252
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 0.5119729042053223
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 1.0352939367294312
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.1021406650543213
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 0.6683096289634705
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.3375134468078613
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 1.121852159500122
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 1.0478894710540771
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.9472137689590454
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.7822876572608948
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.5201858282089233
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.821475625038147
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.3489876985549927
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 2.67630672454834
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 1.3940869569778442
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 1.0975444316864014
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 1.1990094184875488
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 1.128002405166626
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 0.5793629884719849
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 0.886879026889801
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 1.6262364387512207
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 0.46390050649642944
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 1.2926186323165894
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 0.6569716334342957
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 1.3306947946548462
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 1.637665033340454
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 2.9659290313720703
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 1.582385778427124
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 1.9064401388168335
+Processing day #: 18
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 0.9914363622665405
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.7448937296867371
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 1.3263040781021118
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 0.9432421326637268
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 1.0049320459365845
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 2.04832124710083
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.290313720703125
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 1.0595048666000366
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 2.5768637657165527
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.0518440008163452
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 0.6521191596984863
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.7203889489173889
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.3787335753440857
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.5650412440299988
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.8338999152183533
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 1.4304553270339966
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.54598069190979
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.7300912141799927
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 1.0300217866897583
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 0.510909914970398
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 1.0339771509170532
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.093214511871338
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 0.6673186421394348
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.324586272239685
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 1.127533197402954
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 1.0581470727920532
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.9456319212913513
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.7778415083885193
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.5092673301696777
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.8192448616027832
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.3509331941604614
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 2.687086582183838
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 1.3928951025009155
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 1.0903496742248535
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 1.1883974075317383
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 1.125231146812439
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 0.5780008435249329
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 0.8850128650665283
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 1.6225872039794922
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 0.4675833284854889
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 1.2927820682525635
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 0.6579347252845764
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 1.3432729244232178
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 1.6369450092315674
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 2.9661879539489746
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 1.5786988735198975
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 1.9068955183029175
+Processing day #: 19
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 0.9908101558685303
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.7444907426834106
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 1.3251675367355347
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 0.9434570670127869
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 1.004303216934204
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 2.0475051403045654
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.2905985116958618
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 1.059342384338379
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 2.5758540630340576
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.052475929260254
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 0.6502978801727295
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.7207281589508057
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.37723878026008606
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.5649042725563049
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.832188069820404
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 1.4140673875808716
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.5459517240524292
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576

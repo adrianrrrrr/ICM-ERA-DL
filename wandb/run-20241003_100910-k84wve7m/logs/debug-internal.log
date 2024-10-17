@@ -1,0 +1,23 @@
+{"time":"2024-10-03T10:09:10.194679+02:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-10-03T10:09:10.194747+02:00","level":"INFO","msg":"created symlink","path":"/Users/adrianrrrrr/Documents/Visual Studio Code/ICM-ERA-DL/wandb/run-20241003_100910-k84wve7m/logs/debug-core.log"}
+{"time":"2024-10-03T10:09:10.195232+02:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-10-03T10:09:10.195255+02:00","level":"INFO","msg":"created symlink","path":"/Users/adrianrrrrr/Documents/Visual Studio Code/ICM-ERA-DL/wandb/run-20241003_100910-k84wve7m/logs/debug-core.log"}
+{"time":"2024-10-03T10:09:10.205296+02:00","level":"INFO","msg":"created new stream","id":"k84wve7m"}
+{"time":"2024-10-03T10:09:10.205335+02:00","level":"INFO","msg":"stream: started","id":"k84wve7m"}
+{"time":"2024-10-03T10:09:10.205347+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"k84wve7m"}}
+{"time":"2024-10-03T10:09:10.205393+02:00","level":"INFO","msg":"sender: started","stream_id":{"value":"k84wve7m"}}
+{"time":"2024-10-03T10:09:10.205372+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"k84wve7m"}}
+{"time":"2024-10-03T10:09:10.59346+02:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-03T10:09:10.595374+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-03T10:10:57.201227+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-03T10:10:57.206465+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-03T10:10:57.21021+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-03T10:10:57.219171+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-03T10:10:57.22006+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-03T10:10:57.320058+02:00","level":"INFO","msg":"stream: closing","id":"k84wve7m"}
+{"time":"2024-10-03T10:10:57.320109+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-03T10:10:57.320146+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-03T10:10:59.71283+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"k84wve7m"}}
+{"time":"2024-10-03T10:10:59.712817+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"k84wve7m"}}
+{"time":"2024-10-03T10:10:59.712839+02:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"k84wve7m"}}
+{"time":"2024-10-03T10:10:59.713138+02:00","level":"INFO","msg":"stream: closed","id":"k84wve7m"}

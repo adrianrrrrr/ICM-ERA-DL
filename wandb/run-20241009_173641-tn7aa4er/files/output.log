@@ -1,0 +1,913 @@
+Processing day #: 1
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 1.0287593603134155
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.7770265936851501
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 1.3480534553527832
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 0.9404617547988892
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 1.0351808071136475
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 2.084132194519043
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.283926010131836
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 1.063118577003479
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 2.627387285232544
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.0330201387405396
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 0.6584816575050354
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.7099314332008362
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.35642239451408386
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.5607837438583374
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.8342387080192566
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 1.4483447074890137
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.5673595666885376
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.740395188331604
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 1.0162805318832397
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 0.524286150932312
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 1.100662112236023
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.1766374111175537
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 0.7297072410583496
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.4296542406082153
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 1.1356455087661743
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 1.0324926376342773
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.9776408672332764
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.8213338851928711
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.5886387825012207
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.8516239523887634
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.366483449935913
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 2.639263391494751
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 1.4319223165512085
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 1.1696866750717163
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 1.207509994506836
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 1.1458003520965576
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 0.5907847285270691
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 0.883198618888855
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 1.6494355201721191
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 0.47633635997772217
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 1.2919280529022217
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 0.649929940700531
+lon_id: ( 3 ); lat_id:  ( 4 ) gets lons from:  864 to  1152 and lats from:  1152  to:  1440
+Patch loss = 6.107168197631836
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 1.3845716714859009
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 1.644607663154602
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 2.8874714374542236
+lon_id: ( 7 ); lat_id:  ( 4 ) gets lons from:  2016 to  2304 and lats from:  1152  to:  1440
+Patch loss = 14.046746253967285
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 1.5982357263565063
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 1.8886243104934692
+Processing day #: 2
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 0.8744843602180481
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.7408004403114319
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 1.2076719999313354
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 0.651995062828064
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 0.6853856444358826
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 1.7062904834747314
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.3947285413742065
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 0.8630114197731018
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 2.9111640453338623
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.2502065896987915
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 0.7451292872428894
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.8836612701416016
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.6752427816390991
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.5887526869773865
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.5922751426696777
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 1.5983487367630005
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.4893108010292053
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.6475279927253723
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 0.5000975131988525
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 0.8812241554260254
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 0.625755250453949
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.0449031591415405
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 0.9035890698432922
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 2.2144906520843506
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 0.8986710906028748
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 1.2702380418777466
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.5180352926254272
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.5756517052650452
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.4245087206363678
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.5713484883308411
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.8524713516235352
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 1.3786287307739258
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 1.5573904514312744
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 1.109559416770935
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 1.4634087085723877
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 0.943219006061554
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 0.8148441910743713
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 0.9368607401847839
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 1.6372401714324951
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 0.6102554202079773
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 2.8168296813964844
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 1.5165411233901978
+lon_id: ( 3 ); lat_id:  ( 4 ) gets lons from:  864 to  1152 and lats from:  1152  to:  1440
+Patch loss = 0.4067397117614746
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 0.8779792189598083
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 1.617560863494873
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 2.10784912109375
+lon_id: ( 7 ); lat_id:  ( 4 ) gets lons from:  2016 to  2304 and lats from:  1152  to:  1440
+Patch loss = 11.52460765838623
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 1.7393338680267334
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 2.590212106704712
+Processing day #: 3
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 0.8265397548675537
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.7506316304206848
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 1.154669165611267
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 0.5709506273269653
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 1.1194207668304443
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 1.675855278968811
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.6713017225265503
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 0.6488507390022278
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 2.3962409496307373
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.8873193264007568
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 0.7901943325996399
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.9293076395988464
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.7517058253288269
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.509480893611908
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.5714790225028992
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 0.8202629685401917
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 1.0859757661819458
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.7039598822593689
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 0.9975606799125671
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 1.3668463230133057
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 2.4763035774230957
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.486546277999878
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 0.9097656607627869
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.3241138458251953
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 0.8247230648994446
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 1.0526049137115479
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.5625724196434021
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.6893700957298279
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.3643070161342621
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.8051337003707886
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.2043176889419556
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 1.1878564357757568
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 5.569862365722656
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 0.9067643880844116
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 1.7415032386779785
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 1.127663254737854
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 1.1710290908813477
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 1.1648062467575073
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 0.9558946490287781
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 0.6195107698440552
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 2.4112305641174316
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 1.8754209280014038
+lon_id: ( 3 ); lat_id:  ( 4 ) gets lons from:  864 to  1152 and lats from:  1152  to:  1440
+Patch loss = 3.629269599914551
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 1.203755497932434
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 4.092997074127197
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 5.038339614868164
+lon_id: ( 7 ); lat_id:  ( 4 ) gets lons from:  2016 to  2304 and lats from:  1152  to:  1440
+Patch loss = 14.745094299316406
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 1.725204586982727
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 1.1520087718963623
+Processing day #: 4
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 0.7053390145301819
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.6053480505943298
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 2.2379000186920166
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 0.6724106073379517
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 1.9831514358520508
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 2.014341354370117
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.4104706048965454
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 1.0377365350723267
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 1.7407127618789673
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.4368036985397339
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 1.1021037101745605
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 1.2437573671340942
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.5223388075828552
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.6103686094284058
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.7606778740882874
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 0.7733554840087891
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 1.0847558975219727
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.5843400955200195
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 0.8344848155975342
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 0.5789781808853149
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 1.2411309480667114
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.2918392419815063
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 1.2744576930999756
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.4175351858139038
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 0.8750550746917725
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 0.9714197516441345
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.9640663862228394
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.6226595044136047
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 1.2814375162124634
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.7786757946014404
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.117283582687378
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 3.8765904903411865
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 2.254816770553589
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 0.8341100811958313
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 1.762605905532837
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 0.9537118673324585
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 1.1217094659805298
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 1.2553328275680542
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 1.3301725387573242
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 0.5918579697608948
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 1.1975469589233398
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 1.5841230154037476
+lon_id: ( 3 ); lat_id:  ( 4 ) gets lons from:  864 to  1152 and lats from:  1152  to:  1440
+Patch loss = 11.250890731811523
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 1.1010395288467407
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 3.105736017227173
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 4.664196014404297
+lon_id: ( 7 ); lat_id:  ( 4 ) gets lons from:  2016 to  2304 and lats from:  1152  to:  1440
+Patch loss = 15.50507926940918
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 1.4063692092895508
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 1.0912535190582275
+Processing day #: 5
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 0.5939345359802246
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.9375025629997253
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 1.537888765335083
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 0.7498787641525269
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 1.1539620161056519
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 2.5450844764709473
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.4207676649093628
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 0.7761302590370178
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 3.0096027851104736
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.6362971067428589
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 1.196830153465271
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.8878659605979919
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.5561874508857727
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.5239464044570923
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.7724782228469849
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 0.9318721890449524
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.8362172245979309
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.47248217463493347
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 0.759772002696991
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 0.6145613193511963
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 1.0694957971572876
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.1129825115203857
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 1.1323716640472412
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.979962944984436
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 0.7793692350387573
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 0.6282999515533447
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.7288862466812134
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.6516743302345276
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.5756179690361023
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.8337498903274536
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.5634366273880005
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 3.3757402896881104
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 1.1955430507659912
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 0.8280462622642517
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 2.0471909046173096
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 1.1680200099945068
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 0.39295095205307007
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 1.1602731943130493
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 0.8899944424629211
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 0.7148504853248596
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 1.4436099529266357
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 1.2311283349990845
+lon_id: ( 3 ); lat_id:  ( 4 ) gets lons from:  864 to  1152 and lats from:  1152  to:  1440
+Patch loss = 11.752581596374512
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 1.598948359489441
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 2.41668438911438
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 5.077183723449707
+lon_id: ( 7 ); lat_id:  ( 4 ) gets lons from:  2016 to  2304 and lats from:  1152  to:  1440
+Patch loss = 15.777406692504883
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 1.3239226341247559
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 2.299703598022461
+Processing day #: 6
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 0.7195063233375549
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.6312137246131897
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 1.1034271717071533
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 0.5679279565811157
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 1.1260747909545898
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 3.4868733882904053
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.1151435375213623
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 0.8707839846611023
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 2.2684168815612793
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.0577576160430908
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 0.7538840770721436
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 1.0760152339935303
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.5791937112808228
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.5360031127929688
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.6759509444236755
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 1.083205223083496
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.7885391712188721
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.3361172080039978
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 0.9984111189842224
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 0.6644135117530823
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 1.942568063735962
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.3991402387619019
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 0.8698936700820923
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.7315733432769775
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 1.2101925611495972
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 0.7268925309181213
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.747970700263977
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.9906071424484253
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.5384835600852966
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.8624081015586853
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.625380516052246
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 3.8532872200012207
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 1.4512438774108887
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 0.9404807090759277
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 1.8450865745544434
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 0.805878221988678
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 0.49177494645118713
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 0.8587529063224792
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 1.1136103868484497
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 0.5487855076789856
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 1.2258124351501465
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 0.5940878987312317
+lon_id: ( 3 ); lat_id:  ( 4 ) gets lons from:  864 to  1152 and lats from:  1152  to:  1440
+Patch loss = 2.6931018829345703
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 0.9392246007919312
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 2.241161584854126
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 2.62648606300354
+lon_id: ( 7 ); lat_id:  ( 4 ) gets lons from:  2016 to  2304 and lats from:  1152  to:  1440
+Patch loss = 1.4695924520492554
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 2.4589831829071045
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 1.2248072624206543
+Processing day #: 7
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 0.5066465735435486
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.6802672147750854
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 0.8416049480438232
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 0.6005021333694458
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 1.1274141073226929
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 2.038710832595825
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.1161435842514038
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 0.9287304878234863
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 1.6017957925796509
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.5747482776641846
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 0.6408653855323792
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.8484874963760376
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.5401610732078552
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.8521045446395874
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.479440301656723
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 0.6017466187477112
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.8988712430000305
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.3915390968322754
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 0.6621804237365723
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 0.506335973739624
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 1.304574728012085
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.4231910705566406
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 1.2689388990402222
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.3845776319503784
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 1.4874024391174316
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 0.8649470210075378
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.9714865684509277
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.7180169820785522
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.40873968601226807
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.6273206472396851
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.599390983581543
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 1.2100006341934204
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 0.761928379535675
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 1.5195633172988892
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 2.0749566555023193
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 0.9614913463592529
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 0.6293708086013794
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 0.681483805179596
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 1.472836971282959
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 1.3450533151626587
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 1.3299533128738403
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 1.1080915927886963
+lon_id: ( 3 ); lat_id:  ( 4 ) gets lons from:  864 to  1152 and lats from:  1152  to:  1440
+Patch loss = 2.229325294494629
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 1.2447963953018188
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 2.9791290760040283
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 3.1366262435913086
+lon_id: ( 7 ); lat_id:  ( 4 ) gets lons from:  2016 to  2304 and lats from:  1152  to:  1440
+Patch loss = 4.309656620025635
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 1.8919719457626343
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 1.6153267621994019
+Processing day #: 8
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 0.9726347327232361
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.4909498691558838
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 1.1234960556030273
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 0.7343767285346985
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 1.6209853887557983
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 1.7245337963104248
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.5155210494995117
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 1.0493382215499878
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 1.3547927141189575
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.3095169067382812
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 1.1398600339889526
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.7497490644454956
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.4159325063228607
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.8619416952133179
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.545664370059967
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 0.6304723620414734
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.6483861804008484
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.3694637417793274
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 0.9737895131111145
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 0.7974949479103088
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 1.7191684246063232
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.213814377784729
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 0.871893048286438
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.1581348180770874
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 1.6608054637908936
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 0.8955509066581726
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.9585917592048645
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.7488850355148315
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.2938503921031952
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.7957539558410645
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.2143833637237549
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 4.8318257331848145
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 1.342718482017517
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 0.7661129236221313
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 1.1301088333129883
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 1.1641337871551514
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 0.6069279909133911
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 0.8336524367332458
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 1.2221791744232178
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 1.593161940574646
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 1.5156409740447998
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 0.8534219861030579
+lon_id: ( 3 ); lat_id:  ( 4 ) gets lons from:  864 to  1152 and lats from:  1152  to:  1440
+Patch loss = 0.8852953910827637
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 1.298494577407837
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 1.7567112445831299
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 7.62566614151001
+lon_id: ( 7 ); lat_id:  ( 4 ) gets lons from:  2016 to  2304 and lats from:  1152  to:  1440
+Patch loss = 15.671467781066895
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 1.8856966495513916
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 1.5701991319656372
+Processing day #: 9
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 0.48761817812919617
+lon_id: ( 1 ); lat_id:  ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 0.7875044345855713
+lon_id: ( 2 ); lat_id:  ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 0.8354838490486145
+lon_id: ( 3 ); lat_id:  ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 0.7179818153381348
+lon_id: ( 4 ); lat_id:  ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 1.8072344064712524
+lon_id: ( 5 ); lat_id:  ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 1.8702199459075928
+lon_id: ( 6 ); lat_id:  ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 1.1904911994934082
+lon_id: ( 7 ); lat_id:  ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 1.0238667726516724
+lon_id: ( 8 ); lat_id:  ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 2.226804494857788
+lon_id: ( 9 ); lat_id:  ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 1.3535178899765015
+lon_id: ( 0 ); lat_id:  ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 0.6771459579467773
+lon_id: ( 1 ); lat_id:  ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 0.5836392045021057
+lon_id: ( 2 ); lat_id:  ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 0.5827091336250305
+lon_id: ( 3 ); lat_id:  ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 0.8221675157546997
+lon_id: ( 4 ); lat_id:  ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 0.8064621090888977
+lon_id: ( 5 ); lat_id:  ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 0.5152801871299744
+lon_id: ( 6 ); lat_id:  ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 0.6744790077209473
+lon_id: ( 7 ); lat_id:  ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 0.3648194670677185
+lon_id: ( 8 ); lat_id:  ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 1.1945699453353882
+lon_id: ( 9 ); lat_id:  ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 0.7498956918716431
+lon_id: ( 0 ); lat_id:  ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 2.0102343559265137
+lon_id: ( 1 ); lat_id:  ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.1935955286026
+lon_id: ( 2 ); lat_id:  ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 1.3957394361495972
+lon_id: ( 3 ); lat_id:  ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 1.0264110565185547
+lon_id: ( 4 ); lat_id:  ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 2.279109001159668
+lon_id: ( 5 ); lat_id:  ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 1.1171305179595947
+lon_id: ( 6 ); lat_id:  ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 0.8498427271842957
+lon_id: ( 7 ); lat_id:  ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 0.7253877520561218
+lon_id: ( 8 ); lat_id:  ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 0.34406331181526184
+lon_id: ( 9 ); lat_id:  ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 0.5741448402404785
+lon_id: ( 0 ); lat_id:  ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.2907110452651978
+lon_id: ( 1 ); lat_id:  ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 2.1262803077697754
+lon_id: ( 2 ); lat_id:  ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 1.008794903755188
+lon_id: ( 3 ); lat_id:  ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 1.0190051794052124
+lon_id: ( 4 ); lat_id:  ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 1.4841575622558594
+lon_id: ( 5 ); lat_id:  ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 0.8641510009765625
+lon_id: ( 6 ); lat_id:  ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 0.6110612750053406
+lon_id: ( 7 ); lat_id:  ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 0.9298304915428162
+lon_id: ( 8 ); lat_id:  ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 1.2427408695220947
+lon_id: ( 9 ); lat_id:  ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 0.5998085737228394
+lon_id: ( 0 ); lat_id:  ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 2.001265287399292
+lon_id: ( 1 ); lat_id:  ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 0.6221473813056946
+lon_id: ( 3 ); lat_id:  ( 4 ) gets lons from:  864 to  1152 and lats from:  1152  to:  1440
+Patch loss = 17.52918243408203
+lon_id: ( 4 ); lat_id:  ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = 1.6196120977401733
+lon_id: ( 5 ); lat_id:  ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = 1.4989410638809204
+lon_id: ( 6 ); lat_id:  ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = 13.632248878479004
+lon_id: ( 7 ); lat_id:  ( 4 ) gets lons from:  2016 to  2304 and lats from:  1152  to:  1440
+Patch loss = 21.252574920654297
+lon_id: ( 8 ); lat_id:  ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = 3.146505832672119
+lon_id: ( 9 ); lat_id:  ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440
+Patch loss = 2.203239917755127
+Processing day #: 10
+lon_id: ( 0 ); lat_id:  ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+[{"name": "Any", "type": "_AnyMeta", "fullType": "typing._AnyMeta"}, {"name": "DataLoader", "type": "type", "fullType": "type"}, {"name": "Dict", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "F", "type": "module", "fullType": "module"}, {"name": "FilesNr", "type": "int", "fullType": "int"}, {"name": "List", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "MyDataLoader", "type": "function", "fullType": "function"}, {"name": "MyDataLoader2", "type": "function", "fullType": "function"}, {"name": "MyDenorm", "type": "function", "fullType": "function"}, {"name": "MyNorm", "type": "function", "fullType": "function"}, {"name": "MyPlot", "type": "function", "fullType": "function"}, {"name": "TensorDataset", "type": "type", "fullType": "type"}, {"name": "Tuple", "type": "_TupleType", "fullType": "typing._TupleType"}, {"name": "UNet", "type": "type", "fullType": "type"}, {"name": "aux", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "best_epoch", "type": "int", "fullType": "int"}, {"name": "best_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "ccrs", "type": "module", "fullType": "module"}, {"name": "clip_value", "type": "float", "fullType": "float"}, {"name": "conv2ndarray", "type": "ndarray", "fullType": "numpy.ndarray"}, {"name": "conv2tensor", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "copy", "type": "module", "fullType": "module"}, {"name": "criterion", "type": "MSELoss", "fullType": "torch.nn.modules.loss.MSELoss"}, {"name": "datasets", "type": "module", "fullType": "module"}, {"name": "day", "type": "int", "fullType": "int"}, {"name": "dir_path", "type": "str", "fullType": "str"}, {"name": "directory", "type": "str", "fullType": "str"}, {"name": "epoch", "type": "int", "fullType": "int"}, {"name": "file", "type": "BufferedWriter", "fullType": "_io.BufferedWriter"}, {"name": "file_ext", "type": "str", "fullType": "str"}, {"name": "file_name", "type": "str", "fullType": "str"}, {"name": "final_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gc", "type": "module", "fullType": "module"}, {"name": "get_ipython", "type": "function", "fullType": "function"}, {"name": "ground_truth", "type": "list", "fullType": "list"}, {"name": "ground_truth_norm", "type": "list", "fullType": "list"}, {"name": "groundt", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gt_data", "type": "list", "fullType": "list"}, {"name": "gt_stats", "type": "dict", "fullType": "dict"}, {"name": "image", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "in_data", "type": "list", "fullType": "list"}, {"name": "input", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "input_data", "type": "list", "fullType": "list"}, {"name": "input_data_norm", "type": "list", "fullType": "list"}, {"name": "input_var_names", "type": "list", "fullType": "list"}, {"name": "lat", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lat_position_from", "type": "int", "fullType": "int"}, {"name": "lat_position_to", "type": "int", "fullType": "int"}, {"name": "lon", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lon_position_from", "type": "int", "fullType": "int"}, {"name": "lon_position_to", "type": "int", "fullType": "int"}, {"name": "loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "make_colorbar", "type": "function", "fullType": "function"}, {"name": "mask", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "masked_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "matplotlib", "type": "module", "fullType": "module"}, {"name": "model", "type": "UNet", "fullType": "DLuNET.UNet"}, {"name": "model_state_dict", "type": "OrderedDict", "fullType": "collections.OrderedDict"}, {"name": "mydevice", "type": "device", "fullType": "torch.device"}, {"name": "netDataset", "type": "type", "fullType": "type"}, {"name": "nn", "type": "module", "fullType": "module"}, {"name": "np", "type": "module", "fullType": "module"}, {"name": "np_masked_day", "type": "MaskedArray
+[{"name": "Any", "type": "_AnyMeta", "fullType": "typing._AnyMeta"}, {"name": "DataLoader", "type": "type", "fullType": "type"}, {"name": "Dict", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "F", "type": "module", "fullType": "module"}, {"name": "FilesNr", "type": "int", "fullType": "int"}, {"name": "List", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "MyDataLoader", "type": "function", "fullType": "function"}, {"name": "MyDataLoader2", "type": "function", "fullType": "function"}, {"name": "MyDenorm", "type": "function", "fullType": "function"}, {"name": "MyNorm", "type": "function", "fullType": "function"}, {"name": "MyPlot", "type": "function", "fullType": "function"}, {"name": "TensorDataset", "type": "type", "fullType": "type"}, {"name": "Tuple", "type": "_TupleType", "fullType": "typing._TupleType"}, {"name": "UNet", "type": "type", "fullType": "type"}, {"name": "aux", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "best_epoch", "type": "int", "fullType": "int"}, {"name": "best_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "ccrs", "type": "module", "fullType": "module"}, {"name": "clip_value", "type": "float", "fullType": "float"}, {"name": "conv2ndarray", "type": "ndarray", "fullType": "numpy.ndarray"}, {"name": "conv2tensor", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "copy", "type": "module", "fullType": "module"}, {"name": "criterion", "type": "MSELoss", "fullType": "torch.nn.modules.loss.MSELoss"}, {"name": "datasets", "type": "module", "fullType": "module"}, {"name": "day", "type": "int", "fullType": "int"}, {"name": "dir_path", "type": "str", "fullType": "str"}, {"name": "directory", "type": "str", "fullType": "str"}, {"name": "epoch", "type": "int", "fullType": "int"}, {"name": "file", "type": "BufferedWriter", "fullType": "_io.BufferedWriter"}, {"name": "file_ext", "type": "str", "fullType": "str"}, {"name": "file_name", "type": "str", "fullType": "str"}, {"name": "final_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gc", "type": "module", "fullType": "module"}, {"name": "get_ipython", "type": "function", "fullType": "function"}, {"name": "ground_truth", "type": "list", "fullType": "list"}, {"name": "ground_truth_norm", "type": "list", "fullType": "list"}, {"name": "groundt", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gt_data", "type": "list", "fullType": "list"}, {"name": "gt_stats", "type": "dict", "fullType": "dict"}, {"name": "image", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "in_data", "type": "list", "fullType": "list"}, {"name": "input", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "input_data", "type": "list", "fullType": "list"}, {"name": "input_data_norm", "type": "list", "fullType": "list"}, {"name": "input_var_names", "type": "list", "fullType": "list"}, {"name": "lat", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lat_position_from", "type": "int", "fullType": "int"}, {"name": "lat_position_to", "type": "int", "fullType": "int"}, {"name": "lon", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lon_position_from", "type": "int", "fullType": "int"}, {"name": "lon_position_to", "type": "int", "fullType": "int"}, {"name": "loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "make_colorbar", "type": "function", "fullType": "function"}, {"name": "mask", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "masked_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "matplotlib", "type": "module", "fullType": "module"}, {"name": "model", "type": "UNet", "fullType": "DLuNET.UNet"}, {"name": "model_state_dict", "type": "OrderedDict", "fullType": "collections.OrderedDict"}, {"name": "mydevice", "type": "device", "fullType": "torch.device"}, {"name": "netDataset", "type": "type", "fullType": "type"}, {"name": "nn", "type": "module", "fullType": "module"}, {"name": "np", "type": "module", "fullType": "module"}, {"name": "np_masked_day", "type": "MaskedArray
+[{"name": "Any", "type": "_AnyMeta", "fullType": "typing._AnyMeta"}, {"name": "DataLoader", "type": "type", "fullType": "type"}, {"name": "Dict", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "F", "type": "module", "fullType": "module"}, {"name": "FilesNr", "type": "int", "fullType": "int"}, {"name": "List", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "MyDataLoader", "type": "function", "fullType": "function"}, {"name": "MyDataLoader2", "type": "function", "fullType": "function"}, {"name": "MyDenorm", "type": "function", "fullType": "function"}, {"name": "MyNorm", "type": "function", "fullType": "function"}, {"name": "MyPlot", "type": "function", "fullType": "function"}, {"name": "TensorDataset", "type": "type", "fullType": "type"}, {"name": "Tuple", "type": "_TupleType", "fullType": "typing._TupleType"}, {"name": "UNet", "type": "type", "fullType": "type"}, {"name": "aux", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "best_epoch", "type": "int", "fullType": "int"}, {"name": "best_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "ccrs", "type": "module", "fullType": "module"}, {"name": "clip_value", "type": "float", "fullType": "float"}, {"name": "conv2ndarray", "type": "ndarray", "fullType": "numpy.ndarray"}, {"name": "conv2tensor", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "copy", "type": "module", "fullType": "module"}, {"name": "criterion", "type": "MSELoss", "fullType": "torch.nn.modules.loss.MSELoss"}, {"name": "datasets", "type": "module", "fullType": "module"}, {"name": "day", "type": "int", "fullType": "int"}, {"name": "dir_path", "type": "str", "fullType": "str"}, {"name": "directory", "type": "str", "fullType": "str"}, {"name": "epoch", "type": "int", "fullType": "int"}, {"name": "file", "type": "BufferedWriter", "fullType": "_io.BufferedWriter"}, {"name": "file_ext", "type": "str", "fullType": "str"}, {"name": "file_name", "type": "str", "fullType": "str"}, {"name": "final_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gc", "type": "module", "fullType": "module"}, {"name": "get_ipython", "type": "function", "fullType": "function"}, {"name": "ground_truth", "type": "list", "fullType": "list"}, {"name": "ground_truth_norm", "type": "list", "fullType": "list"}, {"name": "groundt", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gt_data", "type": "list", "fullType": "list"}, {"name": "gt_stats", "type": "dict", "fullType": "dict"}, {"name": "image", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "in_data", "type": "list", "fullType": "list"}, {"name": "input", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "input_data", "type": "list", "fullType": "list"}, {"name": "input_data_norm", "type": "list", "fullType": "list"}, {"name": "input_var_names", "type": "list", "fullType": "list"}, {"name": "lat", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lat_position_from", "type": "int", "fullType": "int"}, {"name": "lat_position_to", "type": "int", "fullType": "int"}, {"name": "lon", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lon_position_from", "type": "int", "fullType": "int"}, {"name": "lon_position_to", "type": "int", "fullType": "int"}, {"name": "loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "make_colorbar", "type": "function", "fullType": "function"}, {"name": "mask", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "masked_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "matplotlib", "type": "module", "fullType": "module"}, {"name": "model", "type": "UNet", "fullType": "DLuNET.UNet"}, {"name": "model_state_dict", "type": "OrderedDict", "fullType": "collections.OrderedDict"}, {"name": "mydevice", "type": "device", "fullType": "torch.device"}, {"name": "netDataset", "type": "type", "fullType": "type"}, {"name": "nn", "type": "module", "fullType": "module"}, {"name": "np", "type": "module", "fullType": "module"}, {"name": "np_masked_day", "type": "MaskedArray
+[{"name": "Any", "type": "_AnyMeta", "fullType": "typing._AnyMeta"}, {"name": "DataLoader", "type": "type", "fullType": "type"}, {"name": "Dict", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "F", "type": "module", "fullType": "module"}, {"name": "FilesNr", "type": "int", "fullType": "int"}, {"name": "List", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "MyDataLoader", "type": "function", "fullType": "function"}, {"name": "MyDataLoader2", "type": "function", "fullType": "function"}, {"name": "MyDenorm", "type": "function", "fullType": "function"}, {"name": "MyNorm", "type": "function", "fullType": "function"}, {"name": "MyPlot", "type": "function", "fullType": "function"}, {"name": "TensorDataset", "type": "type", "fullType": "type"}, {"name": "Tuple", "type": "_TupleType", "fullType": "typing._TupleType"}, {"name": "UNet", "type": "type", "fullType": "type"}, {"name": "aux", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "best_epoch", "type": "int", "fullType": "int"}, {"name": "best_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "ccrs", "type": "module", "fullType": "module"}, {"name": "clip_value", "type": "float", "fullType": "float"}, {"name": "conv2ndarray", "type": "ndarray", "fullType": "numpy.ndarray"}, {"name": "conv2tensor", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "copy", "type": "module", "fullType": "module"}, {"name": "criterion", "type": "MSELoss", "fullType": "torch.nn.modules.loss.MSELoss"}, {"name": "datasets", "type": "module", "fullType": "module"}, {"name": "day", "type": "int", "fullType": "int"}, {"name": "dir_path", "type": "str", "fullType": "str"}, {"name": "directory", "type": "str", "fullType": "str"}, {"name": "epoch", "type": "int", "fullType": "int"}, {"name": "file", "type": "BufferedWriter", "fullType": "_io.BufferedWriter"}, {"name": "file_ext", "type": "str", "fullType": "str"}, {"name": "file_name", "type": "str", "fullType": "str"}, {"name": "final_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gc", "type": "module", "fullType": "module"}, {"name": "get_ipython", "type": "function", "fullType": "function"}, {"name": "ground_truth", "type": "list", "fullType": "list"}, {"name": "ground_truth_norm", "type": "list", "fullType": "list"}, {"name": "groundt", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gt_data", "type": "list", "fullType": "list"}, {"name": "gt_stats", "type": "dict", "fullType": "dict"}, {"name": "image", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "in_data", "type": "list", "fullType": "list"}, {"name": "input", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "input_data", "type": "list", "fullType": "list"}, {"name": "input_data_norm", "type": "list", "fullType": "list"}, {"name": "input_var_names", "type": "list", "fullType": "list"}, {"name": "lat", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lat_position_from", "type": "int", "fullType": "int"}, {"name": "lat_position_to", "type": "int", "fullType": "int"}, {"name": "lon", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lon_position_from", "type": "int", "fullType": "int"}, {"name": "lon_position_to", "type": "int", "fullType": "int"}, {"name": "loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "make_colorbar", "type": "function", "fullType": "function"}, {"name": "mask", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "masked_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "matplotlib", "type": "module", "fullType": "module"}, {"name": "model", "type": "UNet", "fullType": "DLuNET.UNet"}, {"name": "model_state_dict", "type": "OrderedDict", "fullType": "collections.OrderedDict"}, {"name": "mydevice", "type": "device", "fullType": "torch.device"}, {"name": "netDataset", "type": "type", "fullType": "type"}, {"name": "nn", "type": "module", "fullType": "module"}, {"name": "np", "type": "module", "fullType": "module"}, {"name": "np_masked_day", "type": "MaskedArray
+[{"name": "Any", "type": "_AnyMeta", "fullType": "typing._AnyMeta"}, {"name": "DataLoader", "type": "type", "fullType": "type"}, {"name": "Dict", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "F", "type": "module", "fullType": "module"}, {"name": "FilesNr", "type": "int", "fullType": "int"}, {"name": "List", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "MyDataLoader", "type": "function", "fullType": "function"}, {"name": "MyDataLoader2", "type": "function", "fullType": "function"}, {"name": "MyDenorm", "type": "function", "fullType": "function"}, {"name": "MyNorm", "type": "function", "fullType": "function"}, {"name": "MyPlot", "type": "function", "fullType": "function"}, {"name": "TensorDataset", "type": "type", "fullType": "type"}, {"name": "Tuple", "type": "_TupleType", "fullType": "typing._TupleType"}, {"name": "UNet", "type": "type", "fullType": "type"}, {"name": "aux", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "best_epoch", "type": "int", "fullType": "int"}, {"name": "best_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "ccrs", "type": "module", "fullType": "module"}, {"name": "clip_value", "type": "float", "fullType": "float"}, {"name": "conv2ndarray", "type": "ndarray", "fullType": "numpy.ndarray"}, {"name": "conv2tensor", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "copy", "type": "module", "fullType": "module"}, {"name": "criterion", "type": "MSELoss", "fullType": "torch.nn.modules.loss.MSELoss"}, {"name": "datasets", "type": "module", "fullType": "module"}, {"name": "day", "type": "int", "fullType": "int"}, {"name": "dir_path", "type": "str", "fullType": "str"}, {"name": "directory", "type": "str", "fullType": "str"}, {"name": "epoch", "type": "int", "fullType": "int"}, {"name": "file", "type": "BufferedWriter", "fullType": "_io.BufferedWriter"}, {"name": "file_ext", "type": "str", "fullType": "str"}, {"name": "file_name", "type": "str", "fullType": "str"}, {"name": "final_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gc", "type": "module", "fullType": "module"}, {"name": "get_ipython", "type": "function", "fullType": "function"}, {"name": "ground_truth", "type": "list", "fullType": "list"}, {"name": "ground_truth_norm", "type": "list", "fullType": "list"}, {"name": "groundt", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gt_data", "type": "list", "fullType": "list"}, {"name": "gt_stats", "type": "dict", "fullType": "dict"}, {"name": "image", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "in_data", "type": "list", "fullType": "list"}, {"name": "input", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "input_data", "type": "list", "fullType": "list"}, {"name": "input_data_norm", "type": "list", "fullType": "list"}, {"name": "input_var_names", "type": "list", "fullType": "list"}, {"name": "lat", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lat_position_from", "type": "int", "fullType": "int"}, {"name": "lat_position_to", "type": "int", "fullType": "int"}, {"name": "lon", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lon_position_from", "type": "int", "fullType": "int"}, {"name": "lon_position_to", "type": "int", "fullType": "int"}, {"name": "loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "make_colorbar", "type": "function", "fullType": "function"}, {"name": "mask", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "masked_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "matplotlib", "type": "module", "fullType": "module"}, {"name": "model", "type": "UNet", "fullType": "DLuNET.UNet"}, {"name": "model_state_dict", "type": "OrderedDict", "fullType": "collections.OrderedDict"}, {"name": "mydevice", "type": "device", "fullType": "torch.device"}, {"name": "netDataset", "type": "type", "fullType": "type"}, {"name": "nn", "type": "module", "fullType": "module"}, {"name": "np", "type": "module", "fullType": "module"}, {"name": "np_masked_day", "type": "MaskedArray
+[{"name": "Any", "type": "_AnyMeta", "fullType": "typing._AnyMeta"}, {"name": "DataLoader", "type": "type", "fullType": "type"}, {"name": "Dict", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "F", "type": "module", "fullType": "module"}, {"name": "FilesNr", "type": "int", "fullType": "int"}, {"name": "List", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "MyDataLoader", "type": "function", "fullType": "function"}, {"name": "MyDataLoader2", "type": "function", "fullType": "function"}, {"name": "MyDenorm", "type": "function", "fullType": "function"}, {"name": "MyNorm", "type": "function", "fullType": "function"}, {"name": "MyPlot", "type": "function", "fullType": "function"}, {"name": "TensorDataset", "type": "type", "fullType": "type"}, {"name": "Tuple", "type": "_TupleType", "fullType": "typing._TupleType"}, {"name": "UNet", "type": "type", "fullType": "type"}, {"name": "aux", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "best_epoch", "type": "int", "fullType": "int"}, {"name": "best_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "ccrs", "type": "module", "fullType": "module"}, {"name": "clip_value", "type": "float", "fullType": "float"}, {"name": "conv2ndarray", "type": "ndarray", "fullType": "numpy.ndarray"}, {"name": "conv2tensor", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "copy", "type": "module", "fullType": "module"}, {"name": "criterion", "type": "MSELoss", "fullType": "torch.nn.modules.loss.MSELoss"}, {"name": "datasets", "type": "module", "fullType": "module"}, {"name": "day", "type": "int", "fullType": "int"}, {"name": "dir_path", "type": "str", "fullType": "str"}, {"name": "directory", "type": "str", "fullType": "str"}, {"name": "epoch", "type": "int", "fullType": "int"}, {"name": "file", "type": "BufferedWriter", "fullType": "_io.BufferedWriter"}, {"name": "file_ext", "type": "str", "fullType": "str"}, {"name": "file_name", "type": "str", "fullType": "str"}, {"name": "final_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gc", "type": "module", "fullType": "module"}, {"name": "get_ipython", "type": "function", "fullType": "function"}, {"name": "ground_truth", "type": "list", "fullType": "list"}, {"name": "ground_truth_norm", "type": "list", "fullType": "list"}, {"name": "groundt", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gt_data", "type": "list", "fullType": "list"}, {"name": "gt_stats", "type": "dict", "fullType": "dict"}, {"name": "image", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "in_data", "type": "list", "fullType": "list"}, {"name": "input", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "input_data", "type": "list", "fullType": "list"}, {"name": "input_data_norm", "type": "list", "fullType": "list"}, {"name": "input_var_names", "type": "list", "fullType": "list"}, {"name": "lat", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lat_position_from", "type": "int", "fullType": "int"}, {"name": "lat_position_to", "type": "int", "fullType": "int"}, {"name": "lon", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lon_position_from", "type": "int", "fullType": "int"}, {"name": "lon_position_to", "type": "int", "fullType": "int"}, {"name": "loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "make_colorbar", "type": "function", "fullType": "function"}, {"name": "mask", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "masked_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "matplotlib", "type": "module", "fullType": "module"}, {"name": "model", "type": "UNet", "fullType": "DLuNET.UNet"}, {"name": "model_state_dict", "type": "OrderedDict", "fullType": "collections.OrderedDict"}, {"name": "mydevice", "type": "device", "fullType": "torch.device"}, {"name": "netDataset", "type": "type", "fullType": "type"}, {"name": "nn", "type": "module", "fullType": "module"}, {"name": "np", "type": "module", "fullType": "module"}, {"name": "np_masked_day", "type": "MaskedArray
+[{"name": "Any", "type": "_AnyMeta", "fullType": "typing._AnyMeta"}, {"name": "DataLoader", "type": "type", "fullType": "type"}, {"name": "Dict", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "F", "type": "module", "fullType": "module"}, {"name": "FilesNr", "type": "int", "fullType": "int"}, {"name": "List", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "MyDataLoader", "type": "function", "fullType": "function"}, {"name": "MyDataLoader2", "type": "function", "fullType": "function"}, {"name": "MyDenorm", "type": "function", "fullType": "function"}, {"name": "MyNorm", "type": "function", "fullType": "function"}, {"name": "MyPlot", "type": "function", "fullType": "function"}, {"name": "TensorDataset", "type": "type", "fullType": "type"}, {"name": "Tuple", "type": "_TupleType", "fullType": "typing._TupleType"}, {"name": "UNet", "type": "type", "fullType": "type"}, {"name": "aux", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "best_epoch", "type": "int", "fullType": "int"}, {"name": "best_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "ccrs", "type": "module", "fullType": "module"}, {"name": "clip_value", "type": "float", "fullType": "float"}, {"name": "conv2ndarray", "type": "ndarray", "fullType": "numpy.ndarray"}, {"name": "conv2tensor", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "copy", "type": "module", "fullType": "module"}, {"name": "criterion", "type": "MSELoss", "fullType": "torch.nn.modules.loss.MSELoss"}, {"name": "datasets", "type": "module", "fullType": "module"}, {"name": "day", "type": "int", "fullType": "int"}, {"name": "dir_path", "type": "str", "fullType": "str"}, {"name": "directory", "type": "str", "fullType": "str"}, {"name": "epoch", "type": "int", "fullType": "int"}, {"name": "file", "type": "BufferedWriter", "fullType": "_io.BufferedWriter"}, {"name": "file_ext", "type": "str", "fullType": "str"}, {"name": "file_name", "type": "str", "fullType": "str"}, {"name": "final_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gc", "type": "module", "fullType": "module"}, {"name": "get_ipython", "type": "function", "fullType": "function"}, {"name": "ground_truth", "type": "list", "fullType": "list"}, {"name": "ground_truth_norm", "type": "list", "fullType": "list"}, {"name": "groundt", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gt_data", "type": "list", "fullType": "list"}, {"name": "gt_stats", "type": "dict", "fullType": "dict"}, {"name": "image", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "in_data", "type": "list", "fullType": "list"}, {"name": "input", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "input_data", "type": "list", "fullType": "list"}, {"name": "input_data_norm", "type": "list", "fullType": "list"}, {"name": "input_var_names", "type": "list", "fullType": "list"}, {"name": "lat", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lat_position_from", "type": "int", "fullType": "int"}, {"name": "lat_position_to", "type": "int", "fullType": "int"}, {"name": "lon", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lon_position_from", "type": "int", "fullType": "int"}, {"name": "lon_position_to", "type": "int", "fullType": "int"}, {"name": "loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "make_colorbar", "type": "function", "fullType": "function"}, {"name": "mask", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "masked_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "matplotlib", "type": "module", "fullType": "module"}, {"name": "model", "type": "UNet", "fullType": "DLuNET.UNet"}, {"name": "model_state_dict", "type": "OrderedDict", "fullType": "collections.OrderedDict"}, {"name": "mydevice", "type": "device", "fullType": "torch.device"}, {"name": "netDataset", "type": "type", "fullType": "type"}, {"name": "nn", "type": "module", "fullType": "module"}, {"name": "np", "type": "module", "fullType": "module"}, {"name": "np_masked_day", "type": "MaskedArray
+[{"name": "Any", "type": "_AnyMeta", "fullType": "typing._AnyMeta"}, {"name": "DataLoader", "type": "type", "fullType": "type"}, {"name": "Dict", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "F", "type": "module", "fullType": "module"}, {"name": "FilesNr", "type": "int", "fullType": "int"}, {"name": "List", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "MyDataLoader", "type": "function", "fullType": "function"}, {"name": "MyDataLoader2", "type": "function", "fullType": "function"}, {"name": "MyDenorm", "type": "function", "fullType": "function"}, {"name": "MyNorm", "type": "function", "fullType": "function"}, {"name": "MyPlot", "type": "function", "fullType": "function"}, {"name": "TensorDataset", "type": "type", "fullType": "type"}, {"name": "Tuple", "type": "_TupleType", "fullType": "typing._TupleType"}, {"name": "UNet", "type": "type", "fullType": "type"}, {"name": "aux", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "best_epoch", "type": "int", "fullType": "int"}, {"name": "best_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "ccrs", "type": "module", "fullType": "module"}, {"name": "clip_value", "type": "float", "fullType": "float"}, {"name": "conv2ndarray", "type": "ndarray", "fullType": "numpy.ndarray"}, {"name": "conv2tensor", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "copy", "type": "module", "fullType": "module"}, {"name": "criterion", "type": "MSELoss", "fullType": "torch.nn.modules.loss.MSELoss"}, {"name": "datasets", "type": "module", "fullType": "module"}, {"name": "day", "type": "int", "fullType": "int"}, {"name": "dir_path", "type": "str", "fullType": "str"}, {"name": "directory", "type": "str", "fullType": "str"}, {"name": "epoch", "type": "int", "fullType": "int"}, {"name": "file", "type": "BufferedWriter", "fullType": "_io.BufferedWriter"}, {"name": "file_ext", "type": "str", "fullType": "str"}, {"name": "file_name", "type": "str", "fullType": "str"}, {"name": "final_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gc", "type": "module", "fullType": "module"}, {"name": "get_ipython", "type": "function", "fullType": "function"}, {"name": "ground_truth", "type": "list", "fullType": "list"}, {"name": "ground_truth_norm", "type": "list", "fullType": "list"}, {"name": "groundt", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gt_data", "type": "list", "fullType": "list"}, {"name": "gt_stats", "type": "dict", "fullType": "dict"}, {"name": "image", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "in_data", "type": "list", "fullType": "list"}, {"name": "input", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "input_data", "type": "list", "fullType": "list"}, {"name": "input_data_norm", "type": "list", "fullType": "list"}, {"name": "input_var_names", "type": "list", "fullType": "list"}, {"name": "lat", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lat_position_from", "type": "int", "fullType": "int"}, {"name": "lat_position_to", "type": "int", "fullType": "int"}, {"name": "lon", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lon_position_from", "type": "int", "fullType": "int"}, {"name": "lon_position_to", "type": "int", "fullType": "int"}, {"name": "loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "make_colorbar", "type": "function", "fullType": "function"}, {"name": "mask", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "masked_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "matplotlib", "type": "module", "fullType": "module"}, {"name": "model", "type": "UNet", "fullType": "DLuNET.UNet"}, {"name": "model_state_dict", "type": "OrderedDict", "fullType": "collections.OrderedDict"}, {"name": "mydevice", "type": "device", "fullType": "torch.device"}, {"name": "netDataset", "type": "type", "fullType": "type"}, {"name": "nn", "type": "module", "fullType": "module"}, {"name": "np", "type": "module", "fullType": "module"}, {"name": "np_masked_day", "type": "MaskedArray
+[{"name": "Any", "type": "_AnyMeta", "fullType": "typing._AnyMeta"}, {"name": "DataLoader", "type": "type", "fullType": "type"}, {"name": "Dict", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "F", "type": "module", "fullType": "module"}, {"name": "FilesNr", "type": "int", "fullType": "int"}, {"name": "List", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "MyDataLoader", "type": "function", "fullType": "function"}, {"name": "MyDataLoader2", "type": "function", "fullType": "function"}, {"name": "MyDenorm", "type": "function", "fullType": "function"}, {"name": "MyNorm", "type": "function", "fullType": "function"}, {"name": "MyPlot", "type": "function", "fullType": "function"}, {"name": "TensorDataset", "type": "type", "fullType": "type"}, {"name": "Tuple", "type": "_TupleType", "fullType": "typing._TupleType"}, {"name": "UNet", "type": "type", "fullType": "type"}, {"name": "aux", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "best_epoch", "type": "int", "fullType": "int"}, {"name": "best_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "ccrs", "type": "module", "fullType": "module"}, {"name": "clip_value", "type": "float", "fullType": "float"}, {"name": "conv2ndarray", "type": "ndarray", "fullType": "numpy.ndarray"}, {"name": "conv2tensor", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "copy", "type": "module", "fullType": "module"}, {"name": "criterion", "type": "MSELoss", "fullType": "torch.nn.modules.loss.MSELoss"}, {"name": "datasets", "type": "module", "fullType": "module"}, {"name": "day", "type": "int", "fullType": "int"}, {"name": "dir_path", "type": "str", "fullType": "str"}, {"name": "directory", "type": "str", "fullType": "str"}, {"name": "epoch", "type": "int", "fullType": "int"}, {"name": "file", "type": "BufferedWriter", "fullType": "_io.BufferedWriter"}, {"name": "file_ext", "type": "str", "fullType": "str"}, {"name": "file_name", "type": "str", "fullType": "str"}, {"name": "final_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gc", "type": "module", "fullType": "module"}, {"name": "get_ipython", "type": "function", "fullType": "function"}, {"name": "ground_truth", "type": "list", "fullType": "list"}, {"name": "ground_truth_norm", "type": "list", "fullType": "list"}, {"name": "groundt", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gt_data", "type": "list", "fullType": "list"}, {"name": "gt_stats", "type": "dict", "fullType": "dict"}, {"name": "image", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "in_data", "type": "list", "fullType": "list"}, {"name": "input", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "input_data", "type": "list", "fullType": "list"}, {"name": "input_data_norm", "type": "list", "fullType": "list"}, {"name": "input_var_names", "type": "list", "fullType": "list"}, {"name": "lat", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lat_position_from", "type": "int", "fullType": "int"}, {"name": "lat_position_to", "type": "int", "fullType": "int"}, {"name": "lon", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lon_position_from", "type": "int", "fullType": "int"}, {"name": "lon_position_to", "type": "int", "fullType": "int"}, {"name": "loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "make_colorbar", "type": "function", "fullType": "function"}, {"name": "mask", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "masked_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "matplotlib", "type": "module", "fullType": "module"}, {"name": "model", "type": "UNet", "fullType": "DLuNET.UNet"}, {"name": "model_state_dict", "type": "OrderedDict", "fullType": "collections.OrderedDict"}, {"name": "mydevice", "type": "device", "fullType": "torch.device"}, {"name": "netDataset", "type": "type", "fullType": "type"}, {"name": "nn", "type": "module", "fullType": "module"}, {"name": "np", "type": "module", "fullType": "module"}, {"name": "np_masked_day", "type": "MaskedArray
+[{"name": "Any", "type": "_AnyMeta", "fullType": "typing._AnyMeta"}, {"name": "DataLoader", "type": "type", "fullType": "type"}, {"name": "Dict", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "F", "type": "module", "fullType": "module"}, {"name": "FilesNr", "type": "int", "fullType": "int"}, {"name": "List", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "MyDataLoader", "type": "function", "fullType": "function"}, {"name": "MyDataLoader2", "type": "function", "fullType": "function"}, {"name": "MyDenorm", "type": "function", "fullType": "function"}, {"name": "MyNorm", "type": "function", "fullType": "function"}, {"name": "MyPlot", "type": "function", "fullType": "function"}, {"name": "TensorDataset", "type": "type", "fullType": "type"}, {"name": "Tuple", "type": "_TupleType", "fullType": "typing._TupleType"}, {"name": "UNet", "type": "type", "fullType": "type"}, {"name": "aux", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "best_epoch", "type": "int", "fullType": "int"}, {"name": "best_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "ccrs", "type": "module", "fullType": "module"}, {"name": "clip_value", "type": "float", "fullType": "float"}, {"name": "conv2ndarray", "type": "ndarray", "fullType": "numpy.ndarray"}, {"name": "conv2tensor", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "copy", "type": "module", "fullType": "module"}, {"name": "criterion", "type": "MSELoss", "fullType": "torch.nn.modules.loss.MSELoss"}, {"name": "datasets", "type": "module", "fullType": "module"}, {"name": "day", "type": "int", "fullType": "int"}, {"name": "dir_path", "type": "str", "fullType": "str"}, {"name": "directory", "type": "str", "fullType": "str"}, {"name": "epoch", "type": "int", "fullType": "int"}, {"name": "file", "type": "BufferedWriter", "fullType": "_io.BufferedWriter"}, {"name": "file_ext", "type": "str", "fullType": "str"}, {"name": "file_name", "type": "str", "fullType": "str"}, {"name": "final_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gc", "type": "module", "fullType": "module"}, {"name": "get_ipython", "type": "function", "fullType": "function"}, {"name": "ground_truth", "type": "list", "fullType": "list"}, {"name": "ground_truth_norm", "type": "list", "fullType": "list"}, {"name": "groundt", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gt_data", "type": "list", "fullType": "list"}, {"name": "gt_stats", "type": "dict", "fullType": "dict"}, {"name": "image", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "in_data", "type": "list", "fullType": "list"}, {"name": "input", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "input_data", "type": "list", "fullType": "list"}, {"name": "input_data_norm", "type": "list", "fullType": "list"}, {"name": "input_var_names", "type": "list", "fullType": "list"}, {"name": "lat", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lat_position_from", "type": "int", "fullType": "int"}, {"name": "lat_position_to", "type": "int", "fullType": "int"}, {"name": "lon", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lon_position_from", "type": "int", "fullType": "int"}, {"name": "lon_position_to", "type": "int", "fullType": "int"}, {"name": "loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "make_colorbar", "type": "function", "fullType": "function"}, {"name": "mask", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "masked_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "matplotlib", "type": "module", "fullType": "module"}, {"name": "model", "type": "UNet", "fullType": "DLuNET.UNet"}, {"name": "model_state_dict", "type": "OrderedDict", "fullType": "collections.OrderedDict"}, {"name": "mydevice", "type": "device", "fullType": "torch.device"}, {"name": "netDataset", "type": "type", "fullType": "type"}, {"name": "nn", "type": "module", "fullType": "module"}, {"name": "np", "type": "module", "fullType": "module"}, {"name": "np_masked_day", "type": "MaskedArray
+[{"name": "Any", "type": "_AnyMeta", "fullType": "typing._AnyMeta"}, {"name": "DataLoader", "type": "type", "fullType": "type"}, {"name": "Dict", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "F", "type": "module", "fullType": "module"}, {"name": "FilesNr", "type": "int", "fullType": "int"}, {"name": "List", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "MyDataLoader", "type": "function", "fullType": "function"}, {"name": "MyDataLoader2", "type": "function", "fullType": "function"}, {"name": "MyDenorm", "type": "function", "fullType": "function"}, {"name": "MyNorm", "type": "function", "fullType": "function"}, {"name": "MyPlot", "type": "function", "fullType": "function"}, {"name": "TensorDataset", "type": "type", "fullType": "type"}, {"name": "Tuple", "type": "_TupleType", "fullType": "typing._TupleType"}, {"name": "UNet", "type": "type", "fullType": "type"}, {"name": "aux", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "best_epoch", "type": "int", "fullType": "int"}, {"name": "best_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "ccrs", "type": "module", "fullType": "module"}, {"name": "clip_value", "type": "float", "fullType": "float"}, {"name": "conv2ndarray", "type": "ndarray", "fullType": "numpy.ndarray"}, {"name": "conv2tensor", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "copy", "type": "module", "fullType": "module"}, {"name": "criterion", "type": "MSELoss", "fullType": "torch.nn.modules.loss.MSELoss"}, {"name": "datasets", "type": "module", "fullType": "module"}, {"name": "day", "type": "int", "fullType": "int"}, {"name": "dir_path", "type": "str", "fullType": "str"}, {"name": "directory", "type": "str", "fullType": "str"}, {"name": "epoch", "type": "int", "fullType": "int"}, {"name": "file", "type": "BufferedWriter", "fullType": "_io.BufferedWriter"}, {"name": "file_ext", "type": "str", "fullType": "str"}, {"name": "file_name", "type": "str", "fullType": "str"}, {"name": "final_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gc", "type": "module", "fullType": "module"}, {"name": "get_ipython", "type": "function", "fullType": "function"}, {"name": "ground_truth", "type": "list", "fullType": "list"}, {"name": "ground_truth_norm", "type": "list", "fullType": "list"}, {"name": "groundt", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gt_data", "type": "list", "fullType": "list"}, {"name": "gt_stats", "type": "dict", "fullType": "dict"}, {"name": "image", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "in_data", "type": "list", "fullType": "list"}, {"name": "input", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "input_data", "type": "list", "fullType": "list"}, {"name": "input_data_norm", "type": "list", "fullType": "list"}, {"name": "input_var_names", "type": "list", "fullType": "list"}, {"name": "lat", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lat_position_from", "type": "int", "fullType": "int"}, {"name": "lat_position_to", "type": "int", "fullType": "int"}, {"name": "lon", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lon_position_from", "type": "int", "fullType": "int"}, {"name": "lon_position_to", "type": "int", "fullType": "int"}, {"name": "loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "make_colorbar", "type": "function", "fullType": "function"}, {"name": "mask", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "masked_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "matplotlib", "type": "module", "fullType": "module"}, {"name": "model", "type": "UNet", "fullType": "DLuNET.UNet"}, {"name": "model_state_dict", "type": "OrderedDict", "fullType": "collections.OrderedDict"}, {"name": "mydevice", "type": "device", "fullType": "torch.device"}, {"name": "netDataset", "type": "type", "fullType": "type"}, {"name": "nn", "type": "module", "fullType": "module"}, {"name": "np", "type": "module", "fullType": "module"}, {"name": "np_masked_day", "type": "MaskedArray
+[{"name": "Any", "type": "_AnyMeta", "fullType": "typing._AnyMeta"}, {"name": "DataLoader", "type": "type", "fullType": "type"}, {"name": "Dict", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "F", "type": "module", "fullType": "module"}, {"name": "FilesNr", "type": "int", "fullType": "int"}, {"name": "List", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "MyDataLoader", "type": "function", "fullType": "function"}, {"name": "MyDataLoader2", "type": "function", "fullType": "function"}, {"name": "MyDenorm", "type": "function", "fullType": "function"}, {"name": "MyNorm", "type": "function", "fullType": "function"}, {"name": "MyPlot", "type": "function", "fullType": "function"}, {"name": "TensorDataset", "type": "type", "fullType": "type"}, {"name": "Tuple", "type": "_TupleType", "fullType": "typing._TupleType"}, {"name": "UNet", "type": "type", "fullType": "type"}, {"name": "aux", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "best_epoch", "type": "int", "fullType": "int"}, {"name": "best_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "ccrs", "type": "module", "fullType": "module"}, {"name": "clip_value", "type": "float", "fullType": "float"}, {"name": "conv2ndarray", "type": "ndarray", "fullType": "numpy.ndarray"}, {"name": "conv2tensor", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "copy", "type": "module", "fullType": "module"}, {"name": "criterion", "type": "MSELoss", "fullType": "torch.nn.modules.loss.MSELoss"}, {"name": "datasets", "type": "module", "fullType": "module"}, {"name": "day", "type": "int", "fullType": "int"}, {"name": "dir_path", "type": "str", "fullType": "str"}, {"name": "directory", "type": "str", "fullType": "str"}, {"name": "epoch", "type": "int", "fullType": "int"}, {"name": "file", "type": "BufferedWriter", "fullType": "_io.BufferedWriter"}, {"name": "file_ext", "type": "str", "fullType": "str"}, {"name": "file_name", "type": "str", "fullType": "str"}, {"name": "final_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gc", "type": "module", "fullType": "module"}, {"name": "get_ipython", "type": "function", "fullType": "function"}, {"name": "ground_truth", "type": "list", "fullType": "list"}, {"name": "ground_truth_norm", "type": "list", "fullType": "list"}, {"name": "groundt", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gt_data", "type": "list", "fullType": "list"}, {"name": "gt_stats", "type": "dict", "fullType": "dict"}, {"name": "image", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "in_data", "type": "list", "fullType": "list"}, {"name": "input", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "input_data", "type": "list", "fullType": "list"}, {"name": "input_data_norm", "type": "list", "fullType": "list"}, {"name": "input_var_names", "type": "list", "fullType": "list"}, {"name": "lat", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lat_position_from", "type": "int", "fullType": "int"}, {"name": "lat_position_to", "type": "int", "fullType": "int"}, {"name": "lon", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lon_position_from", "type": "int", "fullType": "int"}, {"name": "lon_position_to", "type": "int", "fullType": "int"}, {"name": "loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "make_colorbar", "type": "function", "fullType": "function"}, {"name": "mask", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "masked_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "matplotlib", "type": "module", "fullType": "module"}, {"name": "model", "type": "UNet", "fullType": "DLuNET.UNet"}, {"name": "model_state_dict", "type": "OrderedDict", "fullType": "collections.OrderedDict"}, {"name": "mydevice", "type": "device", "fullType": "torch.device"}, {"name": "netDataset", "type": "type", "fullType": "type"}, {"name": "nn", "type": "module", "fullType": "module"}, {"name": "np", "type": "module", "fullType": "module"}, {"name": "np_masked_day", "type": "MaskedArray
+[{"name": "Any", "type": "_AnyMeta", "fullType": "typing._AnyMeta"}, {"name": "DataLoader", "type": "type", "fullType": "type"}, {"name": "Dict", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "F", "type": "module", "fullType": "module"}, {"name": "FilesNr", "type": "int", "fullType": "int"}, {"name": "List", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "MyDataLoader", "type": "function", "fullType": "function"}, {"name": "MyDataLoader2", "type": "function", "fullType": "function"}, {"name": "MyDenorm", "type": "function", "fullType": "function"}, {"name": "MyNorm", "type": "function", "fullType": "function"}, {"name": "MyPlot", "type": "function", "fullType": "function"}, {"name": "TensorDataset", "type": "type", "fullType": "type"}, {"name": "Tuple", "type": "_TupleType", "fullType": "typing._TupleType"}, {"name": "UNet", "type": "type", "fullType": "type"}, {"name": "aux", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "best_epoch", "type": "int", "fullType": "int"}, {"name": "best_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "ccrs", "type": "module", "fullType": "module"}, {"name": "clip_value", "type": "float", "fullType": "float"}, {"name": "conv2ndarray", "type": "ndarray", "fullType": "numpy.ndarray"}, {"name": "conv2tensor", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "copy", "type": "module", "fullType": "module"}, {"name": "criterion", "type": "MSELoss", "fullType": "torch.nn.modules.loss.MSELoss"}, {"name": "datasets", "type": "module", "fullType": "module"}, {"name": "day", "type": "int", "fullType": "int"}, {"name": "dir_path", "type": "str", "fullType": "str"}, {"name": "directory", "type": "str", "fullType": "str"}, {"name": "epoch", "type": "int", "fullType": "int"}, {"name": "file", "type": "BufferedWriter", "fullType": "_io.BufferedWriter"}, {"name": "file_ext", "type": "str", "fullType": "str"}, {"name": "file_name", "type": "str", "fullType": "str"}, {"name": "final_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gc", "type": "module", "fullType": "module"}, {"name": "get_ipython", "type": "function", "fullType": "function"}, {"name": "ground_truth", "type": "list", "fullType": "list"}, {"name": "ground_truth_norm", "type": "list", "fullType": "list"}, {"name": "groundt", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gt_data", "type": "list", "fullType": "list"}, {"name": "gt_stats", "type": "dict", "fullType": "dict"}, {"name": "image", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "in_data", "type": "list", "fullType": "list"}, {"name": "input", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "input_data", "type": "list", "fullType": "list"}, {"name": "input_data_norm", "type": "list", "fullType": "list"}, {"name": "input_var_names", "type": "list", "fullType": "list"}, {"name": "lat", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lat_position_from", "type": "int", "fullType": "int"}, {"name": "lat_position_to", "type": "int", "fullType": "int"}, {"name": "lon", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lon_position_from", "type": "int", "fullType": "int"}, {"name": "lon_position_to", "type": "int", "fullType": "int"}, {"name": "loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "make_colorbar", "type": "function", "fullType": "function"}, {"name": "mask", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "masked_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "matplotlib", "type": "module", "fullType": "module"}, {"name": "model", "type": "UNet", "fullType": "DLuNET.UNet"}, {"name": "model_state_dict", "type": "OrderedDict", "fullType": "collections.OrderedDict"}, {"name": "mydevice", "type": "device", "fullType": "torch.device"}, {"name": "netDataset", "type": "type", "fullType": "type"}, {"name": "nn", "type": "module", "fullType": "module"}, {"name": "np", "type": "module", "fullType": "module"}, {"name": "np_masked_day", "type": "MaskedArray
+[{"name": "Any", "type": "_AnyMeta", "fullType": "typing._AnyMeta"}, {"name": "DataLoader", "type": "type", "fullType": "type"}, {"name": "Dict", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "F", "type": "module", "fullType": "module"}, {"name": "FilesNr", "type": "int", "fullType": "int"}, {"name": "List", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "MyDataLoader", "type": "function", "fullType": "function"}, {"name": "MyDataLoader2", "type": "function", "fullType": "function"}, {"name": "MyDenorm", "type": "function", "fullType": "function"}, {"name": "MyNorm", "type": "function", "fullType": "function"}, {"name": "MyPlot", "type": "function", "fullType": "function"}, {"name": "TensorDataset", "type": "type", "fullType": "type"}, {"name": "Tuple", "type": "_TupleType", "fullType": "typing._TupleType"}, {"name": "UNet", "type": "type", "fullType": "type"}, {"name": "aux", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "best_epoch", "type": "int", "fullType": "int"}, {"name": "best_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "ccrs", "type": "module", "fullType": "module"}, {"name": "clip_value", "type": "float", "fullType": "float"}, {"name": "conv2ndarray", "type": "ndarray", "fullType": "numpy.ndarray"}, {"name": "conv2tensor", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "copy", "type": "module", "fullType": "module"}, {"name": "criterion", "type": "MSELoss", "fullType": "torch.nn.modules.loss.MSELoss"}, {"name": "datasets", "type": "module", "fullType": "module"}, {"name": "day", "type": "int", "fullType": "int"}, {"name": "dir_path", "type": "str", "fullType": "str"}, {"name": "directory", "type": "str", "fullType": "str"}, {"name": "epoch", "type": "int", "fullType": "int"}, {"name": "file", "type": "BufferedWriter", "fullType": "_io.BufferedWriter"}, {"name": "file_ext", "type": "str", "fullType": "str"}, {"name": "file_name", "type": "str", "fullType": "str"}, {"name": "final_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gc", "type": "module", "fullType": "module"}, {"name": "get_ipython", "type": "function", "fullType": "function"}, {"name": "ground_truth", "type": "list", "fullType": "list"}, {"name": "ground_truth_norm", "type": "list", "fullType": "list"}, {"name": "groundt", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gt_data", "type": "list", "fullType": "list"}, {"name": "gt_stats", "type": "dict", "fullType": "dict"}, {"name": "image", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "in_data", "type": "list", "fullType": "list"}, {"name": "input", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "input_data", "type": "list", "fullType": "list"}, {"name": "input_data_norm", "type": "list", "fullType": "list"}, {"name": "input_var_names", "type": "list", "fullType": "list"}, {"name": "lat", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lat_position_from", "type": "int", "fullType": "int"}, {"name": "lat_position_to", "type": "int", "fullType": "int"}, {"name": "lon", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lon_position_from", "type": "int", "fullType": "int"}, {"name": "lon_position_to", "type": "int", "fullType": "int"}, {"name": "loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "make_colorbar", "type": "function", "fullType": "function"}, {"name": "mask", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "masked_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "matplotlib", "type": "module", "fullType": "module"}, {"name": "model", "type": "UNet", "fullType": "DLuNET.UNet"}, {"name": "model_state_dict", "type": "OrderedDict", "fullType": "collections.OrderedDict"}, {"name": "mydevice", "type": "device", "fullType": "torch.device"}, {"name": "netDataset", "type": "type", "fullType": "type"}, {"name": "nn", "type": "module", "fullType": "module"}, {"name": "np", "type": "module", "fullType": "module"}, {"name": "np_masked_day", "type": "MaskedArray
+[{"name": "Any", "type": "_AnyMeta", "fullType": "typing._AnyMeta"}, {"name": "DataLoader", "type": "type", "fullType": "type"}, {"name": "Dict", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "F", "type": "module", "fullType": "module"}, {"name": "FilesNr", "type": "int", "fullType": "int"}, {"name": "List", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "MyDataLoader", "type": "function", "fullType": "function"}, {"name": "MyDataLoader2", "type": "function", "fullType": "function"}, {"name": "MyDenorm", "type": "function", "fullType": "function"}, {"name": "MyNorm", "type": "function", "fullType": "function"}, {"name": "MyPlot", "type": "function", "fullType": "function"}, {"name": "TensorDataset", "type": "type", "fullType": "type"}, {"name": "Tuple", "type": "_TupleType", "fullType": "typing._TupleType"}, {"name": "UNet", "type": "type", "fullType": "type"}, {"name": "aux", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "best_epoch", "type": "int", "fullType": "int"}, {"name": "best_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "ccrs", "type": "module", "fullType": "module"}, {"name": "clip_value", "type": "float", "fullType": "float"}, {"name": "conv2ndarray", "type": "ndarray", "fullType": "numpy.ndarray"}, {"name": "conv2tensor", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "copy", "type": "module", "fullType": "module"}, {"name": "criterion", "type": "MSELoss", "fullType": "torch.nn.modules.loss.MSELoss"}, {"name": "datasets", "type": "module", "fullType": "module"}, {"name": "day", "type": "int", "fullType": "int"}, {"name": "dir_path", "type": "str", "fullType": "str"}, {"name": "directory", "type": "str", "fullType": "str"}, {"name": "epoch", "type": "int", "fullType": "int"}, {"name": "file", "type": "BufferedWriter", "fullType": "_io.BufferedWriter"}, {"name": "file_ext", "type": "str", "fullType": "str"}, {"name": "file_name", "type": "str", "fullType": "str"}, {"name": "final_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gc", "type": "module", "fullType": "module"}, {"name": "get_ipython", "type": "function", "fullType": "function"}, {"name": "ground_truth", "type": "list", "fullType": "list"}, {"name": "ground_truth_norm", "type": "list", "fullType": "list"}, {"name": "groundt", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gt_data", "type": "list", "fullType": "list"}, {"name": "gt_stats", "type": "dict", "fullType": "dict"}, {"name": "image", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "in_data", "type": "list", "fullType": "list"}, {"name": "input", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "input_data", "type": "list", "fullType": "list"}, {"name": "input_data_norm", "type": "list", "fullType": "list"}, {"name": "input_var_names", "type": "list", "fullType": "list"}, {"name": "lat", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lat_position_from", "type": "int", "fullType": "int"}, {"name": "lat_position_to", "type": "int", "fullType": "int"}, {"name": "lon", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lon_position_from", "type": "int", "fullType": "int"}, {"name": "lon_position_to", "type": "int", "fullType": "int"}, {"name": "loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "make_colorbar", "type": "function", "fullType": "function"}, {"name": "mask", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "masked_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "matplotlib", "type": "module", "fullType": "module"}, {"name": "model", "type": "UNet", "fullType": "DLuNET.UNet"}, {"name": "model_state_dict", "type": "OrderedDict", "fullType": "collections.OrderedDict"}, {"name": "mydevice", "type": "device", "fullType": "torch.device"}, {"name": "netDataset", "type": "type", "fullType": "type"}, {"name": "nn", "type": "module", "fullType": "module"}, {"name": "np", "type": "module", "fullType": "module"}, {"name": "np_masked_day", "type": "MaskedArray
+[{"name": "Any", "type": "_AnyMeta", "fullType": "typing._AnyMeta"}, {"name": "DataLoader", "type": "type", "fullType": "type"}, {"name": "Dict", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "F", "type": "module", "fullType": "module"}, {"name": "FilesNr", "type": "int", "fullType": "int"}, {"name": "List", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "MyDataLoader", "type": "function", "fullType": "function"}, {"name": "MyDataLoader2", "type": "function", "fullType": "function"}, {"name": "MyDenorm", "type": "function", "fullType": "function"}, {"name": "MyNorm", "type": "function", "fullType": "function"}, {"name": "MyPlot", "type": "function", "fullType": "function"}, {"name": "TensorDataset", "type": "type", "fullType": "type"}, {"name": "Tuple", "type": "_TupleType", "fullType": "typing._TupleType"}, {"name": "UNet", "type": "type", "fullType": "type"}, {"name": "aux", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "best_epoch", "type": "int", "fullType": "int"}, {"name": "best_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "ccrs", "type": "module", "fullType": "module"}, {"name": "clip_value", "type": "float", "fullType": "float"}, {"name": "conv2ndarray", "type": "ndarray", "fullType": "numpy.ndarray"}, {"name": "conv2tensor", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "copy", "type": "module", "fullType": "module"}, {"name": "criterion", "type": "MSELoss", "fullType": "torch.nn.modules.loss.MSELoss"}, {"name": "datasets", "type": "module", "fullType": "module"}, {"name": "day", "type": "int", "fullType": "int"}, {"name": "dir_path", "type": "str", "fullType": "str"}, {"name": "directory", "type": "str", "fullType": "str"}, {"name": "epoch", "type": "int", "fullType": "int"}, {"name": "file", "type": "BufferedWriter", "fullType": "_io.BufferedWriter"}, {"name": "file_ext", "type": "str", "fullType": "str"}, {"name": "file_name", "type": "str", "fullType": "str"}, {"name": "final_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gc", "type": "module", "fullType": "module"}, {"name": "get_ipython", "type": "function", "fullType": "function"}, {"name": "ground_truth", "type": "list", "fullType": "list"}, {"name": "ground_truth_norm", "type": "list", "fullType": "list"}, {"name": "groundt", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gt_data", "type": "list", "fullType": "list"}, {"name": "gt_stats", "type": "dict", "fullType": "dict"}, {"name": "image", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "in_data", "type": "list", "fullType": "list"}, {"name": "input", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "input_data", "type": "list", "fullType": "list"}, {"name": "input_data_norm", "type": "list", "fullType": "list"}, {"name": "input_var_names", "type": "list", "fullType": "list"}, {"name": "lat", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lat_position_from", "type": "int", "fullType": "int"}, {"name": "lat_position_to", "type": "int", "fullType": "int"}, {"name": "lon", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lon_position_from", "type": "int", "fullType": "int"}, {"name": "lon_position_to", "type": "int", "fullType": "int"}, {"name": "loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "make_colorbar", "type": "function", "fullType": "function"}, {"name": "mask", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "masked_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "matplotlib", "type": "module", "fullType": "module"}, {"name": "model", "type": "UNet", "fullType": "DLuNET.UNet"}, {"name": "model_state_dict", "type": "OrderedDict", "fullType": "collections.OrderedDict"}, {"name": "mydevice", "type": "device", "fullType": "torch.device"}, {"name": "netDataset", "type": "type", "fullType": "type"}, {"name": "nn", "type": "module", "fullType": "module"}, {"name": "np", "type": "module", "fullType": "module"}, {"name": "np_masked_day", "type": "MaskedArray
+[{"name": "Any", "type": "_AnyMeta", "fullType": "typing._AnyMeta"}, {"name": "DataLoader", "type": "type", "fullType": "type"}, {"name": "Dict", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "F", "type": "module", "fullType": "module"}, {"name": "FilesNr", "type": "int", "fullType": "int"}, {"name": "List", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "MyDataLoader", "type": "function", "fullType": "function"}, {"name": "MyDataLoader2", "type": "function", "fullType": "function"}, {"name": "MyDenorm", "type": "function", "fullType": "function"}, {"name": "MyNorm", "type": "function", "fullType": "function"}, {"name": "MyPlot", "type": "function", "fullType": "function"}, {"name": "TensorDataset", "type": "type", "fullType": "type"}, {"name": "Tuple", "type": "_TupleType", "fullType": "typing._TupleType"}, {"name": "UNet", "type": "type", "fullType": "type"}, {"name": "aux", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "best_epoch", "type": "int", "fullType": "int"}, {"name": "best_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "ccrs", "type": "module", "fullType": "module"}, {"name": "clip_value", "type": "float", "fullType": "float"}, {"name": "conv2ndarray", "type": "ndarray", "fullType": "numpy.ndarray"}, {"name": "conv2tensor", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "copy", "type": "module", "fullType": "module"}, {"name": "criterion", "type": "MSELoss", "fullType": "torch.nn.modules.loss.MSELoss"}, {"name": "datasets", "type": "module", "fullType": "module"}, {"name": "day", "type": "int", "fullType": "int"}, {"name": "dir_path", "type": "str", "fullType": "str"}, {"name": "directory", "type": "str", "fullType": "str"}, {"name": "epoch", "type": "int", "fullType": "int"}, {"name": "file", "type": "BufferedWriter", "fullType": "_io.BufferedWriter"}, {"name": "file_ext", "type": "str", "fullType": "str"}, {"name": "file_name", "type": "str", "fullType": "str"}, {"name": "final_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gc", "type": "module", "fullType": "module"}, {"name": "get_ipython", "type": "function", "fullType": "function"}, {"name": "ground_truth", "type": "list", "fullType": "list"}, {"name": "ground_truth_norm", "type": "list", "fullType": "list"}, {"name": "groundt", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gt_data", "type": "list", "fullType": "list"}, {"name": "gt_stats", "type": "dict", "fullType": "dict"}, {"name": "image", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "in_data", "type": "list", "fullType": "list"}, {"name": "input", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "input_data", "type": "list", "fullType": "list"}, {"name": "input_data_norm", "type": "list", "fullType": "list"}, {"name": "input_var_names", "type": "list", "fullType": "list"}, {"name": "lat", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lat_position_from", "type": "int", "fullType": "int"}, {"name": "lat_position_to", "type": "int", "fullType": "int"}, {"name": "lon", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lon_position_from", "type": "int", "fullType": "int"}, {"name": "lon_position_to", "type": "int", "fullType": "int"}, {"name": "loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "make_colorbar", "type": "function", "fullType": "function"}, {"name": "mask", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "masked_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "matplotlib", "type": "module", "fullType": "module"}, {"name": "model", "type": "UNet", "fullType": "DLuNET.UNet"}, {"name": "model_state_dict", "type": "OrderedDict", "fullType": "collections.OrderedDict"}, {"name": "mydevice", "type": "device", "fullType": "torch.device"}, {"name": "netDataset", "type": "type", "fullType": "type"}, {"name": "nn", "type": "module", "fullType": "module"}, {"name": "np", "type": "module", "fullType": "module"}, {"name": "np_masked_day", "type": "MaskedArray
+[{"name": "Any", "type": "_AnyMeta", "fullType": "typing._AnyMeta"}, {"name": "DataLoader", "type": "type", "fullType": "type"}, {"name": "Dict", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "F", "type": "module", "fullType": "module"}, {"name": "FilesNr", "type": "int", "fullType": "int"}, {"name": "List", "type": "_SpecialGenericAlias", "fullType": "typing._SpecialGenericAlias"}, {"name": "MyDataLoader", "type": "function", "fullType": "function"}, {"name": "MyDataLoader2", "type": "function", "fullType": "function"}, {"name": "MyDenorm", "type": "function", "fullType": "function"}, {"name": "MyNorm", "type": "function", "fullType": "function"}, {"name": "MyPlot", "type": "function", "fullType": "function"}, {"name": "TensorDataset", "type": "type", "fullType": "type"}, {"name": "Tuple", "type": "_TupleType", "fullType": "typing._TupleType"}, {"name": "UNet", "type": "type", "fullType": "type"}, {"name": "aux", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "best_epoch", "type": "int", "fullType": "int"}, {"name": "best_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "ccrs", "type": "module", "fullType": "module"}, {"name": "clip_value", "type": "float", "fullType": "float"}, {"name": "conv2ndarray", "type": "ndarray", "fullType": "numpy.ndarray"}, {"name": "conv2tensor", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "copy", "type": "module", "fullType": "module"}, {"name": "criterion", "type": "MSELoss", "fullType": "torch.nn.modules.loss.MSELoss"}, {"name": "datasets", "type": "module", "fullType": "module"}, {"name": "day", "type": "int", "fullType": "int"}, {"name": "dir_path", "type": "str", "fullType": "str"}, {"name": "directory", "type": "str", "fullType": "str"}, {"name": "epoch", "type": "int", "fullType": "int"}, {"name": "file", "type": "BufferedWriter", "fullType": "_io.BufferedWriter"}, {"name": "file_ext", "type": "str", "fullType": "str"}, {"name": "file_name", "type": "str", "fullType": "str"}, {"name": "final_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gc", "type": "module", "fullType": "module"}, {"name": "get_ipython", "type": "function", "fullType": "function"}, {"name": "ground_truth", "type": "list", "fullType": "list"}, {"name": "ground_truth_norm", "type": "list", "fullType": "list"}, {"name": "groundt", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "gt_data", "type": "list", "fullType": "list"}, {"name": "gt_stats", "type": "dict", "fullType": "dict"}, {"name": "image", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "in_data", "type": "list", "fullType": "list"}, {"name": "input", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "input_data", "type": "list", "fullType": "list"}, {"name": "input_data_norm", "type": "list", "fullType": "list"}, {"name": "input_var_names", "type": "list", "fullType": "list"}, {"name": "lat", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lat_position_from", "type": "int", "fullType": "int"}, {"name": "lat_position_to", "type": "int", "fullType": "int"}, {"name": "lon", "type": "MaskedArray", "fullType": "numpy.ma.core.MaskedArray"}, {"name": "lon_position_from", "type": "int", "fullType": "int"}, {"name": "lon_position_to", "type": "int", "fullType": "int"}, {"name": "loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "make_colorbar", "type": "function", "fullType": "function"}, {"name": "mask", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "masked_loss", "type": "Tensor", "fullType": "torch.Tensor"}, {"name": "matplotlib", "type": "module", "fullType": "module"}, {"name": "model", "type": "UNet", "fullType": "DLuNET.UNet"}, {"name": "model_state_dict", "type": "OrderedDict", "fullType": "collections.OrderedDict"}, {"name": "mydevice", "type": "device", "fullType": "torch.device"}, {"name": "netDataset", "type": "type", "fullType": "type"}, {"name": "nn", "type": "module", "fullType": "module"}, {"name": "np", "type": "module", "fullType": "module"}, {"name": "np_masked_day", "type": "MaskedArray
+/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020/train/1.nc  loaded succesfully
+/Users/adrianrrrrr/Documents/TFM/adrian_tfm/ASCAT_l3_collocations/2020/train/2.nc  loaded succesfully

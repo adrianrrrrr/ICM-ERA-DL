@@ -1,0 +1,14 @@
+{"time":"2024-10-08T10:50:16.436214+02:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-10-08T10:50:16.436256+02:00","level":"INFO","msg":"created symlink","path":"/Users/adrianrrrrr/Documents/Visual Studio Code/ICM-ERA-DL/wandb/run-20241008_105016-f4zaggik/logs/debug-core.log"}
+{"time":"2024-10-08T10:50:16.436338+02:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-10-08T10:50:16.436347+02:00","level":"INFO","msg":"created symlink","path":"/Users/adrianrrrrr/Documents/Visual Studio Code/ICM-ERA-DL/wandb/run-20241008_105016-f4zaggik/logs/debug-core.log"}
+{"time":"2024-10-08T10:50:16.441479+02:00","level":"INFO","msg":"created new stream","id":"f4zaggik"}
+{"time":"2024-10-08T10:50:16.441542+02:00","level":"INFO","msg":"stream: started","id":"f4zaggik"}
+{"time":"2024-10-08T10:50:16.441547+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"f4zaggik"}}
+{"time":"2024-10-08T10:50:16.441611+02:00","level":"INFO","msg":"sender: started","stream_id":{"value":"f4zaggik"}}
+{"time":"2024-10-08T10:50:16.441574+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"f4zaggik"}}
+{"time":"2024-10-08T10:50:16.839204+02:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-08T10:50:16.841916+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-08T10:50:45.840853+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-08T10:50:47.336679+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-08T10:50:47.342391+02:00","level":"INFO","msg":"Pausing system monitor"}

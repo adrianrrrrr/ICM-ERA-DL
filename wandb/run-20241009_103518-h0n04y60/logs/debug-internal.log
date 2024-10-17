@@ -1,0 +1,30 @@
+{"time":"2024-10-09T10:35:18.640499+02:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-10-09T10:35:18.640546+02:00","level":"INFO","msg":"created symlink","path":"/Users/adrianrrrrr/Documents/Visual Studio Code/ICM-ERA-DL/wandb/run-20241009_103518-h0n04y60/logs/debug-core.log"}
+{"time":"2024-10-09T10:35:18.640642+02:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-10-09T10:35:18.640652+02:00","level":"INFO","msg":"created symlink","path":"/Users/adrianrrrrr/Documents/Visual Studio Code/ICM-ERA-DL/wandb/run-20241009_103518-h0n04y60/logs/debug-core.log"}
+{"time":"2024-10-09T10:35:18.64961+02:00","level":"INFO","msg":"created new stream","id":"h0n04y60"}
+{"time":"2024-10-09T10:35:18.649657+02:00","level":"INFO","msg":"stream: started","id":"h0n04y60"}
+{"time":"2024-10-09T10:35:18.649665+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"h0n04y60"}}
+{"time":"2024-10-09T10:35:18.649675+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"h0n04y60"}}
+{"time":"2024-10-09T10:35:18.649767+02:00","level":"INFO","msg":"sender: started","stream_id":{"value":"h0n04y60"}}
+{"time":"2024-10-09T10:35:18.952277+02:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-09T10:35:18.956357+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-09T10:35:51.456256+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-09T10:36:26.352442+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-09T10:36:26.359049+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-09T10:36:28.486258+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-09T10:36:28.492763+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-09T10:36:28.99386+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-09T10:36:28.999918+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-09T10:36:30.502995+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-09T10:36:30.509929+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-09T10:36:31.379931+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-09T10:36:31.385983+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-09T10:36:33.454164+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-09T10:36:33.460348+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-09T10:36:35.454026+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-09T10:36:35.459963+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-09T10:36:41.072898+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-09T10:36:41.078747+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-09T10:36:44.740481+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-09T10:36:44.746361+02:00","level":"INFO","msg":"Pausing system monitor"}

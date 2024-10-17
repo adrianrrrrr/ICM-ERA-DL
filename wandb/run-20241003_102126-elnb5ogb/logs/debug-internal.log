@@ -1,0 +1,18 @@
+{"time":"2024-10-03T10:21:26.560997+02:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-10-03T10:21:26.561036+02:00","level":"INFO","msg":"created symlink","path":"/Users/adrianrrrrr/Documents/Visual Studio Code/ICM-ERA-DL/wandb/run-20241003_102126-elnb5ogb/logs/debug-core.log"}
+{"time":"2024-10-03T10:21:26.56112+02:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-10-03T10:21:26.56113+02:00","level":"INFO","msg":"created symlink","path":"/Users/adrianrrrrr/Documents/Visual Studio Code/ICM-ERA-DL/wandb/run-20241003_102126-elnb5ogb/logs/debug-core.log"}
+{"time":"2024-10-03T10:21:26.566361+02:00","level":"INFO","msg":"created new stream","id":"elnb5ogb"}
+{"time":"2024-10-03T10:21:26.566414+02:00","level":"INFO","msg":"stream: started","id":"elnb5ogb"}
+{"time":"2024-10-03T10:21:26.566426+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"elnb5ogb"}}
+{"time":"2024-10-03T10:21:26.566434+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"elnb5ogb"}}
+{"time":"2024-10-03T10:21:26.566466+02:00","level":"INFO","msg":"sender: started","stream_id":{"value":"elnb5ogb"}}
+{"time":"2024-10-03T10:21:27.061118+02:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-03T10:21:27.062724+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-03T10:30:01.227829+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-03T10:30:01.227954+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-03T10:30:03.882673+02:00","level":"INFO","msg":"stream: closing","id":"elnb5ogb"}
+{"time":"2024-10-03T10:30:03.882712+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"elnb5ogb"}}
+{"time":"2024-10-03T10:30:03.88275+02:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"elnb5ogb"}}
+{"time":"2024-10-03T10:30:03.882742+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"elnb5ogb"}}
+{"time":"2024-10-03T10:30:03.882955+02:00","level":"INFO","msg":"stream: closed","id":"elnb5ogb"}

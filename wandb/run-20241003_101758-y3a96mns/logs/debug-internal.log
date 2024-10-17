@@ -1,0 +1,12 @@
+{"time":"2024-10-03T10:17:58.323261+02:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-10-03T10:17:58.323304+02:00","level":"INFO","msg":"created symlink","path":"/Users/adrianrrrrr/Documents/Visual Studio Code/ICM-ERA-DL/wandb/run-20241003_101758-y3a96mns/logs/debug-core.log"}
+{"time":"2024-10-03T10:17:58.323385+02:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-10-03T10:17:58.323395+02:00","level":"INFO","msg":"created symlink","path":"/Users/adrianrrrrr/Documents/Visual Studio Code/ICM-ERA-DL/wandb/run-20241003_101758-y3a96mns/logs/debug-core.log"}
+{"time":"2024-10-03T10:17:58.327959+02:00","level":"INFO","msg":"created new stream","id":"y3a96mns"}
+{"time":"2024-10-03T10:17:58.328018+02:00","level":"INFO","msg":"stream: started","id":"y3a96mns"}
+{"time":"2024-10-03T10:17:58.328076+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"y3a96mns"}}
+{"time":"2024-10-03T10:17:58.328027+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"y3a96mns"}}
+{"time":"2024-10-03T10:17:58.328074+02:00","level":"INFO","msg":"sender: started","stream_id":{"value":"y3a96mns"}}
+{"time":"2024-10-03T10:17:58.67297+02:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-03T10:17:58.674315+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-03T10:20:36.171521+02:00","level":"INFO","msg":"Pausing system monitor"}

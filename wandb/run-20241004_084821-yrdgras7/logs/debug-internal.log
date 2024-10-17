@@ -1,0 +1,18 @@
+{"time":"2024-10-04T08:48:21.907389+02:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-10-04T08:48:21.907432+02:00","level":"INFO","msg":"created symlink","path":"/Users/adrianrrrrr/Documents/Visual Studio Code/ICM-ERA-DL/wandb/run-20241004_084821-yrdgras7/logs/debug-core.log"}
+{"time":"2024-10-04T08:48:21.907513+02:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-10-04T08:48:21.907522+02:00","level":"INFO","msg":"created symlink","path":"/Users/adrianrrrrr/Documents/Visual Studio Code/ICM-ERA-DL/wandb/run-20241004_084821-yrdgras7/logs/debug-core.log"}
+{"time":"2024-10-04T08:48:21.914668+02:00","level":"INFO","msg":"created new stream","id":"yrdgras7"}
+{"time":"2024-10-04T08:48:21.914746+02:00","level":"INFO","msg":"stream: started","id":"yrdgras7"}
+{"time":"2024-10-04T08:48:21.914763+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"yrdgras7"}}
+{"time":"2024-10-04T08:48:21.914827+02:00","level":"INFO","msg":"sender: started","stream_id":{"value":"yrdgras7"}}
+{"time":"2024-10-04T08:48:21.914801+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"yrdgras7"}}
+{"time":"2024-10-04T08:48:22.349548+02:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-04T08:48:22.350686+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-04T08:49:13.21221+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-04T08:49:13.212284+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-04T08:49:16.771913+02:00","level":"INFO","msg":"stream: closing","id":"yrdgras7"}
+{"time":"2024-10-04T08:49:16.771933+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"yrdgras7"}}
+{"time":"2024-10-04T08:49:16.771971+02:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"yrdgras7"}}
+{"time":"2024-10-04T08:49:16.771969+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"yrdgras7"}}
+{"time":"2024-10-04T08:49:16.772094+02:00","level":"INFO","msg":"stream: closed","id":"yrdgras7"}

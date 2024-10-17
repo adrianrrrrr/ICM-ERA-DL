@@ -1,0 +1,18 @@
+{"time":"2024-10-06T16:11:37.711639+02:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-10-06T16:11:37.711726+02:00","level":"INFO","msg":"created symlink","path":"/Users/adrianrrrrr/Documents/Visual Studio Code/ICM-ERA-DL/wandb/run-20241006_161137-ndi33dev/logs/debug-core.log"}
+{"time":"2024-10-06T16:11:37.711839+02:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-10-06T16:11:37.711849+02:00","level":"INFO","msg":"created symlink","path":"/Users/adrianrrrrr/Documents/Visual Studio Code/ICM-ERA-DL/wandb/run-20241006_161137-ndi33dev/logs/debug-core.log"}
+{"time":"2024-10-06T16:11:37.721647+02:00","level":"INFO","msg":"created new stream","id":"ndi33dev"}
+{"time":"2024-10-06T16:11:37.721691+02:00","level":"INFO","msg":"stream: started","id":"ndi33dev"}
+{"time":"2024-10-06T16:11:37.721697+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ndi33dev"}}
+{"time":"2024-10-06T16:11:37.721709+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"ndi33dev"}}
+{"time":"2024-10-06T16:11:37.721795+02:00","level":"INFO","msg":"sender: started","stream_id":{"value":"ndi33dev"}}
+{"time":"2024-10-06T16:11:38.142154+02:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-06T16:11:38.146767+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-06T16:37:40.68685+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-06T16:37:40.689083+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-06T16:37:42.698993+02:00","level":"INFO","msg":"stream: closing","id":"ndi33dev"}
+{"time":"2024-10-06T16:37:42.699018+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"ndi33dev"}}
+{"time":"2024-10-06T16:37:42.699034+02:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"ndi33dev"}}
+{"time":"2024-10-06T16:37:42.69903+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ndi33dev"}}
+{"time":"2024-10-06T16:37:42.699148+02:00","level":"INFO","msg":"stream: closed","id":"ndi33dev"}

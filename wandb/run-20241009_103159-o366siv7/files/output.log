@@ -1,0 +1,100 @@
+Processing day #: 1
+( 0 ) ( 0 ) gets lons from:  0 to  288 and lats from:  0  to:  288
+Patch loss = 1.0279462337493896
+( 1 ) ( 0 ) gets lons from:  288 to  576 and lats from:  0  to:  288
+Patch loss = 44045.12109375
+( 2 ) ( 0 ) gets lons from:  576 to  864 and lats from:  0  to:  288
+Patch loss = 265608612544512.0
+( 3 ) ( 0 ) gets lons from:  864 to  1152 and lats from:  0  to:  288
+Patch loss = 4154820.25
+( 4 ) ( 0 ) gets lons from:  1152 to  1440 and lats from:  0  to:  288
+Patch loss = 1919628476416.0
+( 5 ) ( 0 ) gets lons from:  1440 to  1728 and lats from:  0  to:  288
+Patch loss = 44747755520.0
+( 6 ) ( 0 ) gets lons from:  1728 to  2016 and lats from:  0  to:  288
+Patch loss = 331460342972416.0
+( 7 ) ( 0 ) gets lons from:  2016 to  2304 and lats from:  0  to:  288
+Patch loss = 608603576729600.0
+( 8 ) ( 0 ) gets lons from:  2304 to  2592 and lats from:  0  to:  288
+Patch loss = 7.875971526867026e+17
+( 9 ) ( 0 ) gets lons from:  2592 to  2880 and lats from:  0  to:  288
+Patch loss = 3.2775105030180045e+17
+( 0 ) ( 1 ) gets lons from:  0 to  288 and lats from:  288  to:  576
+Patch loss = 3.2803705993934196e+20
+( 1 ) ( 1 ) gets lons from:  288 to  576 and lats from:  288  to:  576
+Patch loss = 3.5336087101279044e+22
+( 2 ) ( 1 ) gets lons from:  576 to  864 and lats from:  288  to:  576
+Patch loss = 8.723842133674065e+23
+( 3 ) ( 1 ) gets lons from:  864 to  1152 and lats from:  288  to:  576
+Patch loss = 1.6602708096621772e+24
+( 4 ) ( 1 ) gets lons from:  1152 to  1440 and lats from:  288  to:  576
+Patch loss = 1.7675764249823268e+26
+( 5 ) ( 1 ) gets lons from:  1440 to  1728 and lats from:  288  to:  576
+Patch loss = 4.164861235841484e+26
+( 6 ) ( 1 ) gets lons from:  1728 to  2016 and lats from:  288  to:  576
+Patch loss = 9.619994743313842e+27
+( 7 ) ( 1 ) gets lons from:  2016 to  2304 and lats from:  288  to:  576
+Patch loss = 2.649264125172561e+28
+( 8 ) ( 1 ) gets lons from:  2304 to  2592 and lats from:  288  to:  576
+Patch loss = 1.664867942352452e+28
+( 9 ) ( 1 ) gets lons from:  2592 to  2880 and lats from:  288  to:  576
+Patch loss = 2.6654836595419547e+29
+( 0 ) ( 2 ) gets lons from:  0 to  288 and lats from:  576  to:  864
+Patch loss = 2.9719898005859056e+29
+( 1 ) ( 2 ) gets lons from:  288 to  576 and lats from:  576  to:  864
+Patch loss = 1.0706185101058901e+30
+( 2 ) ( 2 ) gets lons from:  576 to  864 and lats from:  576  to:  864
+Patch loss = 2.8600334849462385e+30
+( 3 ) ( 2 ) gets lons from:  864 to  1152 and lats from:  576  to:  864
+Patch loss = 3.1242916731614356e+30
+( 4 ) ( 2 ) gets lons from:  1152 to  1440 and lats from:  576  to:  864
+Patch loss = 4.929904893943073e+30
+( 5 ) ( 2 ) gets lons from:  1440 to  1728 and lats from:  576  to:  864
+Patch loss = 5.473835376805009e+30
+( 6 ) ( 2 ) gets lons from:  1728 to  2016 and lats from:  576  to:  864
+Patch loss = 8.657675713526112e+30
+( 7 ) ( 2 ) gets lons from:  2016 to  2304 and lats from:  576  to:  864
+Patch loss = 8.289169736265361e+30
+( 8 ) ( 2 ) gets lons from:  2304 to  2592 and lats from:  576  to:  864
+Patch loss = 4.692000684132565e+30
+( 9 ) ( 2 ) gets lons from:  2592 to  2880 and lats from:  576  to:  864
+Patch loss = 3.954817666607588e+30
+( 0 ) ( 3 ) gets lons from:  0 to  288 and lats from:  864  to:  1152
+Patch loss = 1.051059847064857e+29
+( 1 ) ( 3 ) gets lons from:  288 to  576 and lats from:  864  to:  1152
+Patch loss = 1.851964206451399e+28
+( 2 ) ( 3 ) gets lons from:  576 to  864 and lats from:  864  to:  1152
+Patch loss = 1.8002426056069312e+28
+( 3 ) ( 3 ) gets lons from:  864 to  1152 and lats from:  864  to:  1152
+Patch loss = 2.510810538000832e+27
+( 4 ) ( 3 ) gets lons from:  1152 to  1440 and lats from:  864  to:  1152
+Patch loss = 3.409648213049882e+26
+( 5 ) ( 3 ) gets lons from:  1440 to  1728 and lats from:  864  to:  1152
+Patch loss = 5.602712901851536e+25
+( 6 ) ( 3 ) gets lons from:  1728 to  2016 and lats from:  864  to:  1152
+Patch loss = 8.795708486857417e+24
+( 7 ) ( 3 ) gets lons from:  2016 to  2304 and lats from:  864  to:  1152
+Patch loss = 7.782156745413464e+24
+( 8 ) ( 3 ) gets lons from:  2304 to  2592 and lats from:  864  to:  1152
+Patch loss = 6.812123179082401e+23
+( 9 ) ( 3 ) gets lons from:  2592 to  2880 and lats from:  864  to:  1152
+Patch loss = 1.5165638683889429e+22
+( 0 ) ( 4 ) gets lons from:  0 to  288 and lats from:  1152  to:  1440
+Patch loss = 712690.25
+( 1 ) ( 4 ) gets lons from:  288 to  576 and lats from:  1152  to:  1440
+Patch loss = 142855.15625
+( 2 ) ( 4 ) gets lons from:  576 to  864 and lats from:  1152  to:  1440
+Patch loss = nan
+( 3 ) ( 4 ) gets lons from:  864 to  1152 and lats from:  1152  to:  1440
+Patch loss = nan
+( 4 ) ( 4 ) gets lons from:  1152 to  1440 and lats from:  1152  to:  1440
+Patch loss = nan
+( 5 ) ( 4 ) gets lons from:  1440 to  1728 and lats from:  1152  to:  1440
+Patch loss = nan
+( 6 ) ( 4 ) gets lons from:  1728 to  2016 and lats from:  1152  to:  1440
+Patch loss = nan
+( 7 ) ( 4 ) gets lons from:  2016 to  2304 and lats from:  1152  to:  1440
+Patch loss = nan
+( 8 ) ( 4 ) gets lons from:  2304 to  2592 and lats from:  1152  to:  1440
+Patch loss = nan
+( 9 ) ( 4 ) gets lons from:  2592 to  2880 and lats from:  1152  to:  1440

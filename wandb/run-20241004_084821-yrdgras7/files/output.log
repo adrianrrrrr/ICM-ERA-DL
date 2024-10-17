@@ -1,0 +1,12 @@
+Epoch [1/10], Loss: 0.2541
+Epoch [2/10], Loss: 0.2449
+Epoch [3/10], Loss: 0.2433
+Epoch [4/10], Loss: 0.2422
+Epoch [5/10], Loss: 0.2480
+Epoch [6/10], Loss: 0.2356
+Epoch [7/10], Loss: 0.2361
+Epoch [8/10], Loss: 0.2416
+Epoch [9/10], Loss: 0.2404
+Epoch [10/10], Loss: 0.2306
+Training complete!
+Best epoch was:  8  giving a 0.187673 loss

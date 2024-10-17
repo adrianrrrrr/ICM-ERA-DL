@@ -1,0 +1,64 @@
+Processing image nr,  1
+Loss: 0.3021
+Processing image nr,  2
+Loss: 0.1971
+Processing image nr,  4
+Loss: 0.3359
+Processing image nr,  8
+Loss: 0.2655
+Processing image nr,  16
+Loss: 0.1958
+Processing image nr,  32
+Loss: 0.2745
+Processing image nr,  64
+Loss: 0.2163
+Processing image nr,  128
+Loss: 0.3008
+Processing image nr,  256
+Loss: 0.2678
+Processing image nr,  512
+Loss: 0.3270
+Processing image nr,  1024
+Loss: 0.1950
+Processing image nr,  2048
+Loss: 0.1810
+Processing image nr,  4096
+Loss: 0.2043
+Processing image nr,  8192
+Loss: 0.2655
+Processing image nr,  16384
+Loss: 0.1612
+Processing image nr,  32768
+Loss: 0.1328
+Processing image nr,  65536
+Loss: 0.1916
+Processing image nr,  131072
+Loss: 0.2439
+Processing image nr,  262144
+Loss: 0.1672
+Processing image nr,  524288
+Loss: 0.2202
+Processing image nr,  1048576
+Loss: 0.1681
+Processing image nr,  2097152
+Loss: 0.1894
+Processing image nr,  4194304
+Loss: 0.2217
+Processing image nr,  8388608
+Loss: 0.2448
+Processing image nr,  16777216
+Loss: 0.4741
+Processing image nr,  33554432
+Loss: 0.3408
+Processing image nr,  67108864
+Loss: 0.3690
+Processing image nr,  134217728
+Loss: 0.3749
+Processing image nr,  268435456
+Loss: 0.4597
+Processing image nr,  536870912
+Loss: 0.2908
+Processing image nr,  1073741824
+Loss: 0.3959
+Testing complete!
+Best loss was:  0.132766 loss
