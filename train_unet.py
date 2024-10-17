@@ -200,10 +200,10 @@ x = [x for x in range(1,num_epochs+1)]
 min_val = 0.5
 max_val = 1.2
 
-ax1.plot(x,loss_train,label='UNet training error')
-ax1.set_title('Train error')
+ax1.plot(x,loss_train,label='UNet training loss')
+ax1.set_title('Train loss')
 ax1.set_xlabel('epoch')
-ax1.set_ylabel('error')
+ax1.set_ylabel('loss')
 #max_y = sum(loss_train)/len(loss_train)  + 0.5
 #min_y = max_y - 1
 ax1.set_ylim(min_val,max_val)
@@ -214,10 +214,10 @@ ax1.text(0.6,0.9,plot_text,transform=ax1.transAxes,fontsize=9,verticalalignment=
 ax1.grid(True, which='both')
 ax1.minorticks_on()
 
-ax2.plot(x,loss_val,label='UNet validation error')
-ax2.set_title('Validation error')
+ax2.plot(x,loss_val,label='UNet validation loss')
+ax2.set_title('Validation loss')
 ax2.set_xlabel('epoch')
-ax2.set_ylabel('error')
+ax2.set_ylabel('loss')
 #max_y = sum(loss_val)/len(loss_val)  + 0.5
 #min_y = max_y - 1
 ax2.set_ylim(min_val,max_val)

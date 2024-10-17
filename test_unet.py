@@ -88,10 +88,10 @@ x = [x for x in range(1,num_days+1)]
 min_val = 0
 max_val = 0.9
 
-plt.plot(x,running_loss_test,label='UNet testing error')
+plt.plot(x,running_loss_test,label='UNet testing loss')
 plt.title('Testing running loss')
 plt.xlabel('image')
-plt.ylabel('error')
+plt.ylabel('loss')
 #max_y = sum(loss_train)/len(loss_train)  + 0.5
 #min_y = max_y - 1
 plt.ylim(min_val,max_val)
@@ -124,7 +124,11 @@ with torch.no_grad():
     masked_loss = loss * mask # Apply the mask
     final_loss = masked_loss.sum() / mask.sum() # Normalize by the number of non-zero elements
 
+# Plotting the net prediction or the ground truth image & stats for comparision
+plot = 'prediction'
+best_day = '02/01/2019'
 
-
-
-
+if plot == 'prediction':
+    MyPlot(output,best_day,lon,lat)
+elif plot == 'gt':
+    MyPlot(groundt,best_day,lon,lat)
