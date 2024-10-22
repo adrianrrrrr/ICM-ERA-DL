@@ -335,8 +335,9 @@ def MyPlot(image2plot, date,lon,lat):
     maxd = np.nanmax(out_image[0]) 
     mind = np.nanmin(out_image[0]) 
     print(" u diff prediction mean =  ",mean, " ; std = ",std," ; max = ",maxd," min = ",mind)
-    plt.hist(out_image[0].flatten(), bins=200)  # arguments are passed to np.histogram
-    plt.xlim(-1,1)
+    plt.hist(out_image[0].flatten(), bins=150)  # arguments are passed to np.histogram
+    plt.xlim(-2,2)
+    plt.ylim(0,1000)
     plt.title("Histogram of u diff pred with 200 bins")
     plt.show()
 
@@ -358,7 +359,8 @@ def MyPlot(image2plot, date,lon,lat):
     maxd = np.nanmax(out_image[1]) 
     mind = np.nanmin(out_image[1]) 
     print(" v diff prediction mean =  ",mean, " ; std = ",std," ; max = ",maxd," min = ",mind)
-    plt.hist(out_image[1].flatten(), bins=200)  # arguments are passed to np.histogram
-    plt.xlim(-1,1)
+    plt.hist(out_image[1].flatten(), bins=150)  # arguments are passed to np.histogram
+    plt.xlim(-2,2)
+    plt.ylim(0,1000)
     plt.title("Histogram of v diff pred with 200 bins")
     plt.show()

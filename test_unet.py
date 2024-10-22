@@ -125,10 +125,11 @@ with torch.no_grad():
     final_loss = masked_loss.sum() / mask.sum() # Normalize by the number of non-zero elements
 
 # Plotting the net prediction or the ground truth image & stats for comparision
-plot = 'prediction'
+# Plotting the useful values only for visual representation
+plot = 'gt'
 best_day = '02/01/2019'
 
 if plot == 'prediction':
-    MyPlot(output,best_day,lon,lat)
+    MyPlot(output*mask,best_day,lon,lat)
 elif plot == 'gt':
-    MyPlot(groundt,best_day,lon,lat)
+    MyPlot(groundt*mask,best_day,lon,lat)
